@@ -1,0 +1,19 @@
+locations = {
+	# thorvaldsnes should be a small town to represent some urbanization/merchants in the colony
+	cape_spear = { rank = town 		town_setup = scandinavian_town }
+	# gardr should be larger in this world due to trade, as greenland is more connected to vinland
+	gardr = { rank = town 		town_setup = scandinavian_town }
+}
+
+building_manager = {
+	# additional capital buildings at thorvaldsnes
+	parish_church = { tag = VNL level = 1 location = cape_spear }
+	wharf = { tag = VNL level = 1 location = cape_spear }
+
+	# adding a small fishing village and church at the initial landing site of anse aux meadows
+	parish_church = { tag = VNL level = 1 location = belle_isle }
+	market_village = { tag = VNL level = 1 location = belle_isle }
+	# and a market and church at leifsbudir
+	parish_church = { tag = VNL level = 1 location = akilasiewakik }
+	market_village = { tag = VNL level = 1 location = akilasiewakik }
+}

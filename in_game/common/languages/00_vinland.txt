@@ -1,0 +1,34 @@
+﻿INJECT:scandinavian_language = {
+	dialects = {
+		vinlandic_dialect = {
+			location_prefix = "location_prefix_danish"
+			patronym_suffix_daughter = "patronym_suffix_icelandic_daughter"
+
+			
+			fallback = norwegian_dialect
+
+			male_names = {
+				name_andrew
+				name_birger name_bjorn
+				name_christian
+				name_egil name_einar name_eric name_eystein
+				name_gudmund
+				name_hacon name_halldor
+				name_john
+				name_magnus
+				name_leif name_leod
+				name_peter
+				name_olaf name_orm
+				name_raven name_robert
+				name_sigurd name_snorre name_sven
+				name_torvid
+			}
+		}
+	}
+}
+
+
+
+
+
+

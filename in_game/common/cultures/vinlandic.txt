@@ -1,0 +1,21 @@
+﻿vinlandic = {
+	language = vinlandic_dialect
+	
+	color = rgb { 133 4 4 }
+	
+	tags = { icelandic_gfx norwegian_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		norn_culture = kindred
+		icelandic = kindred
+		norwegian = positive
+		norse_gael = positive
+	}
+
+	culture_groups = {
+		scandinavian_group
+	}
+	
+	use_patronym = yes
+
+}

@@ -1,0 +1,17 @@
+﻿l_english:
+  # Important Saga of the Vinlanders locations in Vinlandic dialect
+  cape_spear.vinlandic_dialect: "Þorvaldsnes"  # Thorvald's Ness, named after Thorvald Eiriksson who died there. modern St. John's, Newfoundland
+  akilasiewakik.vinlandic_dialect: "Leifsbuðir" # Leif's Booths, settlement said to be founded by Leif Erikson, modern Bay of Exploits area
+  belle_isle.vinlandic_dialect: "Straumfjörðr" # Straumfjord, settlement founded by Thorfinn Karlsefni at modern Anse aux Meadows
+  mollyhuajeck.vinlandic_dialect: "Kjalarnes" # Kjalarnes, where the explorers of the sagas ran aground going east from leifsbudir towards what would become Þorvaldsnes
+
+
+  # Other locations in Vinlandic dialect
+  nukamkiajijk.vinlandic_dialect: "Núkamkiajík"
+  baie_verte.vinlandic_dialect: "Grœnvík" # Green Bay
+  mekwiskajk.vinlandic_dialect: "Hrafnsey" # Raven Island
+  walnaypek.vinlandic_dialect: "Vallneyjak" # Whale Island
+  bacalhieu.vinlandic_dialect: "Fisknes" # Fish Ness
+  wipetikil.vinlandic_dialect: "Vípetíkil" # 
+  naskwotchu.vinlandic_dialect: "Naskvatr"
+  mekapiskik.vinlandic_dialect: "Mekapisk"

@@ -1,0 +1,109 @@
+locations={
+# assumes a growth of about 1% per year over 330 years and 120 starting population, plus some extra for migration due to economic viability
+# total population of around 25k in vinland at start date
+belle_isle = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+	define_pop = {	type = clergy		size = 0.020	culture = vinlandic			religion = catholic }
+}
+wipetikil = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+naskwotchu = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+mekapisk = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+upsukdaskooch = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+baie_verte = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+walnaypek = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+cape_spear = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 1.992	culture = vinlandic			religion = catholic }
+}
+mekwiskajk = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+mollyhuajeck = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+akilasiewakik = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+bacalhieu = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+cape_race = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+placentia = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+} 
+maqtewey = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+} 
+nukamkiajijk = {
+	define_pop = {	type = tribesmen	size = 0.106	culture = beothuk_culture	religion = midewiwin_religion }
+	define_pop = {	type = peasants		size = 0.587	culture = vinlandic			religion = catholic }
+}
+
+# larger greenland settlements due to increased trade and contact with vinland
+gardr = {
+	define_pop = {	type = nobles	size = 0.003	culture = icelandic	religion = catholic }
+	define_pop = {	type = clergy	size = 0.006	culture = icelandic	religion = catholic }
+	define_pop = {	type = peasants	size = 0.974	culture = icelandic	religion = catholic }
+}
+brattahlid = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+dyrnes = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+hvalsey = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+einarsfjord = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+vatnahverfi = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+herjolfsnes = {
+	define_pop = {	type = peasants	size = 0.261	culture = icelandic	religion = catholic }
+}
+petursvik = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+lundey = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+altafjord = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+ketilsfjord = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+siglufjord = {
+	define_pop = {	type = peasants	size = 0.130	culture = icelandic	religion = catholic }
+}
+}

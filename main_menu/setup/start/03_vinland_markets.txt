@@ -1,0 +1,4 @@
+market_manager = {
+	#North America
+	add_market = cape_spear
+}

@@ -1,0 +1,103 @@
+countries = {
+	countries = {
+
+	VNL = {
+		own_control_core = {
+			akilasiewakik belle_isle wipetikil naskwotchu mekapisk upsukdaskooch baie_verte 
+			walnaypek mekwiskajk mollyhuajeck
+
+			cape_spear bacalhieu cape_race placentia maqtewey nukamkiajijk
+		}
+		capital = cape_spear
+
+		country_rank = rank_county
+
+		include = "expl_scandinavia"
+
+		tolerated_cultures = {
+			beothuk_culture
+		}
+
+		starting_technology_level = 3
+
+		discovered_areas = {
+			newfoundland_area
+			labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+			labrador_sea_area
+			canadian_atlantic_coast_area
+			atlantic_irminger_area
+		}
+
+		government = {
+			type = monarchy
+			heir_selection = cognatic_primogeniture
+
+			ruler = vnl_magnus
+			ruler_term = { character = vnl_magnus start_date = 1319.9.7 regnal_number = 3	}
+
+			reforms = {
+				family_sagas_reform
+			}
+
+			centralization_vs_decentralization = 50
+			traditionalist_vs_innovative = -60
+			spiritualist_vs_humanist = 5
+			aristocracy_vs_plutocracy = 50
+			serfdom_vs_free_subjects = 90
+			mercantilism_vs_free_trade = 25
+			belligerent_vs_conciliatory = -20
+			quality_vs_quantity = 0
+			offensive_vs_defensive = -20
+			land_vs_naval = 75
+			capital_economy_vs_traditional_economy = 99
+			individualism_vs_communalism = 30
+			outward_vs_inward = -10
+			parliament = {
+				parliament_type = estate_parliament
+			}
+
+			privilege = {
+				#nobles
+				nobles_land_rights
+				noble_marriage_rights
+	
+				#clergy
+				clergy_literacy_rights
+				clergy_enforced_unity
+
+				#burghers
+				market_fairs
+				formal_guilds
+
+				#commoners
+				peasants_free_peasantry
+				peasants_represented_in_parliament
+				peasants_allowed_weapons_privilege
+				land_owning_farmers
+			}
+
+			laws = {
+				feudal_de_jure_law = by_tradition
+				medieval_levy_law = peasant_levies
+				royal_court_customs_law = balanced_court_policy
+				censorship = limited_censorship
+				education_masses_law = basic_religious_education
+				administrative_system = feudal_administration
+				cultural_traditions_law = martial_society
+				marriage_law = monogamous_marriage
+				heir_religion_law = heir_same_religion
+				legal_code_law = civil_law_policy
+				maritime_law = protect_trade_routes
+				piracy_law = anti_piracy_policy
+				distribution_of_power_law = dop_traditional_distribution_of_power
+				immigration_law = open_borders_law
+				mining_law = nobles_mining_law
+			}
+		}
+	}
+	}
+}

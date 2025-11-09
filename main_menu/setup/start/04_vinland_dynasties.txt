@@ -1,0 +1,6 @@
+dynasty_manager = {
+    thorfinnsson_dynasty = {
+        name = { name = thorfinnsson_dynasty }
+        home = belle_isle
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+	"name":	"Saga of the Vinlanders",
+	"id":	"egonf.vinland",
+	"version":	"0.1",
+	"supported_game_version":	"1.0.2",
+	"picture": "vinland_thumbnail.png",
+	"short_description":	"An alternate timeline where Thorfinn Karlsefni's colony in Vinland took hold.\n\nIn 1006, Norse settlers established a small settlement along the forested coasts of Newfoundland. Over three centuries, they managed to develop a small but viable realm at the western edge of Christendom, mostly unknown to the rest of Europe.\n\nBy 1337, the descendants of Karlsefni rule from Leifsbuðir, maintaing ties and trade with their Greenlandic cousins and beyond. Can Vinland overcome its isolation and harsh climate to rule a continent in the five centuries to come?",
+	"tags":	["Alternative history"],
+	"relationships":	[],
+	"game_custom_data":	{
+}
+}

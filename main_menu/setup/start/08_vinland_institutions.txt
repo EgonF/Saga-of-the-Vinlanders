@@ -1,0 +1,67 @@
+locations={
+
+akilasiewakik = {
+	feudalism = yes
+	legalism = yes
+}
+belle_isle = {
+	feudalism = yes
+	legalism = yes
+}
+wipetikil = {
+	feudalism = yes
+	legalism = yes
+}
+naskwotchu = {
+	feudalism = yes
+	legalism = yes
+}
+mekapisk = {
+	feudalism = yes
+	legalism = yes
+}
+upsukdaskooch = {
+	feudalism = yes
+	legalism = yes
+}
+baie_verte = {
+	feudalism = yes
+	legalism = yes
+}
+walnaypek = {
+	feudalism = yes
+	legalism = yes
+}
+mekwiskajk = {
+	feudalism = yes
+	legalism = yes
+}
+mollyhuajeck = {
+	feudalism = yes
+	legalism = yes
+}
+cape_spear = {
+	feudalism = yes
+	legalism = yes
+}
+bacalhieu = {
+	feudalism = yes
+	legalism = yes
+} 
+cape_race = {
+	feudalism = yes
+	legalism = yes
+} 
+placentia = {
+	feudalism = yes
+	legalism = yes
+} 
+maqtewey = {
+	feudalism = yes
+	legalism = yes
+} 
+nukamkiajijk = {
+	feudalism = yes
+	legalism = yes
+}
+}

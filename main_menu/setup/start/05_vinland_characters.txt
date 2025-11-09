@@ -1,0 +1,14 @@
+character_db={
+	vnl_magnus = {
+		first_name = { name = name_magnus }
+		culture = vinlandic
+		religion = catholic
+		adm = 67 dip = 74 mil = 31
+		birth_date = 1310.1.1
+		birth = akilasiewakik	
+		dynasty = thorfinnsson_dynasty
+		tag = VNL
+
+	}
+
+}
