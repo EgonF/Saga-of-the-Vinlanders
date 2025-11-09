@@ -5,9 +5,11 @@ character_db={
 		religion = catholic
 		adm = 67 dip = 74 mil = 31
 		birth_date = 1310.1.1
-		birth = akilasiewakik	
+		birth = cape_spear	
 		dynasty = thorfinnsson_dynasty
 		tag = VNL
+		ruler_trait = industrious
+		ruler_trait = entrepreneur
 
 	}
 
