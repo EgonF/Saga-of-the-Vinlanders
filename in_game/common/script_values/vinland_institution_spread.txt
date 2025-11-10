@@ -1,0 +1,61 @@
+﻿# Institution spread values adjusted for Vinland mod (we dont get overland spread, only trade spread)
+REPLACE:institution_trade_spread_value_early = {
+	value = development
+	multiply = 0.03
+	add = {
+		value = average_location_literacy
+		multiply = 0.1
+	}
+	if = {
+		limit = {
+			OR = {
+            	owner.culture = culture:icelandic
+            	owner.culture = culture:vinlandic
+        	}
+		}
+		
+		multiply = 8.0
+	}
+	
+
+}
+
+REPLACE:institution_trade_spread_value_mid = {
+	value = development
+	multiply = 0.01
+	add = {
+		value = average_location_literacy
+		multiply = 0.05
+	}
+	if = {
+		limit = {
+			OR = {
+            	owner.culture = culture:icelandic
+            	owner.culture = culture:vinlandic
+        	}
+		}
+		
+		multiply = 8.0
+	}
+
+}
+
+REPLACE:institution_trade_spread_value_late = {
+	value = development
+	multiply = 0.005
+	add = {
+		value = average_location_literacy
+		multiply = 0.025
+	}
+	if = {
+		limit = {
+			OR = {
+            	owner.culture = culture:icelandic
+            	owner.culture = culture:vinlandic
+        	}
+		}
+		
+		multiply = 8.0
+	}
+
+}
