@@ -1,7 +1,7 @@
 ﻿{
 	"name":	"Saga of the Vinlanders",
 	"id":	"egonf.vinland",
-	"version":	"0.3.2",
+	"version":	"0.3.3",
 	"supported_game_version":	"1.0.*",
 	"picture": "vinland_thumbnail.png",
 	"short_description":	"An alternate timeline where Thorfinn Karlsefni's colony in Vinland took hold.",
