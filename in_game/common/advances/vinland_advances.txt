@@ -1,0 +1,120 @@
+﻿birch_bark_runes = {
+	potential = { has_or_had_tag = VNL }
+
+	age = age_1_traditions
+	global_max_literacy = 5
+	global_lumber_output_modifier = 0.10
+	
+	requires = feudalism_advance
+}
+
+##############################
+vinland_fur_trade = {
+	potential = { has_or_had_tag = VNL }
+
+	age = age_3_discovery
+	global_fur_output_modifier = 0.15
+	trade_efficiency = medium_trade_efficiency_bonus
+	requires = rgo_logistics_discovery
+}
+
+##############################
+# adapted from other scandinavian advances
+TRY_REPLACE:nor_seaborn_country = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	naval_damage_taken = -0.05
+	sea_cost_on_distance_from_capital_when_maritime = -0.5
+	
+	requires = feudalism_advance
+}
+TRY_REPLACE:nor_bounties_of_the_sea = {
+	age = age_1_traditions
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	
+	global_fish_output_modifier = 0.20
+	requires = nor_seaborn_country
+}
+TRY_REPLACE:natural_seamanship = {
+	age = age_2_renaissance
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	naval_morale_modifier = 0.2
+}
+TRY_REPLACE:call_of_our_forefathers = {
+	age = age_2_renaissance
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	colonial_range_modifier = 0.2
+	naval_range_modifier = 0.1
+	trade_range_modifier = 0.33
+}
+TRY_REPLACE:pioneer_spirit = {
+	age = age_3_discovery
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	colonial_migration_size_modifier = 0.25
+}
+TRY_REPLACE:nor_shipbuilding = {
+	age = age_3_discovery
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	ship_build_speed = 0.1
+}
+
+TRY_REPLACE:write_new_sagas = {
+	age = age_5_absolutism
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	cultural_influence_modifier = 0.33
+	cultural_tradition_modifier = 0.2
+}
+TRY_REPLACE:nor_merchant_tradition = {
+	age = age_6_revolutions
+	potential = {
+		OR = {
+            culture = culture:icelandic
+            culture = culture:vinlandic
+			has_or_had_tag = NOR
+        }
+	}
+	merchant_maintenance_cost  = -0.1
+}
+

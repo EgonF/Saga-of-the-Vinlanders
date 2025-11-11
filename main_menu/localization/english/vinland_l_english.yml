@@ -4,4 +4,34 @@
   VNL_ADJ: "Vinlandic"
   vinlandic: "Vinlandic"
   vinlandic_dialect: "Vinlandic"
+
+  # vinlandic government
   rank_commonwealth_vinland_republic: "Commonwealth"
+  # ruler title
+  rank_commonwealth_vinland_republic_ruler_male: "Prins"
+  rank_commonwealth_vinland_republic_ruler_female: "Prinsessa"
+
+  # vinlandic estates
+  crown_estate_vinland: "Ríkið" # the realm/state itself
+  nobles_estate_vinland: "Goðar" 
+  burghers_estate_vinland: "Kaupmenn"
+  clergy_estate_vinland: "Kirkjumenn"
+  tribes_estate_vinland: "Skrælingjar" # indigenous peoples
+  peasants_estate_vinland: "Landsmenn" # common folk, farmers
+
+# privileges
+  land_owning_farmers: "Land-Owning Peasants"
+  land_owning_farmers_desc: "Scandinavian peasants hold a uniquely strong position compared to their peers in much of feudal [ShowContinentName('europe')]. They own their land outright, pay taxes directly to the crown, and often have a voice in local assemblies, giving them a degree of autonomy and legal protection. These farmers were not serfs; many are armed and serve in levies. Their rights are rooted in ancient customary law, and their relative independence is a foundational element of Scandinavian rural society."
+
+  vinlandic_noble_navy: "Hafsiglingar"
+  vinlandic_noble_navy_desc: "The goðar of Vinland maintain their power not through vast estates but through control of the seas. Each chieftain commands his own ships for fishing, trade, and exploration - and in times of need, these vessels form the realm's navy."
+
+  vinlandic_tribal_peace: "Friðsáttmáli"
+  vinlandic_tribal_peace_desc: "Unlike in the sagas where conflict drove the Norse away, Vinland's survival depended on making peace with the Beothuk. Through trade, intermarriage, and mutual respect, we have forged an uneasy but lasting coexistence. The Skrælingjar teach us the ways of this land, and we bring them iron and new crafts."
+
+# advances
+  birch_bark_runes: "Björkrúnir"
+  birch_bark_runes_desc: "While parchment is scarce in Vinland, birch bark is plentiful - and our Skræling neighbors have long used it for their own writings. Through trade and coexistence, we have adapted our runes to bark, creating a shared system of symbols for recording contracts, messages, and knowledge. This blending of Norse and native practices has spread literacy beyond what our homeland ever achieved."
+
+  vinland_fur_trade: "Vinlandic Fur Trade"
+  vinland_fur_trade_desc: "The abundant fur resources of Vinland have become a cornerstone of the colony's economy. The Vinlandic people have established trade networks with indigenous groups and European markets, exporting high-quality furs that are in great demand. This trade not only enriches Vinland but also strengthens its ties to the wider world."

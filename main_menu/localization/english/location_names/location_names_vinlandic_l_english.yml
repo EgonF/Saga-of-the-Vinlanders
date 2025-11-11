@@ -6,14 +6,23 @@
   mollyhuajeck.vinlandic_dialect: "Kjalarnes" # Kjalarnes, where the explorers of the sagas ran aground going east from leifsbudir towards what would become Þorvaldsnes
 
 
-  # Other locations in Vinlandic dialect
+  # Other starting locations in Vinlandic dialect
   nukamkiajijk.vinlandic_dialect: "Núkamkiajík"
   baie_verte.vinlandic_dialect: "Grœnvík" # Green Bay
   mekwiskajk.vinlandic_dialect: "Hrafnsey" # Raven Island
   walnaypek.vinlandic_dialect: "Vallneyjak" # Whale Island
-  cape_race.vinlandic_dialect: "Fisknes" # Fish Ness
-  wipetikil.vinlandic_dialect: "Vípetíkil" # 
-  naskwotchu.vinlandic_dialect: "Naskvatr"
-  mekapiskik.vinlandic_dialect: "Mekapisk"
-  bacalhieu.vinlandic_dialect: "Bakkalár"
-  placentia.vinlandic_dialect: "Blómstravík"
+  cape_race.vinlandic_dialect: "Rásarnes" # Race Cape
+  wipetikil.vinlandic_dialect: "Vípetíkil" # Norseified name for wipetikil
+  naskwotchu.vinlandic_dialect: "Naskvatr" # Norseified name for naskwotchu
+  mekapiskik.vinlandic_dialect: "Mikápisk" # Norseified name for mekapiskik
+  bacalhieu.vinlandic_dialect: "Bakkalár" # Norseified name for bacalhieu
+  placentia.vinlandic_dialect: "Blómstravík" # Flower Bay
+  eimastukwek.vinlandic_dialect: "Eimastöð" # Norseified name for eimastukwek
+  kutapuskuj.vinlandic_dialect: "Kútapúskur" # Norseified name for kutapuskuj
+  epwikek.vinlandic_dialect: "Epvík" # Norseified name for epwikek
+  upsukdaskooch.vinlandic_dialect: "Upsuðuskógar" # Norseified name for upsukdaskooch, upsuðuskógar means "up south forests"
+  maqtewey.vinlandic_dialect: "Maktavík" # Norseified name for maqtewey, maktavík means "power bay"
+
+  # colonizable locations in vinlandic dialect
+  miquelon.vinlandic_dialect: "Steinseyjar" # Stone Islands
+  sipuk.vinlandic_dialect: "Kolstaðr" # Place of the Coal

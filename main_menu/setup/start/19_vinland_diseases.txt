@@ -1,0 +1,111 @@
+disease_outbreak_manager = {
+    #Example for adding some endemic resistance
+    #add_disease_resistance = {
+    #    type = bubonic_plague
+    #    resistance = 1
+    #    regions = { south_german_region north_german_region }
+    #    areas = { alsace_area lorraine_area }
+    #    locations = { london }
+    #}
+
+    #to add a disease outbreak with an origin and infecting other locations
+	# add_disease_outbreak = {
+    #     type = great_pestilence
+    #     infected = 1
+    #     origin = london
+    #     regions = {
+    #         great_britain_region
+    #     }
+    #    areas = { alsace_area lorraine_area }
+    # }
+
+    # normally 0.3 for europe, but vinland's native mixture gives slightly less resistance
+    add_disease_resistance = {
+        type = typhus
+        resistance = 0.2
+        areas = { 
+            newfoundland_area
+			labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+        }
+    }
+
+    # normally 0.3 for europe, but vinland's native mixture gives slightly less resistance
+    add_disease_resistance = {
+        type = influenza
+        resistance = 0.2
+        areas = {
+            newfoundland_area
+			labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+        }
+    }
+
+    # normally 0.3 for europe, but vinland's native mixture gives slightly less resistance
+    add_disease_resistance = {
+        type = smallpox
+        resistance = 0.2
+        areas = {
+            newfoundland_area
+			labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+        }
+    }
+
+    # normally 0.3 for europe, but vinland's native mixture gives slightly less resistance
+    add_disease_resistance = {
+        type = measles
+        resistance = 0.2
+        areas = {
+            newfoundland_area
+			labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+        }
+    }
+
+    # slight resistance everywhere due to some intermittent vinlandic exposure
+    add_disease_resistance = {
+        type = great_pestilence
+        resistance = 0.1
+        continents = {
+			america
+        }
+    }
+
+    # more around vinland due to more frequent exposure
+    add_disease_resistance = {
+        type = great_pestilence
+        resistance = 0.3
+        regions = {
+			canada_region
+            east_coast_region
+        }
+    }
+
+    # higher resistance due to long term vinlandic exposure
+    add_disease_resistance = {
+        type = great_pestilence
+        resistance = 0.7
+        areas = {
+			newfoundland_area
+			labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+        }
+    }
+
+}

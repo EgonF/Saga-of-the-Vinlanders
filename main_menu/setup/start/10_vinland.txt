@@ -3,10 +3,29 @@ countries = {
 
 	VNL = {
 		own_control_core = {
+			# initial northern newfoundland area (1050)
 			akilasiewakik belle_isle wipetikil naskwotchu mekapisk upsukdaskooch baie_verte 
 			walnaypek mekwiskajk mollyhuajeck
-
+			# avalon and south-eastern newfoundland, second phase (1100)
 			cape_spear bacalhieu cape_race placentia maqtewey nukamkiajijk
+			# south-western newfoundland, second phase
+			eimastukwek kutapuskuj epwikek
+
+			# pei and anticosti, third phase (1150)
+			#elsiktuk pukusamkek tapu_tuitn malpeque tignish natigostec anticosti notiskuan menageesenog
+			
+			# markland permanent settlements, third phase
+			#uashat red_bay catucto aivitok
+			
+			# gaspe, fourth phase (1200)
+			#gaspe chicchoc pewjeg
+			
+			# cape breton, fourth phase
+			#sipuk askataliank apaqtukowatek qospemk kluskapewiktuk cheticamp ingonish
+
+			# quebec city/stadacona, st. lawrence river, fifth phase (1250+)
+			#stadacona kikonteku etchemin kamitsisit ahwendoe ondaonnentakwi aunona taoondewake kouate
+	
 		}
 		capital = cape_spear
 
@@ -16,6 +35,9 @@ countries = {
 
 		tolerated_cultures = {
 			beothuk_culture
+			#ilnu_culture
+			#innu_culture
+			#stadaconan_culture
 		}
 
 		starting_technology_level = 3
@@ -27,34 +49,44 @@ countries = {
 			new_brunswick_area
 			acadia_area
 			prince_edward_island_area
+			lower_canada_area
+			maine_area
+			#haudenosaunee_area
+			#eastern_ontario_area
+			#western_ontario_area
+
+			#great_lakes_sea_zones_area
+			#east_coast_sea_zones_area
 			labrador_sea_area
 			canadian_atlantic_coast_area
 			atlantic_irminger_area
+			atlantic_north_atlantic_current_area
 		}
 
 		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
+			# styled on the icelandic commonwealth model
+			type = republic
 
 			ruler = vnl_magnus
+			heir_selection = oligarchic_elective
 			ruler_term = { character = vnl_magnus start_date = 1319.9.7 regnal_number = 3	}
 
 			reforms = {
 				family_sagas_reform
 			}
 
-			centralization_vs_decentralization = 50
+			centralization_vs_decentralization = 80
 			traditionalist_vs_innovative = -15
 			spiritualist_vs_humanist = 5
-			aristocracy_vs_plutocracy = 5
+			aristocracy_vs_plutocracy = 35
 			serfdom_vs_free_subjects = 90
 			mercantilism_vs_free_trade = 25
-			belligerent_vs_conciliatory = -20
+			belligerent_vs_conciliatory = 10
 			quality_vs_quantity = 0
 			offensive_vs_defensive = -20
 			land_vs_naval = 75
 			capital_economy_vs_traditional_economy = 80
-			individualism_vs_communalism = 30
+			individualism_vs_communalism = 15
 			outward_vs_inward = -10
 			parliament = {
 				parliament_type = estate_parliament
@@ -63,8 +95,8 @@ countries = {
 			privilege = {
 				#nobles
 				nobles_land_rights
-				noble_marriage_rights
-	
+				vinlandic_noble_navy
+
 				#clergy
 				clergy_literacy_rights
 				clergy_enforced_unity
@@ -72,22 +104,26 @@ countries = {
 				#burghers
 				market_fairs
 				formal_guilds
+				trade_monopolies
 
 				#commoners
 				peasants_free_peasantry
 				peasants_represented_in_parliament
 				peasants_allowed_weapons_privilege
 				land_owning_farmers
+
+				#tribes
+				vinlandic_tribal_peace
+				tribes_allow_gatherings
+				tribes_land_rights
 			}
 
 			laws = {
-				feudal_de_jure_law = by_tradition
-				medieval_levy_law = peasant_levies
-				royal_court_customs_law = balanced_court_policy
+				administrative_system = autonomous_councils
+				republican_foundation_law = political_dynasties_policy
 				censorship = limited_censorship
 				education_masses_law = basic_religious_education
-				administrative_system = feudal_administration
-				cultural_traditions_law = martial_society
+				cultural_traditions_law = civil_society
 				marriage_law = monogamous_marriage
 				heir_religion_law = heir_same_religion
 				legal_code_law = civil_law_policy
@@ -95,7 +131,7 @@ countries = {
 				piracy_law = anti_piracy_policy
 				distribution_of_power_law = dop_traditional_distribution_of_power
 				immigration_law = open_borders_law
-				mining_law = nobles_mining_law
+				mining_law = burghers_mining_law
 			}
 		}
 	}

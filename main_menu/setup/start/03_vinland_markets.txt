@@ -1,4 +1,6 @@
 market_manager = {
-	#North America
+	# new markets in vinland
 	add_market = cape_spear
+	#add_market = stadacona
+	#add_market = elsiktuk
 }

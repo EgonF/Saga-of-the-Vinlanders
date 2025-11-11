@@ -1,0 +1,56 @@
+﻿REPLACE:land_owning_farmers = {
+	estate = peasants_estate
+	
+	potential = { 
+		culture  ?= { has_culture_group = culture_group:scandinavian_group }
+	}
+	allow = {
+	}	
+
+	can_revoke = {
+		"estate_power(estate_type:crown_estate)" > 0.66
+	}
+	
+	country_modifier = {
+		levy_combat_efficiency_modifier = 0.05
+		global_monthly_food_modifier = 0.1
+		global_peasants_estate_power = 0.5
+		peasants_estate_target_satisfaction = medium_privilege_target_satisfaction
+		
+		monthly_towards_free_subjects = societal_value_monthly_move
+
+	}
+}
+
+vinlandic_noble_navy = {
+	estate = nobles_estate
+	
+	potential = {
+		has_ports = yes
+		tag = VNL
+	}
+	country_modifier = {
+		nobles_estate_target_satisfaction = medium_privilege_target_satisfaction
+		global_nobles_estate_power = 0.25
+		monthly_towards_naval = societal_value_monthly_move
+		navy_light_ship_maintenance_cost_modifier = -0.1
+		navy_light_ship_power = 0.1
+		navy_light_ship_build_cost_modifier = -0.1
+	}
+}
+
+vinlandic_tribal_peace = { 
+	estate = tribes_estate
+
+	potential = { 
+		tag = VNL
+	}
+	
+	country_modifier = {
+		tribes_estate_target_satisfaction = large_privilege_target_satisfaction
+		global_tribesmen_assimilation_blocked = yes
+		global_tribes_estate_power = 1.00
+		global_merchant_capacity_modifier = 0.1
+		tolerance_heathen = 2
+	}
+}
