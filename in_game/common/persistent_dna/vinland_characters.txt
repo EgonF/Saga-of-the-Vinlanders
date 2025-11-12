@@ -97,17 +97,17 @@
 			mouth_inside={ "mouth_inside_normal" 0 "mouth_inside_normal" 0 }
 			clothes={ "no_clothes" 0 "no_clothes" 0 }
 			capes={ "no_cape" 0 "no_cape" 0 }
-			beards={ "no_beard" 0 "no_beard" 0 }
+			beards={ "european_beards" 156 "european_beards" 255 }
 			headwear={ "no_headwear" 0 "no_headwear" 0 }
 			headwear_additive={ "no_headwear_additive" 0 "no_headwear_additive" 0 }
 			neckware_neck={ "no_neckware_neck" 0 "no_neckware_neck" 0 }
 			neckware_inner={ "no_neckware_inner" 0 "no_neckware_inner" 0 }
 			neckware_outer={ "no_neckware_outer" 0 "no_neckware_outer" 0 }
-			hair_styles={ "german_hair" 81 "german_hair" 81 }
-	 		expressions_mouth={ "no_expression" 128 "no_expression" 128 }
-	 		expressions_eyes={ "no_expression" 128 "no_expression" 128 }
-	 		expressions_brow={ "no_expression" 128 "no_expression" 128 }
-	 		expressions_forehead={ "no_expression" 128 "no_expression" 128 }
+			hair_styles={ "german_hair" 255 "german_hair" 255 }
+ 			expressions_mouth={ "displeased_01" 48 "no_expression" 128 }
+ 			expressions_eyes={ "no_expression" 128 "no_expression" 128 }
+ 			expressions_brow={ "frown_angry_02" 163 "no_expression" 128 }
+ 			expressions_forehead={ "no_expression" 128 "no_expression" 128 }
 		}
 	}
 }

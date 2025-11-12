@@ -193,10 +193,10 @@
 	}
 
 	text = {
-		localization_key = rank_commonwealth_vinland_republic
+		localization_key = rank_commonwealth_vinland
 		trigger = {
-			government_type = government_type:republic
 			culture = culture:vinlandic
+			tag = VNL
 		}
 	}
 

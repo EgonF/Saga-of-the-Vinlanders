@@ -1,15 +1,22 @@
 ﻿l_english:
-  thorfinnsson_dynasty: "Thorfinnsson"
+  thorfinnsson_dynasty: "Þórfinnssynir"
   VNL: "Vinland"
   VNL_ADJ: "Vinlandic"
   vinlandic: "Vinlandic"
   vinlandic_dialect: "Vinlandic"
 
   # vinlandic government
-  rank_commonwealth_vinland_republic: "Commonwealth"
+  rank_commonwealth_vinland: "Commonwealth"
   # ruler title
-  rank_commonwealth_vinland_republic_ruler_male: "Prins"
-  rank_commonwealth_vinland_republic_ruler_female: "Prinsessa"
+  rank_commonwealth_vinland_ruler_male: "Prins"
+  rank_commonwealth_vinland_ruler_female: "Prinsessa"
+  # parliament name
+  country_flavor_parliament_althing: "Alþingi"
+
+  # succession
+  # succession
+  vinlandic_elective_succession: "Vinlandic Elective Succession"
+  vinlandic_elective_succession_desc: "Rooted in the traditions of the Icelandic Commonwealth, the Vinlandic Elective Succession reflects the unique balance of power between the Goðar and the crown. The Goðar, as the realm's noble chieftains, gather to elect the Prins, the ruler of Vinland. While the descendants of Þorfinn Karlsefni are often favored for their lineage and legacy, the law allows for any noble of the realm to be chosen, provided they command the respect and loyalty of their peers. Women may inherit the throne, though the Goðar traditionally prefer male candidates. This system ensures that the ruler is not only born into power but also deemed worthy of it by the leading families of Vinland. It is a delicate compromise between the old ways of the Alþingi and the emerging need for centralized leadership in this new land."
 
   # vinlandic estates
   crown_estate_vinland: "Ríkið" # the realm/state itself
@@ -35,3 +42,6 @@
 
   vinland_fur_trade: "Vinlandic Fur Trade"
   vinland_fur_trade_desc: "The abundant fur resources of Vinland have become a cornerstone of the colony's economy. The Vinlandic people have established trade networks with indigenous groups and European markets, exporting high-quality furs that are in great demand. This trade not only enriches Vinland but also strengthens its ties to the wider world."
+
+  vinland_land_of_opportunity: "Land of Opportunity"
+  vinland_land_of_opportunity_desc: "Vinland offers vast, untamed lands where settlers can carve out a new life. Free from the rigid hierarchies of the Old World, families and individuals alike are drawn to the promise of fertile soil, abundant resources, and the chance to build their own future. This spirit of opportunity fosters rapid population growth as immigrants and locals alike seize the chance to thrive in this new frontier."

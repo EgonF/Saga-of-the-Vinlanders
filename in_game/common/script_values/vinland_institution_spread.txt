@@ -14,7 +14,7 @@ REPLACE:institution_trade_spread_value_early = {
         	}
 		}
 		
-		multiply = 8.0
+		multiply = 6.0
 	}
 	
 
@@ -35,7 +35,7 @@ REPLACE:institution_trade_spread_value_mid = {
         	}
 		}
 		
-		multiply = 8.0
+		multiply = 6.0
 	}
 
 }
@@ -55,7 +55,7 @@ REPLACE:institution_trade_spread_value_late = {
         	}
 		}
 		
-		multiply = 8.0
+		multiply = 6.0
 	}
 
 }

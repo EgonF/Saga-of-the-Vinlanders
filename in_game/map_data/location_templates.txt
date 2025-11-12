@@ -19790,7 +19790,7 @@ wipetikil = { modifier = newfoundland_fishing_grounds_base topography = hills ve
 naskwotchu = { topography = flatland vegetation = forest climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = fish natural_harbor_suitability = 0.00}
 mekapisk = { topography = hills vegetation = forest climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = wild_game natural_harbor_suitability = 0.00}
 long_range_mountains = { topography = mountain_wasteland vegetation = forest climate = arctic}
-eimastukwek = { topography = hills vegetation = forest climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = fish natural_harbor_suitability = 0.50}
+eimastukwek = { topography = hills vegetation = forest climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = stone natural_harbor_suitability = 0.50}
 epwikek = { topography = hills vegetation = forest climate = continental religion = midewiwin_religion culture = attigneenongnahac_culture raw_material = wild_game natural_harbor_suitability = 0.00}
 kutapuskuj = { topography = hills vegetation = forest climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = lumber natural_harbor_suitability = 0.00}
 pgotapesg = { topography = flatland vegetation = forest climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = lumber}
@@ -19807,11 +19807,11 @@ walnaypek = { topography = flatland vegetation = forest climate = arctic religio
 akilasiewakik = { topography = wetlands vegetation = forest climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = fish natural_harbor_suitability = 0.75}
 newfoundland_highlands = { topography = hills_wasteland vegetation = forest climate = continental}
 cape_spear = { topography = flatland vegetation = woods climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = iron natural_harbor_suitability = 0.80}
-bacalhieu = { topography = flatland vegetation = woods climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = fiber_crops natural_harbor_suitability = 0.00}
+bacalhieu = { topography = flatland vegetation = woods climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = wool natural_harbor_suitability = 0.00}
 mekwiskajk = { topography = flatland vegetation = forest climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = lumber natural_harbor_suitability = 0.00}
 mollyhuajeck = { topography = flatland vegetation = forest climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = fish natural_harbor_suitability = 0.00}
-placentia = { topography = flatland vegetation = woods climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = wild_game natural_harbor_suitability = 0.00}
-cape_race = { topography = flatland vegetation = woods climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = stone natural_harbor_suitability = 0.00}
+placentia = { topography = flatland vegetation = woods climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = wool natural_harbor_suitability = 0.00}
+cape_race = { topography = flatland vegetation = woods climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = wool natural_harbor_suitability = 0.00}
 maqtewey = { topography = flatland vegetation = forest climate = continental religion = midewiwin_religion culture = beothuk_culture raw_material = medicaments natural_harbor_suitability = 0.00}
 nukamkiajijk = { topography = hills vegetation = woods climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = fish natural_harbor_suitability = 0.00}
 miquelon = { topography = hills vegetation = woods climate = arctic religion = midewiwin_religion culture = beothuk_culture raw_material = fish natural_harbor_suitability = 0.00}

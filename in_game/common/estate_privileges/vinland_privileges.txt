@@ -52,5 +52,7 @@ vinlandic_tribal_peace = {
 		global_tribes_estate_power = 1.00
 		global_merchant_capacity_modifier = 0.1
 		tolerance_heathen = 2
+		cultures_capacity = 2
+		global_pop_assimilation_speed_modifier = -0.50
 	}
 }

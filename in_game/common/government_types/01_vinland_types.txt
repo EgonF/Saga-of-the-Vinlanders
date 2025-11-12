@@ -1,0 +1,3 @@
+﻿INJECT:monarchy = {
+	heir_selection = vinlandic_elective_succession
+}

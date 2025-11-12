@@ -4,8 +4,6 @@ locations = {
 	# gardr should be larger in this world due to trade, as greenland is more connected to vinland
 	gardr = { rank = town 		town_setup = scandinavian_town }
 	
-	# stadacona is a boom town due to the trade with vinland and native peoples
-	#stadacona = { rank = town 		town_setup = scandinavian_town }
 }
 
 building_manager = {
@@ -23,16 +21,15 @@ building_manager = {
 	market_village = { tag = VNL level = 1 location = eimastukwek }
 	
 	# church and market on pei
-	#parish_church = { tag = VNL level = 1 location = elsiktuk }
-	#market_village = { tag = VNL level = 1 location = elsiktuk }
-	# church and market at gaspe
-	#parish_church = { tag = VNL level = 1 location = gaspe }
-	#market_village = { tag = VNL level = 1 location = gaspe }
-	# church and market at sipuk
-	#parish_church = { tag = VNL level = 1 location = sipuk }
-	#market_village = { tag = VNL level = 1 location = sipuk }
-	# additional town buildings at quebec/stadacona
-	#parish_church = { tag = VNL level = 1 location = stadacona }
-	#wharf = { tag = VNL level = 1 location = stadacona }
+	parish_church = { tag = VNL level = 1 location = elsiktuk }
+	market_village = { tag = VNL level = 1 location = elsiktuk }
+	# church and market at cape breton
+	parish_church = { tag = VNL level = 1 location = sipuk }
+	market_village = { tag = VNL level = 1 location = sipuk }
+
+	# settlements in eastern vinland
+	settlement_building = { tag = VNL level = 1 location = cape_race }
+	settlement_building = { tag = VNL level = 1 location = bacalhieu }
+	settlement_building = { tag = VNL level = 1 location = placentia }
 	
 }

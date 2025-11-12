@@ -1,0 +1,123 @@
+﻿vinlandic_elective_succession = {
+	use_election = yes
+	include_ruler_siblings = yes
+	all_in_country = yes
+	all_in_dynasty = yes
+	through_female = yes
+	ignore_ruler = yes
+	allow_female = yes
+	term_duration = 0	#0 = until ruler death
+	allowed_estates = { nobles_estate }
+	heir_is_allowed = {
+	}
+	potential = {
+		has_reform = government_reform:family_sagas_reform
+		tag = VNL
+	}
+
+	succession_effect = {
+		add_legitimacy = legitimacy_mild_penalty
+	}
+
+	calc = {
+		if = {
+			limit = {
+				exists = root
+			}
+			add = {
+				desc = "HEIR_SELECTION_ADM_DESC"
+				value = root.adm
+			}
+			add = {
+				desc = "HEIR_SELECTION_DIP_DESC"
+				value = root.dip
+			}
+			add = {
+				desc = "HEIR_SELECTION_MIL_DESC"
+				value = root.mil
+			}
+			
+			if = {
+				limit = { is_female = yes }
+				add = {
+					desc = "HEIR_SELECTION_FEMALE_DESC"
+					value = -100
+				}
+			}
+			if = {
+				limit = { 
+					NOT = {
+						scope:target ?= {
+							any_primary_or_accepted_culture = { root.culture = this }
+						}
+					} 
+				}
+				add = {
+					desc = "HEIR_SELECTION_NON_ACCEPTED_CULTURE_DESC"
+					value = -100
+				}
+			}
+
+			if = {
+				limit = { exists = root.father }
+				
+				if = {
+					limit = {
+						any_parent = {
+							this = scope:target.ruler
+						}
+					}
+					add = {
+						desc = "HEIR_SELECTION_PARENT_IS_CURRENT_RULER_DESC"
+						value = 100
+					}
+				}				
+				else = {
+					if = {
+						limit = { 
+							scope:target = { 
+								any_ruler = { 
+									is_alive = no
+									root.father = this 
+								} 
+							}
+						}
+						add = {
+							desc = "HEIR_SELECTION_FATHER_WAS_HISTORICAL_RULER_DESC"
+							value = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = root }
+			}
+			add = {
+				desc = "HEIR_SELECTION_PARENT_IS_CURRENT_RULER_DESC"
+				value = 100
+			}
+			add = {
+				desc = "HEIR_SELECTION_ADM_DESC"
+				value = 1
+			}
+			add = {
+				desc = "HEIR_SELECTION_DIP_DESC"
+				value = 1
+			}
+			add = {
+				desc = "HEIR_SELECTION_MIL_DESC"
+				value = 1
+			}
+			add = { 
+				desc = "HEIR_SELECTION_FEMALE_DESC"
+				value = -100
+			}
+			add = {
+				desc = "HEIR_SELECTION_NON_ACCEPTED_CULTURE_DESC"
+				value = -100
+			}
+		}
+	}
+}
