@@ -1,0 +1,22 @@
+﻿# vinland harbour modifiers
+
+vinland_harbour_20 = {
+	harbor_suitability = 0.2
+}
+
+vinland_harbour_40 = {
+	harbor_suitability = 0.4
+}
+
+vinland_harbour_50 = {
+	harbor_suitability = 0.5
+}
+
+vinland_harbour_70 = {
+	harbor_suitability = 0.7
+}
+
+vinland_harbour_80 = {
+	harbor_suitability = 0.8
+}
+

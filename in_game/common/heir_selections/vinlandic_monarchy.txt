@@ -18,6 +18,7 @@
 	succession_effect = {
 		add_legitimacy = legitimacy_mild_penalty
 	}
+	max_possible_candidates = 5
 
 	calc = {
 		if = {

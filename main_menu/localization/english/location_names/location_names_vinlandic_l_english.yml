@@ -40,8 +40,213 @@
   maqtewey.vinlandic_dialect: "Maktavík" 
   # Norseified name for maqtewey, maktavík means "power bay"
 
+  ##Seosaidhs Additions starting locations##
+  wli_qospem.vinlandic_dialect: "Leirmýri"
+  #clay swamp
+  gosaoie.vinlandic_dialect: "Baskneskhöfn"
+  #Port aux Basques, calque
+  meelpaeg.vinlandic_dialect: "Mýrpægar"
+  #norsified local name
+  sibook.vinlandic_dialect: "Einsetuhús"
+  #Hermitage in Icelandic, calque
+  amasipukwek.vinlandic_dialect: "Grárfjörður"
+  #Grey Fjord, nearby name related calque of grey cove
+  nogamsig.vinlandic_dialect: "Grávík"
+  #Grey cove, nearby river called grey river irl 
+  pgotapesg.vinlandic_dialect: "Krossá"
+  #Cross River, invokes Krosnes a named place in sagas
+  elsiktuk.vinlandic_dialect: "Engjarströnd"
+  #Meadowbank calque
+  tignish.vinlandic_dialect: "Þegnnes"
+  #Thegns Headland, norsified name
+  malpeque.vinlandic_dialect: "Sumarhlið"
+  #Summerside
+  tapu_tuitn.vinlandic_dialect: "Steinhóp"
+  #Stanhope
+  pukusamkek.vinlandic_dialect: "Hrólfsvík"
+  #Rollo Bay
+  menageesenog.vinlandic_dialect: "Haraldseyjar"
+  #Old Harry inspired name, harald's islands
+  qospemk.vinlandic_dialect: "Prinsbýr"
+  #Kingsville
+  apaqtukowatek.vinlandic_dialect: "Stórströnd"
+  #Grande Greve
+  askataliank.vinlandic_dialect: "Hvalur"
+  #Baleine
+  cheticamp.vinlandic_dialect: "Fallegströnd"
+  #Belle Côte
+  ingonish.vinlandic_dialect: "Þingvöllur"
+  #Dingwall
+  kluskapewiktuk.vinlandic_dialect: "Geirrsvík"
+  #Jersey Cove semi calque Geirrsey
+  notiskuan.vinlandic_dialect: "Vestaranes"
+  #Pointe d'Oueste
+  anticosti.vinlandic_dialect: "Bjarney"
+  #Bear Island, native names refer to bears
+  natigostec.vinlandic_dialect: "Heiðines"
+  #Heath Point
+
   # colonizable locations in vinlandic dialect
   miquelon.vinlandic_dialect: "Steinseyjar" 
   # Stone Islands
   sipuk.vinlandic_dialect: "Kolstaðr" 
   # Place of the Coal
+  
+  ###Seosaidhs colonial additions###
+  ##Quebec##
+  #Stadacona#
+  #stadacona.vinlandic_dialect: "Hólmgarður" 
+  # same name as Novgorod, I just like it, Open to changing it
+  stadacona.vinlandic_dialect: "Vesturhöfn"
+  #Quebec City, furthest western harbour in christendom 
+  andawaohie.vinlandic_dialect: "Rauðabrúin"
+  #Pont Rouge Calque
+  ahwendoe.vinlandic_dialect: "Straumsey"
+  #from sagas, open to changing it based on mod lore
+  ontaretse.vinlandic_dialect: "Járnvatn"
+  #Lac Ferre calque
+  ondaonnentakwi.vinlandic_dialect: "Bogspjót"
+  #Beaupre
+  aunona.vinlandic_dialect: "Anoana"
+  #Norwegian bracteate inscription, heilung song referance, may change it
+  taoondewake.vinlandic_dialect: "Elrioddur"
+  #Pointe-d'Aulnes calque
+  kouate.vinlandic_dialect: "Gæsahöfði"
+  #Cap aux Oies calque
+  
+  #Kikonteku Province#
+  kikonteku.vinlandic_dialect: "Garðarnir"
+  #Des Jardins calque, Garðar might be more appropriate but already used in greenland.
+  kamitsisit.vinlandic_dialect: "Kranaeyja"
+  #l'Isle aux Grues calque
+  etchemin.vinlandic_dialect: "Katlinn"
+  #Chaudière-Appalaches - the Boiler, semi-calque
+  wachilmezi.vinlandic_dialect: "Bleikavatnið"
+  #Lac Ros calque
+  onkobagag.vinlandic_dialect: "Þjóðvað"
+  #Thetford calque
+  sartigan.vinlandic_dialect: "Gullhæðir"
+  #Gold Hills, gold is present here in the mod
+  wolastoq.vinlandic_dialect: "Austurvatn"
+  #Lac de'l Est calque
+  
+  #Rimouski#
+  rimouski.vinlandic_dialect: "Hvítursteinn"
+  #Rocher-Blanc calque
+  mitis.vinlandic_dialect: "Fallegtfjall"
+  #Mont Joli calque
+  amqui.vinlandic_dialect: "Hálfurveggur"
+  #Half Wall, one possible translation Mikmaq name
+  causapscal.vinlandic_dialect: "Grýtturbotn"
+  #Rocky Bottom, translation of Mikmaq
+  kakouna.vinlandic_dialect: "Þrjárskammbyssurá"
+  #Rivière-Trois-Pistoles calque
+  molsemtekw.vinlandic_dialect: "Úlfsá"
+  #Rivière du Loup calque
+  temiscouata.vinlandic_dialect: "Tværmílur"
+  #Le Deux-Milles calque
+  kamouraska.vinlandic_dialect: "Elgnes"
+  #Pointe-aux-Orignaux calque
+  
+  #Gaspe#
+  gaspe.vinlandic_dialect: "Vakaheim"
+  #Wakeham calque
+  chicchoc.vinlandic_dialect: "Grátandivík"
+  #Weeping Cove, l'Anse-Pleureuse
+  marsoui.vinlandic_dialect: "Höfrungaströnd"
+  #Dolphin Beach, Marsouin is vernacular french for porpoise and might be the origin of the name Marsoui
+  pewjeg.vinlandic_dialect: "Vonarhöfði"
+  #Cap-d'Espoir, Hopehead, calque
+  cascapedia.vinlandic_dialect: "Bállónið"
+  #Obtuse combination of Le Bûché-à-Louis-Rehel and Le Barachois, the Campfire Lagoon
+  paspebiac.vinlandic_dialect: "Svartavatnið"
+  #Lac Noir calque
+  matapedia.vinlandic_dialect: "Varðarnes"
+  #Pointe-à-la-Garde calque
+  matane.vinlandic_dialect: "Skjálfaflói"
+  #La Baie-des-Frissons calque
+  
+  #Saguenay#
+  chicoutimi.vinlandic_dialect: "Hafsgryfjan"
+  #Pit-de-la-Mer
+  shipshaw.vinlandic_dialect: "Slétturnar"
+  #Les Prairies
+  onatchiway.vinlandic_dialect: "Skarðannafossar"
+  #Chutes-des-Passes
+  outapimiskou.vinlandic_dialect: "Lásinn"
+  #L'Écluse, calque
+  metabetchouane.vinlandic_dialect: "Fjórtánekrurnar"
+  #Les Quatorze-Arpents, calque
+  tadoussac.vinlandic_dialect: "Kúluhöfði"
+  #Cap-de-la-Boule calque
+  
+  #Betsiamites#
+  pessamit.vinlandic_dialect: "Álavík"
+  #Eel Cove, native name means place of Eels
+  betsiamites.vinlandic_dialect: "Álfljót"
+  #Eel River, Same word as Pessamit
+  pipmuacan.vinlandic_dialect: "Örvatn"
+  #Arrow Lake, Innu
+  itomamo.vinlandic_dialect: "Oturstaður"
+  #Otter Place, Dépôt-des-Loutres
+  kitchesatsiou.vinlandic_dialect: "Veiðibúðir"
+  #Fishing Camp
+  manouanis.vinlandic_dialect: "Manvanisvatn"
+  tetepisca.vinlandic_dialect: "Sjövötnin"
+  #Les Sept-Lacs
+  essipit.vinlandic_dialect: "Langaströnd"
+  #Longue-Rive
+  manouane.vinlandic_dialect: "Húfaá"
+  #la Toque
+  
+  #Manicougan#
+  ouiauirabugu.vinlandic_dialect: "Þrenningvík"
+  #Baie-Trinité
+  toulnustouc.vinlandic_dialect: "Olnbogaá"
+  #Elbow River, Rivière du Coude
+  capotigamau.vinlandic_dialect: "Stóratávatn"
+  #Île du Gros Orteil
+  manicouagan.vinlandic_dialect: "Manikúgan"
+  mouchalagane.vinlandic_dialect: "Hornvatn"
+  #Antler Lake
+  kapuameut.vinlandic_dialect: "Eldvatn"
+  #Fire Lake
+  piletisipuk.vinlandic_dialect: "Gæsafossar"
+  #Chute-aux-Outardes
+  
+  #Uashat#
+  uashat.vinlandic_dialect: "Sjöeyjar"
+  #Sept Iles
+  nipisso.vinlandic_dialect: "Nipisá"
+  #Nipis River
+  nipissis.vinlandic_dialect: "Laxabúðir"
+  #Salmon Camp
+  caopacho.vinlandic_dialect: "Eiríksvatn"
+  #lac Éric
+  opocopa.vinlandic_dialect: "Marklandamæri"
+  #Markland Frontier
+  mistecapiu.vinlandic_dialect: "Hvítasunnuá"
+  #Pentecôte River
+  
+  #Minganie#
+  pigou.vinlandic_dialect: "Skjór"
+  #Magpie
+  aguanish.vinlandic_dialect: "Lítiðskjól"
+  #Little Shelter, native name calque
+  natashquan.vinlandic_dialect: "Steinarnir"
+  #les Galets
+  manapakuaniskau.vinlandic_dialect: "Tréúlfur"
+  #Timber Wolf, possible meaning of Mingan, kept Mingans name cause it works. 
+  uanaman.vinlandic_dialect: "Vanaman"
+  upuahpukau.vinlandic_dialect: "Brenndavatnið"
+  #Lac Brûlé
+  
+  #Mécatina#
+  mecatina.vinlandic_dialect: "Hvalahöfði"
+  #Tête-à-la-Baleine, Whale Head
+  kegaska.vinlandic_dialect: "Drulluvík"
+  #Muddy Bay
+  coacoachou.vinlandic_dialect: "Úlfavík"
+  #Wolf Bay
+  napetipi.vinlandic_dialect: "Laxvík"
+  #Salmon Bay

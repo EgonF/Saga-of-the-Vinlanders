@@ -126,4 +126,8 @@ TRY_REPLACE:nor_merchant_tradition = {
 	}
 	merchant_maintenance_cost  = -0.1
 }
+TRY_INJECT:canoe_travels = {
+	land_cost_going_upstream = -15
+	land_cost_going_downstream	= -5
+}
 
