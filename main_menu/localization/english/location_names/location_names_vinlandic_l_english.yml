@@ -429,3 +429,92 @@
   #Ardoise, Slate
   kennetook.vinlandic_dialect: "Knútsfjörður"
   #I forgot why i called it this and I didnt write it down
+
+  ################
+  ##Lower Canada##
+  ################
+  
+  ##Maisouna##
+  ekwentondie.vinlandic_dialect: "Þrjárelfagarður" #Three Rivers City
+  yamachiche.vinlandic_dialect: "Lítiðþorp" #Le Petit-Village
+  shawinigan.vinlandic_dialect: "Ásgeirsfossar" #Asgeir's Falls, Shawinigan Falls + Île Anselme-Fay
+  mekinac.vinlandic_dialect: "Skjaldbökuvatn" #Lac-a-Tortue
+  matawin.vinlandic_dialect: "Matavin"
+  
+  ##Alsigontekw##
+  alsigontekw.vinlandic_dialect: "Grímsheim" #Grantham
+  wolinak.vinlandic_dialect: "Álmviður" #Des Ormeaux
+  wabanaki.vinlandic_dialect: "Píslarvottakirkjan" #Martyrs' Church
+  arthabaska.vinlandic_dialect: "Arþabasktþorp" 
+  nebesek.vinlandic_dialect: "Þjónaholan" #Le Trou-des-Valets
+  
+  ##Megantic##
+  nikitotegwak.vinlandic_dialect: "Reykhússtaður" #Smoke House place, native calque
+  megantic.vinlandic_dialect: "Biskupaþorp" #Bishopton
+  maskikogamak.vinlandic_dialect: "Tværár" #Two Rivers
+  coaticook.vinlandic_dialect: "Kóatikkún"
+  memphremagog.vinlandic_dialect: "Silungsvatn" #Trout Lake
+  wigwomadenek.vinlandic_dialect: "Gránabýr" #Granby
+  wagowategok.vinlandic_dialect: "Járnhæð" #Iron Hill
+  
+  ##Hochelaga##
+  hochelaga.vinlandic_dialect: "Markhólmur" #boundary River-Island
+  kemoimenahan.vinlandic_dialect: "Prestsskógur" #Bois-du-Curé
+  ahkwesasne.vinlandic_dialect: "Hlynslundur" #Maple Grove
+  otennienontant.vinlandic_dialect: "Furuvirkið" #The Pine Fort
+  makigotekw.vinlandic_dialect: "Tvöfjöll" #Deux-Montagnes
+  loigan_sibo.vinlandic_dialect: "Varðvegur" #Guard Road
+  
+  ##Masoliantekw##
+  wigwomadensis.vinlandic_dialect: "Skrælingasalir" #Native Halls
+  masolian.vinlandic_dialect: "Munkaeyja" #L'Île-du-Moine
+  yamaska.vinlandic_dialect: "Jamasktvað" #Yamaska Ford
+  wdpesek.vinlandic_dialect: "Mýrkjartansstaður" #Myrkjartans Place
+  
+  ##Outaouais##
+  nagatinong.vinlandic_dialect: "Hólmurinn" #île de Hull
+  weskarini.vinlandic_dialect: "Haukabýr" #Hawkesbury
+  okaisipi.vinlandic_dialect: "Hvítfiskbúðir" #Poisson Blanc
+  quyon.vinlandic_dialect: "Jarfavík" #Plage Carcajou
+  nichabau.vinlandic_dialect: "Nýsjabá"
+  
+  ##Manitonga Soutana##
+  kiwetin_sipi.vinlandic_dialect: "Þjórsvatn" #Lac Taureau
+  mikiwam.vinlandic_dialect: "Varábuðir" #Ouareau
+  outaragasipi.vinlandic_dialect: "Trúboðsskógur" #Missionary Forest 
+  
+  ###################
+  ##Eastern Ontario##
+  ###################
+  
+  ##Kitchissippi##
+  kitchissippi.vinlandic_dialect: "Kaupgarður" #Trading Enclosure
+  pasapkedjinawong.vinlandic_dialect: "Pasakkeðyngar"
+  onontchataronon.vinlandic_dialect: "Þjórsá" #Thurso
+  maizinaazibi.vinlandic_dialect: "Snémíkóbý" #S'ni'miko'bi - Algonquin name
+  matoueska.vinlandic_dialect: "Leirströnd" #Clay Bank
+  kinozhesipi.vinlandic_dialect: "Grönnhólmur" #Île Green
+  pikwakanagan.vinlandic_dialect: "Pikvakanagan"
+  petawawa.vinlandic_dialect: "Baldursstaður" #Baelstadt
+  
+  ##Cataraqui##
+  cataraqui.vinlandic_dialect: "Úlfhólmur" #Wolfe Island
+  kahwenoke.vinlandic_dialect: "Kvenókur"
+  toniato.vinlandic_dialect: "Tonjatá"
+  gananoque.vinlandic_dialect: "Kúskirkja" #María-Kús, Church of St. Mary of the Moon, Vinlandic Church aspect of Mary. 
+  opinicon.vinlandic_dialect: "Svanvað" #Swan Crossing
+  
+  ##Kawartha##
+  otonabee.vinlandic_dialect: "Otónabý"
+  kawartha.vinlandic_dialect: "Kavarþavatn"
+  mazinaw.vinlandic_dialect: "Masináun"
+  skootamatta.vinlandic_dialect: "Skútamaður"
+  kamaniskeg.vinlandic_dialect: "Kamaniskvegur"
+  catchacoma.vinlandic_dialect: "Járndalur" #Irondale
+  kashagawigamog.vinlandic_dialect: "Vatnasalir" #Lake Halls
+  
+  ##Quinte##
+  napanee.vinlandic_dialect: "Napaný"
+  ganneious.vinlandic_dialect: "Eikarvatn" #Oak Lake
+  ganaraska.vinlandic_dialect: "Ganaraskhöfn"
+  quinte.vinlandic_dialect: "Prinsvík" #Prince Cove
