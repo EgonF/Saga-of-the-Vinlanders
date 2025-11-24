@@ -94,8 +94,10 @@
   ###Seosaidhs colonial additions###
   ##Quebec##
   #Stadacona#
-  stadacona.vinlandic_dialect: "Hólmgarður"
+  #stadacona.vinlandic_dialect: "Hólmgarður"
   # same name as Novgorod, I just like it, Open to changing it
+  stadacona.vinlandic_dialect: "Vesturhöfn"
+  #Quebec City, Western Harbor
   andawaohie.vinlandic_dialect: "Rauðabrúin"
   #Pont Rouge Calque
   ahwendoe.vinlandic_dialect: "Straumsey"
