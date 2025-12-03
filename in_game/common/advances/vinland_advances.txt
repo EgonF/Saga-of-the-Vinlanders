@@ -3,6 +3,7 @@
 
 	age = age_1_traditions
 	global_max_literacy = 5
+	global_monthly_literacy = 0.01
 	global_lumber_output_modifier = 0.10
 	
 	requires = feudalism_advance

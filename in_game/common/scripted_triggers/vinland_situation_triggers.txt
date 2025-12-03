@@ -1,0 +1,11 @@
+﻿
+TRY_REPLACE:owner_from_old_world = {
+	owner ?= {
+		OR = {
+			top_overlord_or_this ?= { capital.continent = continent:europe }
+			top_overlord_or_this ?= { capital.continent = continent:asia }
+			top_overlord_or_this ?= { capital.continent = continent:africa }
+			tag = VNL
+		}
+	}
+}
