@@ -94,8 +94,10 @@
   ###Seosaidhs colonial additions###
   ##Quebec##
   #Stadacona#
-  stadacona.vinlandic_dialect: "Hólmgarður"
+  #stadacona.vinlandic_dialect: "Hólmgarður"
   # same name as Novgorod, I just like it, Open to changing it
+  stadacona.vinlandic_dialect: "Vesturhöfn"
+  #Quebec City, Western Harbor
   andawaohie.vinlandic_dialect: "Rauðabrúin"
   #Pont Rouge Calque
   ahwendoe.vinlandic_dialect: "Straumsey"
@@ -282,12 +284,36 @@
   #Dissapointment Lake
  
   #Ashuanipi#
+  shabogamo.vinlandic_dialect: "Sjabógur"
+  ashuanipi.vinlandic_dialect: "Asjvanibý"
   kepimits.vinlandic_dialect: "Kepimið"
+  muhaukamau.vinlandic_dialect: "Múhaukamá"
+  #atikonak.vinlandic_dialect: ""
+  kamassekuakamat.vinlandic_dialect: "Kamassekvakamið"
   nipissu.vinlandic_dialect: "Hamingjudalur"
   #Happy Valley
   winokapau.vinlandic_dialect: "Vinokapá"
-
- 
+  
+  ##Michikamau##
+  mishikamau.vinlandic_dialect: "Miskíkamá"
+  menutinau.vinlandic_dialect: "Menutiná"
+  ushkau_nipi.vinlandic_dialect: "Uskánibý"
+  #attikamagen.vinlandic_dialect: ""
+  petitsikapau.vinlandic_dialect: "Petissikabá"
+  
+  ##Nunatsiavut##
+  nunainguk.vinlandic_dialect: "Núnænguk"
+  navchak.vinlandic_dialect: "Nasvíkfjörður"
+  kingmirtok.vinlandic_dialect: "Prinsmagnúsfjörður"
+  napaktok.vinlandic_dialect: "Prinshaldórsfjörður"
+  okak.vinlandic_dialect: "Prinsleifsfjörður"
+  aulatsivik.vinlandic_dialect: "Álasivík"
+  ukasikalik.vinlandic_dialect: "Úksigavík"
+  agvituk.vinlandic_dialect: "Eiríksfjörður"
+  kaipokok.vinlandic_dialect: "Kæpófjörðar"
+  aillik.vinlandic_dialect: "Karlsefnisströnd"
+  tessuialluk.vinlandic_dialect: "Skerahálsnes" #Cut Throat Cape
+  
   #################
   ##New Brunswick##
   #################
@@ -427,3 +453,915 @@
   #Ardoise, Slate
   kennetook.vinlandic_dialect: "Knútsfjörður"
   #I forgot why i called it this and I didnt write it down
+
+  ################
+  ##Lower Canada##
+  ################
+  
+  ##Maisouna##
+  ekwentondie.vinlandic_dialect: "Þrjárelfagarður" #Three Rivers City
+  yamachiche.vinlandic_dialect: "Lítiðþorp" #Le Petit-Village
+  shawinigan.vinlandic_dialect: "Ásgeirsfossar" #Asgeir's Falls, Shawinigan Falls + Île Anselme-Fay
+  mekinac.vinlandic_dialect: "Skjaldbökuvatn" #Lac-a-Tortue
+  matawin.vinlandic_dialect: "Matavin"
+  
+  ##Alsigontekw##
+  alsigontekw.vinlandic_dialect: "Grímsheim" #Grantham
+  wolinak.vinlandic_dialect: "Álmviður" #Des Ormeaux
+  wabanaki.vinlandic_dialect: "Píslarvottakirkjan" #Martyrs' Church
+  arthabaska.vinlandic_dialect: "Arþabasktþorp" 
+  nebesek.vinlandic_dialect: "Þjónaholan" #Le Trou-des-Valets
+  
+  ##Megantic##
+  nikitotegwak.vinlandic_dialect: "Reykhússtaður" #Smoke House place, native calque
+  megantic.vinlandic_dialect: "Biskupaþorp" #Bishopton
+  maskikogamak.vinlandic_dialect: "Tværár" #Two Rivers
+  coaticook.vinlandic_dialect: "Kóatikkún"
+  memphremagog.vinlandic_dialect: "Silungsvatn" #Trout Lake
+  wigwomadenek.vinlandic_dialect: "Gránabýr" #Granby
+  wagowategok.vinlandic_dialect: "Járnhæð" #Iron Hill
+  
+  ##Hochelaga##
+  hochelaga.vinlandic_dialect: "Markhólmur" #boundary River-Island
+  kemoimenahan.vinlandic_dialect: "Prestsskógur" #Bois-du-Curé
+  ahkwesasne.vinlandic_dialect: "Hlynslundur" #Maple Grove
+  otennienontant.vinlandic_dialect: "Furuvirkið" #The Pine Fort
+  makigotekw.vinlandic_dialect: "Tvöfjöll" #Deux-Montagnes
+  loigan_sibo.vinlandic_dialect: "Varðvegur" #Guard Road
+  
+  ##Masoliantekw##
+  wigwomadensis.vinlandic_dialect: "Skrælingasalir" #Native Halls
+  masolian.vinlandic_dialect: "Munkaeyja" #L'Île-du-Moine
+  yamaska.vinlandic_dialect: "Jamasktvað" #Yamaska Ford
+  wdpesek.vinlandic_dialect: "Mýrkjartansstaður" #Myrkjartans Place
+  
+  ##Outaouais##
+  nagatinong.vinlandic_dialect: "Hólmurinn" #île de Hull
+  weskarini.vinlandic_dialect: "Haukabýr" #Hawkesbury
+  okaisipi.vinlandic_dialect: "Hvítfiskbúðir" #Poisson Blanc
+  quyon.vinlandic_dialect: "Jarfavík" #Plage Carcajou
+  nichabau.vinlandic_dialect: "Nýsjabá"
+  
+  ##Manitonga Soutana##
+  kiwetin_sipi.vinlandic_dialect: "Þjórsvatn" #Lac Taureau
+  mikiwam.vinlandic_dialect: "Varábuðir" #Ouareau
+  outaragasipi.vinlandic_dialect: "Trúboðsskógur" #Missionary Forest 
+  
+  ###################
+  ##Eastern Ontario##
+  ###################
+  
+  ##Kitchissippi##
+  kitchissippi.vinlandic_dialect: "Kaupgarður" #Trading Enclosure
+  pasapkedjinawong.vinlandic_dialect: "Pasakkeðyngar"
+  onontchataronon.vinlandic_dialect: "Þjórsá" #Thurso
+  maizinaazibi.vinlandic_dialect: "Snémíkóbý" #S'ni'miko'bi - Algonquin name
+  matoueska.vinlandic_dialect: "Leirströnd" #Clay Bank
+  kinozhesipi.vinlandic_dialect: "Grönnhólmur" #Île Green
+  pikwakanagan.vinlandic_dialect: "Pikvakanagan"
+  petawawa.vinlandic_dialect: "Baldursstaður" #Baelstadt
+  
+  ##Cataraqui##
+  cataraqui.vinlandic_dialect: "Úlfhólmur" #Wolfe Island
+  kahwenoke.vinlandic_dialect: "Kvenókur"
+  toniato.vinlandic_dialect: "Tonjatá"
+  gananoque.vinlandic_dialect: "Kúskirkja" #María-Kús, Church of St. Mary of the Moon, Vinlandic Church aspect of Mary. 
+  opinicon.vinlandic_dialect: "Svanvað" #Swan Crossing
+  
+  ##Kawartha##
+  otonabee.vinlandic_dialect: "Otónabý"
+  kawartha.vinlandic_dialect: "Kavarþavatn"
+  mazinaw.vinlandic_dialect: "Masináun"
+  skootamatta.vinlandic_dialect: "Skútamaður"
+  kamaniskeg.vinlandic_dialect: "Kamaniskvegur"
+  catchacoma.vinlandic_dialect: "Járndalur" #Irondale
+  kashagawigamog.vinlandic_dialect: "Vatnasalir" #Lake Halls
+  
+  ##Quinte##
+  napanee.vinlandic_dialect: "Napaný"
+  ganneious.vinlandic_dialect: "Eikarvatn" #Oak Lake
+  ganaraska.vinlandic_dialect: "Ganaraskhöfn"
+  quinte.vinlandic_dialect: "Prinsvík" #Prince Cove
+
+  #################
+  ##Haudenosaunee##
+  #################
+  
+  ##Oswegatchie##
+  nikahionhwakowa.vinlandic_dialect: "Þriggjamílnavík" #Three Mile Bay
+  oswegatchie.vinlandic_dialect: "Osvegasjý"
+  ahkwesasne_ny.vinlandic_dialect: "Lúðvíksþorp" #Louisville
+  kaniatarahontsi.vinlandic_dialect: "Eikardalsborg" #Ogdensburg
+  ahna_wate.vinlandic_dialect: "Markfjöll" #Boundary Mountains
+  
+  ##Adirondacks##
+  ticonderoga.vinlandic_dialect: "Tækonðarógan"
+  itekiatonhniarikon.vinlandic_dialect: "Krýningarskjöldur" #Crowning Shield
+  oskennonton.vinlandic_dialect: "Pálsborg" #Plattsburgh inspired, Paul's town
+  oronia.vinlandic_dialect: "Gömulsmiðja" #Old Forge
+  oneyotdehaga.vinlandic_dialect: "Onæjóttaga"
+  kawenote.vinlandic_dialect: "Háfjalla" #High Peaks
+  tsiietsenhtha.vinlandic_dialect: "Síessenið"
+  adirondacks.vinlandic_dialect: "Hatirýdax"
+  kanyengehaga.vinlandic_dialect: "Kanjængevegur"
+  
+  ##Kanienkehaka##
+  canajoharie.vinlandic_dialect: "Efriborg" #Calque of mohawk name, upper castle
+  saratoga.vinlandic_dialect: "Sörulindir" #Norsified native name, Sara's Springs
+  schenectady.vinlandic_dialect: "Skénektaðý"
+  teionontatatie.vinlandic_dialect: "Tæjonntádý"
+  oneonta.vinlandic_dialect: "Borðsteinn" #Table Rock
+  
+  ##Onyotaaka##
+  onenioteke.vinlandic_dialect: "Skrælingalög" #Skrælinglaw
+  niiohehsane.vinlandic_dialect: "Níjöxanær"
+  teiehonwahkhkwatha.vinlandic_dialect: "Skógarströnd" #Sylvan Beach
+  oneniote.vinlandic_dialect: "Býjarbúðir" #Farming Camp
+  
+  ##Onondagega##
+  tsikahiotsisto.vinlandic_dialect: "Síkahjosistur"
+  oswego.vinlandic_dialect: "Osvegur"
+  otsiningo.vinlandic_dialect: "Ossinyngur"
+  
+  ##Gayogohono##
+  skaniatares.vinlandic_dialect: "Eiksalir" #Oak Halls
+  assorodus.vinlandic_dialect: "Bláberjamýri" #Huckleberry Swamp
+  gahato.vinlandic_dialect: "Hestahöfuð" #Horse Heads
+  
+  ##Onondowaga##
+  canadaigua.vinlandic_dialect: "Kanadækva"
+  irondequoit.vinlandic_dialect: "Björgvin" #Bergen
+  geneseo.vinlandic_dialect: "Silfurlindir" #Silver Springs
+  tsonentsiio.vinlandic_dialect: "Sonenssið"
+  
+  ##Wenro##
+  tiotoren.vinlandic_dialect: "Vísundaborg" #Buffalo
+  kanentaweron.vinlandic_dialect: "Kanentaværan"
+  thahnawate.vinlandic_dialect: "Þegnavað" #Thegnsford, Norsified name
+  cattaraugus.vinlandic_dialect: "Kattarágús"
+  ahouenro.vinlandic_dialect: "Akvenur"
+  
+  #########
+  ##Maine##
+  #########
+  
+  ##Aroostook##
+  aroostook.vinlandic_dialect: "Aröstökkur"
+  meduxnekeag.vinlandic_dialect: "Meðyxóvegur"
+  allagash.vinlandic_dialect: "Kanóströnd"
+  
+  ##Passamaquoddy##
+  passamaquoddy.vinlandic_dialect: "Elghorn" #Moose Horn
+  machias.vinlandic_dialect: "Slæmirfossar" #Calque of native name, bad falls
+  nicatous.vinlandic_dialect: "Nikatús"
+  maatawamkeag.vinlandic_dialect: "Mátavamsskógur"
+  
+  ##Kineo##
+  kineo.vinlandic_dialect: "Vatnavík" #Lake Cove, Northwest Cove
+  caratunk.vinlandic_dialect: "Messinghólm" #Brass Islet
+  kennebango.vinlandic_dialect: "Kennebængá"
+  nanrantsouak.vinlandic_dialect: "Löngtjörn" #Long Pond
+  mittaywanquam.vinlandic_dialect: "Hestaskórinn" 
+  
+  ##Kennebec##
+  kennebec.vinlandic_dialect: "Kennebek"
+  sagadahoc.vinlandic_dialect: "Sagaðafjörðar" 
+  messalonskee.vinlandic_dialect: "Messalún"
+  norridgewock.vinlandic_dialect: Nanransþorp"
+  
+  ##Casco##
+  casco.vinlandic_dialect: "Dádýrahöfn" #Deer Harbor
+  kennebunk.vinlandic_dialect: "Furuvík" #Pine Cove
+  androscoggin.vinlandic_dialect: "Andrésarskógur"
+  pequawket.vinlandic_dialect: "Pekvákið"
+  ammoscongon.vinlandic_dialect: "Amóskyngún"
+  anasagunticook.vinlandic_dialect: "Anasagúnið"
+
+  ##Penobscot##
+  penobscot.vinlandic_dialect: "Fléttagarður" #Wattled Enclosure, calque of Bangor, Wales. 
+  majabigwaduce.vinlandic_dialect: "Vetrarhöfn" #Winterport
+  piscataquis.vinlandic_dialect: "Miðjavað" #Medford
+  passagassawkeag.vinlandic_dialect: "Uglanes" #Owl Headland
+  pemetic.vinlandic_dialect: "Fjarlægrihöfn" #Far Harbor - Fallout referance
+  millinocket.vinlandic_dialect: "Silfurskógur" #Silverwood
+  katahdin.vinlandic_dialect: "Hlíðarsbýr"
+  
+  ###########################
+  ##New Hampshire & Vermont##
+  ###########################
+  
+  ##Pennacook##
+  pennacook.vinlandic_dialect: "Byssuskotfjall" #Gunstock Mountain
+  umbagog.vinlandic_dialect: "Hvíttfjall" #White Mountain
+  pemigewasset.vinlandic_dialect: "Kanaan" #Canaan
+  ossipee.vinlandic_dialect: "Ossibý"
+  
+  ##Merrimac##
+  amoskeag.vinlandic_dialect: "Brjóstborg" #Manchester, etymological calque by way of the place in England
+  nashua.vinlandic_dialect: "Námufossar" #Mine falls
+  squamscott.vinlandic_dialect: "Hafnarmunn" #Portmouth
+  
+  ##Coos##
+  monadnock.vinlandic_dialect: "Akurgarður" #Chesterfield, Fortified Field
+  sunapee.vinlandic_dialect: "Hvíturvöllur" #Whitefield
+  coos.vinlandic_dialect: "Hróbjartsvatn" #Robert's Lake
+  ammonoosuc.vinlandic_dialect: "Rannúlfshæð" #Randolph Hill
+  
+  ##Winooski##
+  winooski.vinlandic_dialect: "Víðfjall" #Montpelier, Woad Mountain
+  gwenaska.vinlandic_dialect: "Bærlingabýr" #Burlington
+  koes.vinlandic_dialect: "Djúrabýr" #Derby
+  nitamibontegw.vinlandic_dialect: "Miðbýr" #Middlebury
+  
+  ##Walloomsac##
+  walloomsac.vinlandic_dialect: "Hvíturlækur" #White Creek
+  pecunktuk.vinlandic_dialect: "Hryþaland" #Rutland
+  wantastiquet.vinlandic_dialect: "Brýnsteinslækur" #Whetstone Brook
+  
+  ##Cowasuk##
+  ottauquechee.vinlandic_dialect: "Hvítaáin" #White River
+  ompompanusooc.vinlandic_dialect: "Rúghlið" #Ryegate
+  passumpsic.vinlandic_dialect: "Sigurskógur" #Victory Forest
+  cowasuck.vinlandic_dialect: "Varðberg" #Sentinel Rock
+
+  ##########################################
+  ##Massachusetts and Southern New England##
+  ##########################################
+  
+  ##Massachusetts##
+  shawmut.vinlandic_dialect: "Bótólfshöfn" #Boston
+  naumkeag.vinlandic_dialect: "Plómueyja" #Plum Island
+  assabet.vinlandic_dialect: "Breiðvað" #Broadford
+  quinsigamond.vinlandic_dialect: "Uxabrú" #Oxbridge
+  weshacum.vinlandic_dialect: "Ljónaklaustur" #Leominster
+  
+  ##Agawam##
+  agawam.vinlandic_dialect: "Fæðuhæðir" #Feeding Hills
+  pocumtuck.vinlandic_dialect: "Dádýravöllur" #Deerfield
+  mahaiwe.vinlandic_dialect: "Hjartabýr" #Hartsville
+  pontoosuck.vinlandic_dialect: "Askavað" #Ashford
+  
+  ##Nauset##
+  patuxet.vinlandic_dialect: "Gráströnd" #Grey Beach
+  assonet.vinlandic_dialect: "Boðsvað" #Bedford
+  nauset.vinlandic_dialect: "Þorskhöfði" #Cape Cod, Cod Headland
+  nantucket.vinlandic_dialect: "Víngarðseyjar" #Vineyard
+  
+  ##Narraganset##
+  seekonk.vinlandic_dialect: "Rauðeyja" #Rhode Island, potentially from dutch name for red island
+  woonsocket.vinlandic_dialect: "Sátt" #Harmony
+  pawcatuck.vinlandic_dialect: "Vervík" #Warwick
+  
+  ##Connecticut##
+  saukiog.vinlandic_dialect: "Sákjógur"
+  siccanemos.vinlandic_dialect: "Attavín" #Attawin
+  willimantic.vinlandic_dialect: "Gamallofn" #Old Furnace
+  nehantuck.vinlandic_dialect: "Fenjavík" #Fen Bay
+  ##Quinnipiac##
+  quinnipiac.vinlandic_dialect: "Nýjahöfnin" #Newhaven
+  rippowam.vinlandic_dialect: "Blíðvöllur" #Fairfield
+  scatacook.vinlandic_dialect: "Fossaþorp" #Falls Village
+
+  ##########
+  ##Hudson##
+  ##########
+  
+  ##Mahicannituck##
+  mahicannituck.vinlandic_dialect: "Trója" #Troy
+  horicon.vinlandic_dialect: "Dalsfossar" #Glensfalls
+  esquatak.vinlandic_dialect: "Krælá" #Crailo
+  lenape.vinlandic_dialect: "Slöngulendir" #Slingerlands
+  
+  ##Muhhekantuck##
+  poughkeepsie.vinlandic_dialect: "Leiðarljós" #Beacon
+  ponkhockie.vinlandic_dialect: "Kattalækur" #Catskill
+  minisink.vinlandic_dialect: "Spörfuglsrunna" #Sparrowbush
+  kitchawanc.vinlandic_dialect: "Klettafjörður" #Firthcliff
+  
+  ##Mannahatta##
+  manhattan.vinlandic_dialect: "Mannahólmur" #Norsified Manhattan, Nýja-Jorvíks too obvious
+  tappan.vinlandic_dialect: "Nýborg" #New City
+  nochpeem.vinlandic_dialect: "Skerjadalur" #Scarsdale
+  
+  ##Montauk##
+  montauk.vinlandic_dialect: "Víknes" #Bay Point
+  unquachog.vinlandic_dialect: "Langaeyjan" #Long Island
+  massapequa.vinlandic_dialect: "Höfuðgarður" #Headland Enclosure
+
+  ###################
+  ##Western Ontario##
+  ###################
+  
+  ##Wendake##
+  ouentarionk.vinlandic_dialect: "Vendarjún"
+  cahiague.vinlandic_dialect: "Kahjægur"
+  kaotia.vinlandic_dialect: "Rauðbrystingsfjörður" #Robin Point + Fjord
+  scanonaenrat.vinlandic_dialect: "Skanænrið"
+  ossossane.vinlandic_dialect: "Blávatnsströnd" #Bluewater Beach
+  
+  ##Tkaronto##
+  tkaronto.vinlandic_dialect: "Einarshöfn"
+  oshawa.vinlandic_dialect: "Ausjá"
+  scugog.vinlandic_dialect: "Norðurljós" #Aurora
+  haskaont.vinlandic_dialect: "Nýrmarkaður" #Newmarket
+  missinihe.vinlandic_dialect: "Misisága" #Mississauga
+  tetioneshohon.vinlandic_dialect: "Tjandaga" #Tyandaga
+  
+  ##Ehwae##
+  etharita.vinlandic_dialect: "Eþarið"
+  ehwae.vinlandic_dialect: "Kvær"
+  garafraxa.vinlandic_dialect: "Írsktvatn" #Irish Lake
+  eramosa.vinlandic_dialect: "Eramós"
+  
+  ##Niagara##
+  macassa.vinlandic_dialect: "Grimsbýr" #Grimsby
+  niagara.vinlandic_dialect: "Miklirfossar" #Great Falls
+  nissouri.vinlandic_dialect: "Hólmdalur" #Holmedale
+  kandoucho.vinlandic_dialect: "Svartheiði" #Black Heath
+  kenhionatatie.vinlandic_dialect: "Kirkjubúðir" #Selkirk Camp
+  
+  ##Ganatchio##
+  tekahionhake.vinlandic_dialect: "Tekahjónagur"
+  kanagio.vinlandic_dialect: "Hátthlið" #Highgate
+  ganatchio.vinlandic_dialect: "Vitavík" #Lighthouse cove
+  bkwejanong.vinlandic_dialect: "Ketilnes" #Kettle Point
+  
+  ##Karegnondi##
+  menesetung.vinlandic_dialect: "Gullnavík" #Baie Du Doré
+  saugeen.vinlandic_dialect: "Ságín"
+  dehskan_ziibi.vinlandic_dialect: "Dexansibý"
+  nochemoweniing.vinlandic_dialect: "Ljónshöfuð"
+  
+  ####################
+  ##Northern Ontario##
+  ####################
+  
+  ##Timiskaming##
+  matabichuan.vinlandic_dialect: "Matabisjún"
+  matachewan.vinlandic_dialect: "Matasjún"
+  #sessekinika.vinlandic_dialect: ""
+  mattawa.vinlandic_dialect: "Matáva"
+  #opimika.vinlandic_dialect: ""
+  
+  ##Wanapitei##
+  wanapitei.vinlandic_dialect: "Vanapitær"
+  #onaping.vinlandic_dialect: ""
+  #pogamasing.vinlandic_dialect: ""
+  temagami.vinlandic_dialect: "Temagamý"
+  
+  ##Manitoulin##
+  manitoulin.vinlandic_dialect: "Berjaeyja"  #Berry Island
+  wemitigoj.vinlandic_dialect: "Kalkúnasteinn" #Bustard Rock
+  eskimanetigon.vinlandic_dialect: "Lævísrefurströnd" #Sly Fox Island
+  mississagi.vinlandic_dialect: "Misisagý"
+  
+  ##Nipissing##
+  nosbonsing.vinlandic_dialect: "Norðurflói" #North Bay
+  #nipissing.vinlandic_dialect: ""
+  powassan.vinlandic_dialect: "Pávasan"
+  memesagamesing.vinlandic_dialect: "Tunnunes" #Pointe au Baril
+  nemag.vinlandic_dialect: "Nemagur"
+  
+  ##Shawanaga##
+  shawanaga.vinlandic_dialect: "Rósaeyvík" #Rose Island
+  cognashene.vinlandic_dialect: "Kogaskan"
+  kahshe.vinlandic_dialect: "Kaxá"
+  magnetawan.vinlandic_dialect: "Magnedávan"
+  
+  ###############
+  ##Laurentians##
+  ###############
+  
+  ##Peribonka##
+  mistassibi.vinlandic_dialect: "Mistasibý"
+  samaqua.vinlandic_dialect: "Samakva"
+  ouasimesca.vinlandic_dialect: "Vasimeskur"
+  nestaocano.vinlandic_dialect: "Nestákaná"
+  tchitogama.vinlandic_dialect: "Skíðogum"
+  peribonka.vinlandic_dialect: "Pétursá"
+  onistagane.vinlandic_dialect: "Onistagan"
+  machisque.vinlandic_dialect: "Masískavegur"
+  
+  ##Piekouagami##
+  ashuapmushuan.vinlandic_dialect: "Asvabús"
+  kanishushteu.vinlandic_dialect: "Kanishús"
+  chigoubiche.vinlandic_dialect: "Sigúbý"
+  nicabau.vinlandic_dialect: "Nikabá"
+  ouiatchouaniche.vinlandic_dialect: "Vjasvanið"
+  
+  ##Nistassinan##
+  opiticiwan.vinlandic_dialect: "Ópitiðivan"
+  oskelaneo.vinlandic_dialect: "Askaland
+  minkaniciciw.vinlandic_dialect: "Minganið"
+  wemotaci.vinlandic_dialect: "Vemótið"
+  maskotci.vinlandic_dialect: "Maskotið"
+  #metabeskega.vinlandic_dialect: ""
+  kokokachi.vinlandic_dialect: "Kókkasið"
+  cikakw_sipi.vinlandic_dialect: "Þikakúsibý"
+  kiskissink.vinlandic_dialect: "Kiskingur"
+  wayagamac.vinlandic_dialect: "Vegamagur"
+  
+  ##Upper Gatineau##
+  kitigan_zibi.vinlandic_dialect: "Kitigansibý"
+  baskatong.vinlandic_dialect: "Basknetunga"
+  poigan.vinlandic_dialect: "Pöygan"
+  picanoc.vinlandic_dialect: "Pikanok"
+  tapani.vinlandic_dialect: "Tabaný"
+  kiamika.vinlandic_dialect: "Kjamíka"
+  kanegaok.vinlandic_dialect: "Kanegá"
+  
+  ##Temiscamingue##
+  temiscamingue.vinlandic_dialect: "Temiskamingvegur"
+  maganasipi.vinlandic_dialect: "Magansibý"
+  kippawa.vinlandic_dialect: "Kippá"
+  winneway.vinlandic_dialect: "Vínivegur"
+  kinojevis.vinlandic_dialect: "Kinós"
+  osisko.vinlandic_dialect: "Osiská"
+  kitcisakik.vinlandic_dialect: "Kisiðegur"
+  kakibonga.vinlandic_dialect: "Kakibunga"
+  cawassiemica.vinlandic_dialect: "Kvassýmikk"
+  capimitchigama.vinlandic_dialect: "Kapimisigama"
+  
+  #############
+  ##Allegheny##
+  #############
+  
+  ##Erie##
+  erie.vinlandic_dialect: "Langurhalihöfn" #Long Tail, Native Calque
+  saucunk.vinlandic_dialect: "Sákungur"
+  shenango.vinlandic_dialect: "Sénængá"
+  tionesta.vinlandic_dialect: "Þjóðskógur"
+  #kittaning.vinlandic_dialect: ""
+  punxsutawney.vinlandic_dialect: "Jarðhnetsskuggi" #Groundhog's Shadow
+  
+  ##Lycoming##
+  loyalsock.vinlandic_dialect: "Elgmark" #Elk Forest
+  lycoming.vinlandic_dialect: "Lækomingur"
+  tangasootack.vinlandic_dialect: "Reykhúsá" #Smoke Run
+  andastoerrhonon.vinlandic_dialect: "Andastöran"
+  susquehannock.vinlandic_dialect: "Suskahanskógur"
+  
+  ##Allegheny##
+  allegheny.vinlandic_dialect: "Leifsborg"
+  loyalhanna.vinlandic_dialect: "Löyjaland"
+  youghiogheny.vinlandic_dialect: "Jújoganý"
+  quemahoning.vinlandic_dialect: "Kvemahan"
+  conemaugh.vinlandic_dialect: "Konemá"
+  
+  ########
+  ##Ohio##
+  ########
+  
+  ##Cuyahoga##
+  cuyahoga.vinlandic_dialect: "Sjöhæðir" #Seven Hills
+  ashtabula.vinlandic_dialect: "Nýmark" #New March
+  mahoning_oh.vinlandic_dialect: "Hlöðsalir" #Halls of Fame, Canton
+  tuscarawas.vinlandic_dialect: "Tuskaráhús"
+  
+  ##Sandusky##
+  sandusky.vinlandic_dialect: "Sandús"
+  maumee.vinlandic_dialect: "Mámýr"
+  qusquasrundee.vinlandic_dialect: "Kúskvasrún"
+  shapoquate.vinlandic_dialect: "Sjapókvið"
+  
+  ##Muskingum##
+  muskingum.vinlandic_dialect: "Bjarnalög" #Barlow
+  captina.vinlandic_dialect: "Jórsalir" #Jerusalem
+  conotton.vinlandic_dialect: "Gataborg" #Strasburg
+  
+  ##Scioto##
+  olentangy.vinlandic_dialect: "Karlsefni" #Columbus
+  chianouske.vinlandic_dialect: "Síjanús"
+  scioto.vinlandic_dialect: "Skjótá"
+  ethapetha.vinlandic_dialect: "Eþapið"
+  hocking.vinlandic_dialect: "Steinbrú" #Rockbridge
+  kokosing.vinlandic_dialect: "Heiði" #Heath
+  
+  ##Mineami##
+  assereniet.vinlandic_dialect: "Halldórsgarður" #Cincinnati, Halldórr was a similar figure to Cincinnatus early in Vinlands history
+  mameiwasipi.vinlandic_dialect: "Mævasibý"
+  mineami.vinlandic_dialect: "Minjamý"
+  pickawillany.vinlandic_dialect: "Pikkavilaný"
+
+  ############
+  ##Michigan##
+  ############
+  
+  ##Waawiiyaataanong##
+  waawiiyaataanong.vinlandic_dialect: "Vitagarður" #Boundary City
+  giwitatigweiasibi.vinlandic_dialect: "Dádýranes" #Deer Point
+  osaakiiwaki.vinlandic_dialect: "Árhlið" #River Gate
+  shiawasee.vinlandic_dialect: "Sjavasý"
+  
+  ##Saginaw##
+  saginaw.vinlandic_dialect: "Víkborg" #Bay City
+  shebeon.vinlandic_dialect: "Þumalinn" #The Thumb
+  tittabawassee.vinlandic_dialect: "Titabavasý"
+  #saganing.vinlandic_dialect: 
+  
+  ##Cheboygan##
+  cheboygan.vinlandic_dialect: "Fingurgómar" #Fingertips
+  wequetong.vinlandic_dialect: "Trúboðsvík" #Mission Point Bay
+  asiniike.vinlandic_dialect: "Þrumavík" #Thunder Bay
+  manistee.vinlandic_dialect: "Jarfistaður" #Wolverine Place
+  
+  #Muskeegon##
+  muskegon.vinlandic_dialect: "Sandströnd" #Dune Harbor
+  onekama.vinlandic_dialect: "Nodipekagur"
+  mastigon.vinlandic_dialect: "Brautryðjendaskógur" #Pioneer
+  
+  ##Owashtanong##
+  wabenasibi.vinlandic_dialect: "Vavenasibý"
+  owashtanong.vinlandic_dialect: "Stórarflúðir" #Grand Rapids
+  kalamazoo.vinlandic_dialect: "Kalamasú"
+  sakiwasipi.vinlandic_dialect: "Sakivasibý"
+  wapikisko.vinlandic_dialect: "Vapisktland"
+  
+  ##Mackinac##
+  mackinac.vinlandic_dialect: "Norðurnes" #Northern Penninsula
+  tahquamenon.vinlandic_dialect: "Hvítfiskvík" #Whitefish Bay
+  manistique.vinlandic_dialect: "Nábinvegur" #Naubinway
+  
+  ##Menominee##
+  ishpeming.vinlandic_dialect: "Jalmar" #Yalmar
+  menominee.vinlandic_dialect: "Snigilskeljarhöfn" #Snail Shell Harbor
+  keweenaw.vinlandic_dialect: "Koparhöfn" #Copper Harbor
+  chicagon.vinlandic_dialect: "Járná" #Iron River
+  ontonagon.vinlandic_dialect: "Eldstál" #Fire Steel
+  
+  ###########
+  ##Indiana##
+  ###########
+  
+  ##Wapinippi##
+  oheyandewa.vinlandic_dialect: "Stórareikar" #Big Oaks
+  aankwaahsakwa.vinlandic_dialect: "Angvaxaá"
+  wapinippi.vinlandic_dialect: "Vapinibý"
+  
+  ##Piankeshaw##
+  agouasaque.vinlandic_dialect: "Hvasækur"
+  patoka.vinlandic_dialect: "Þýskurbýr" #German Farm
+  gichthanne.vinlandic_dialect: "Gisþani"
+  
+  ##Wea##
+  wapahani.vinlandic_dialect: "Vapahaný"
+  quiaghtena.vinlandic_dialect: "Kvíahðan"
+  mississinewa.vinlandic_dialect: "Kirkjavað" #Church Ford
+  
+  ##Kankakee##
+  kankakee.vinlandic_dialect: "Sköllótthæð" #Mount Baldy
+  pakamik.vinlandic_dialect: "Seljabýr" #Shelby
+  wabash.vinlandic_dialect: "Vabasktland"
+  
+  ##Atchakangouen##
+  kociihsasiipi.vinlandic_dialect: "Koðíxasíbý"
+  tippecanoe.vinlandic_dialect: "Veltiskipi" #Tipped Ship. Just for fun
+  micewehudehik.vinlandic_dialect: "Suðurbeygja" #South Bend
+  kineepikwameekwa.vinlandic_dialect: "Sigurðsbýr" #Sigurds Farm
+  
+  ############
+  ##Illinois##
+  ############
+  
+  ##Checagou##
+  checagou.vinlandic_dialect: "Vindgarður" #Wind City
+  tiatiki.vinlandic_dialect: "Frjálsvað" #Frank Ford, Free Ford
+  pisticoui.vinlandic_dialect: "Undurvatn" #Crystal Lake, Miracle Lake
+  
+  ##Kishwaukee##
+  kishwaukee.vinlandic_dialect: "Kisváký"
+  ahsenisiipi.vinlandic_dialect: "Axenisíbý"
+  pecatonica.vinlandic_dialect: "Pekatonegur"
+  peewareewa.vinlandic_dialect: "Pífjari"
+  
+  ##Peoria##
+  peoria.vinlandic_dialect: "Pjóría"
+  theakeiki.vinlandic_dialect: "Þjakægý"
+  waupecan.vinlandic_dialect: "Vápekan"
+  sangamon.vinlandic_dialect: "Sængaman"
+  matsigame.vinlandic_dialect: "Masigami"
+  
+  ##Cahokia##
+  cahokia.vinlandic_dialect: "Kahókía"
+  kaskaskia.vinlandic_dialect: "Kaskaskía"
+  kaskankaham.vinlandic_dialect: "Kaskangaheim"
+  #amonokoa.vinlandic_dialect: ""
+  macoupin.vinlandic_dialect: "Makúpin"
+  
+  ##Mitchigamea##
+  ochechiton.vinlandic_dialect: "Osjeskið"
+  pawwikamsipi.vinlandic_dialect: "Pávikamsibý"
+  mitchigamea.vinlandic_dialect: "Misigamía"
+  
+  ##Mengakonkia##
+  ambraw.vinlandic_dialect: "Ambrá"
+  osanamon.vinlandic_dialect: "Osanaman"
+  okaw.vinlandic_dialect: "Óká"
+  
+  #############
+  ##Wisconsin##
+  #############
+  
+  ##Millioke##
+  millioke.vinlandic_dialect: "Miljókí"
+  kenosha.vinlandic_dialect: "Kenós"
+  sheboygan.vinlandic_dialect: "Séböygan"
+  koshkonong.vinlandic_dialect: "Koskonungur"
+  
+  ##Boojwiikwedong##
+  boojwiikwedong.vinlandic_dialect: "Búsvík"
+  manitowoc.vinlandic_dialect: "Systurhöfði" #Sister Point
+  oconto.vinlandic_dialect: "Ókontá"
+  peshtigo.vinlandic_dialect: "Pestegur"
+  muhwaosipi.vinlandic_dialect: "Hvásibý"
+  
+  ##Meskousing##
+  meskousing.vinlandic_dialect: "Meskúsingar"
+  aupuhkirakanewe.vinlandic_dialect: "Ápúkirakani"
+  whaypaw.vinlandic_dialect: "Hvæpá"
+  kakaling.vinlandic_dialect: "Kakalingar"
+  
+  ##Mendota##
+  mendota.vinlandic_dialect: "Menðótt"
+  pecatonica_wi.vinlandic_dialect: "Heslihnetustaður" #Hazel Green
+  kiwigapawa.vinlandic_dialect: "Kivegapá"
+  
+  ##Chequamegon##
+  gaamiskwaabikaang.vinlandic_dialect: "Postulaeyjar" #Apostle Islands
+  chequamegon.vinlandic_dialect: "Séhvamegan"
+  kayeskikan.vinlandic_dialect: "Kæjestikan"
+  mishkwagokag.vinlandic_dialect: "Miskuvagur"
+  kinnickinnic.vinlandic_dialect: "Krossvað" #Lac Saint Cross + ford
+  
+  ##Pokemaga##
+  enookwasaneenah.vinlandic_dialect: "Hundaeng" #Prairie du Chien
+  waumandee.vinlandic_dialect: "Vámanðý"
+  hahatououadeba.vinlandic_dialect: "Sapávafossar" #Chippewa Falls
+  pokegama.vinlandic_dialect: "Kyndillskógur" #Flambeau Forest
+  odaawaa.vinlandic_dialect: "Oddvegur"
+  sappah.vinlandic_dialect: "Kyndillá" #Flambeau River
+  
+  ########################
+  ##Northwestern Ontario##
+  ########################
+  
+  ##Baawitigon##
+  baawitigong.vinlandic_dialect: "Garðá" #Garden River
+  batchawana.vinlandic_dialect: "Hestaskórvík" #Horseshoe Bay
+  michipicoten.vinlandic_dialect: "Misibýkotan"
+  agawa_superio.vinlandic_dialect: "Agávavík" #Agawa Bay
+  manitowik.vinlandic_dialect: "Manitóvík"
+  pekatek.vinlandic_dialect: "Kaldbrunnur" #Cold Well
+  aguasabon.vinlandic_dialect: "Hvasaban"
+  
+  ##Nipigong##
+  nipigon.vinlandic_dialect: "Svartavík" #Black Bay
+  namewaminikan.vinlandic_dialect: "Namevaminikan"
+  ombabika.vinlandic_dialect: "Minatarý"
+  wabinosh.vinlandic_dialect: "Vabinós"
+  kaitotikwia.vinlandic_dialect: "Mávavík" #Gull Bay
+  
+  ##Kaministiquia##
+  kaministiquia.vinlandic_dialect: "Norðanþrumavík" #Thunder Bay
+  kakabeka.vinlandic_dialect: "Nýjafinnmark" #Finmark, New Finnmark
+  neebing.vinlandic_dialect: "Burðar" #Grand Portage
+  minong.vinlandic_dialect: "Draugeyja" #Windigo, Draugur Island
+  
+  ############
+  ##Superior##
+  ############
+  
+  ##Mathoskabde##
+  mathoskabde.vinlandic_dialect: "Pálsgarður" #St. Paul
+  ginebig.vinlandic_dialect: "Sandsteinn" #Sandstone
+  misi_zaaga_igan.vinlandic_dialect: "Krákuvængur" #Crow Wing
+  minnewawa.vinlandic_dialect: "Ópstaður" #Opstead
+  
+  ##Nemadjii##
+  nemadji.vinlandic_dialect: "Vesturhlið" #Western Gate
+  wissakode.vinlandic_dialect: "Rauðasteinvík" #Red Stone Cove
+  makoua.vinlandic_dialect: "Bjórvík" #Beaver Bay
+  kitchigumi.vinlandic_dialect: "Djöflavatn" #Devil Track lake, Devil Lake
+  
+  ##Koochiching##
+  koochiching.vinlandic_dialect: "Birkidalur" #Birchdale
+  miskwaagamiiwi.vinlandic_dialect: "Skógarvatn" #Lake of the Woods
+  mesabi.vinlandic_dialect: "Mesabý"
+  neemannee.vinlandic_dialect: "Eiríksborg" #Ericsburg
+  kawishiwi.vinlandic_dialect: "Silfurflúðir" #Silver Rapids
+  
+  ####################################
+  ##Abiibi Uplands - Greenstone Belt##
+  ####################################
+  
+  ##Missinaibi##
+  kapuskasing.vinlandic_dialect: "Kapúskasingar"
+  missinaibi.vinlandic_dialect: "Missinæbý"
+  #nemegosenda.vinlandic_dialect: ""
+  otapingshewee.vinlandic_dialect: "Otapingsívý"
+  tionaga.vinlandic_dialect: "Tjónagur"
+  wakusimi.vinlandic_dialect: "Vakúsimý"
+  mattawishkwia.vinlandic_dialect: "Mataviskvía"
+  
+  ##Mattagami##
+  kenogamissi.vinlandic_dialect: "Kenógamisý"
+  mattagami.vinlandic_dialect: "Mattagamý"
+  buskegau.vinlandic_dialect: "Buskegá"
+  mistango.vinlandic_dialect: "Mistængún"
+  #nahma.vinlandic_dialect: ""
+  piscoutagami.vinlandic_dialect: "Piskútagamý"
+  mattawasaga.vinlandic_dialect: "Mattávasaga"
+  
+  ##Kenogami##
+  nagagami.vinlandic_dialect: "Nagamý"
+  watistiguam.vinlandic_dialect: "Hvíldarbúðir" #Resting Camp
+  achikamii.vinlandic_dialect: "Asikamý"
+  kabinakagami.vinlandic_dialect: "Veiðistaður" #Hunting Spot
+  pagwachuan.vinlandic_dialect: "Pakvasvann"
+  ginoogaming.vinlandic_dialect: "Ginúgamingar"
+  
+  ############
+  ##Keewatin##
+  ############
+  
+  ##Minitig##
+  atikwa.vinlandic_dialect: "Langbogavatn" #Longbow Lake
+  #saganaga.vinlandic_dialect: ""
+  quetico.vinlandic_dialect: "Kvetiká"
+  #namakan.vinlandic_dialect: ""
+  gojijin.vinlandic_dialect: "Leðurdalur" #Leatherdale
+  kakagi.vinlandic_dialect: "Elrikassa" #Box Alder
+  wabaseemong.vinlandic_dialect: "Vabasímungar"
+  winnange.vinlandic_dialect: "Vinnangi"
+  wabigoon.vinlandic_dialect: "Vabigún"
+  obishikokaang.vinlandic_dialect: "Elgfljóthólmur" #Moose River Island
+  waaninaawangang.vinlandic_dialect: "Draugaá" #Ghost River
+  
+  ##Ogoki##
+  #ogoki.vinlandic_dialect: ""
+  #miniss.vinlandic_dialect: ""
+  atikokiwam.vinlandic_dialect: "Atikókivum"
+  matapesatakun.vinlandic_dialect: "Rótarburður" #Root Portage
+  petawanga.vinlandic_dialect: "Hvítleirvatn" #Whiteclay Lake
+  pichinamei.vinlandic_dialect: "Blývatn" #Leaden Lake
+  makokibatan.vinlandic_dialect: "Tantihólmur" #Tanti Island
+  kagianagami.vinlandic_dialect: "Húsbóndihólmur" #Lord Island
+  
+  ##Winisk##
+  winisk.vinlandic_dialect: "Vinisktá"
+  kinusheo.vinlandic_dialect: "Kinúsá"
+  wabuk.vinlandic_dialect: "Ophólmur" #River Mouth Islet
+  asheweig.vinlandic_dialect: "Askavík"
+  tabasokwia.vinlandic_dialect: "Vebekvíland" #Webequie Reservation
+  shibogama.vinlandic_dialect: "Sibógama"
+  wapikopa.vinlandic_dialect: "Sumarbjór" #Summer Beaver
+  wunnumin.vinlandic_dialect: "Skingnanes" #Sking na Point
+  wapitotem.vinlandic_dialect: "Attavatnshús" #Lansdowne House
+  
+  ##Washeo##
+  washeo.vinlandic_dialect: "Vakteleyja" #Patridge Island
+  niskibi.vinlandic_dialect: "Niskibý"
+  shagamu.vinlandic_dialect: "Sagamún"
+  #ministik.vinlandic_dialect: ""
+  
+  ##########################################
+  ##Western James Bay - James Bay Lowlands##
+  ##########################################
+  
+  ##Attawapiskat##
+  attawapiskat.vinlandic_dialect: "Attavapiskthlið"
+  ekwan.vinlandic_dialect: "Ekvanop" #Ekwan Entrance
+  otadaonanis.vinlandic_dialect: "Óbyggðströnd" #Wilderness shore
+  patchepawapoka.vinlandic_dialect: "Ópinnagá" #Opinnagau River
+  lakitusaki.vinlandic_dialect: "Ísbjarnarhöfði" #Polar Bear Cape
+  
+  ##Kashechewan##
+  kashechewan.vinlandic_dialect: "Kasaskevan"
+  wabimeig.vinlandic_dialect: "Vabimeigur"
+  mammamattawa.vinlandic_dialect: "Mamatáa"
+  wapiskau.vinlandic_dialect: "Vapiská"
+  kinosheo.vinlandic_dialect: "Kínósjá"
+  pagashi.vinlandic_dialect: "Pagasý"
+  tchakashapug.vinlandic_dialect: "Sjakasapúg"
+  
+  ##Moosonee
+  moosonee.vinlandic_dialect: "Skipsandhólmur" #Ship Sands Island
+  abimatinu.vinlandic_dialect: "Reykfylltfoss" #Smokey Falls
+  takwata.vinlandic_dialect: "Oturflúðum" #Otter Rapids
+  wawiyastan.vinlandic_dialect: "Vavegurland"
+  kwetabohigan.vinlandic_dialect: "Elgávatn" #Moose River Crossing
+  kagawask.vinlandic_dialect: "Elgávegur" #Moose river way 
+  #mesagami.vinlandic_dialect: ""
+  olimisk.vinlandic_dialect: "Fuglavík" #Bird Bay
+  
+  ##Akimiski##
+  mahnahwoonan.vinlandic_dialect: "Tvíburaeyjar" #Twin Islands
+  sivukutaitiarruvik.vinlandic_dialect: "Óbyggðaeyja"
+  akimiski.vinlandic_dialect: "Akimiskeyja"
+
+  ##############################
+  ##Eastern James Bay - Jamsie##
+  ##############################
+  
+  ##Abitibi##
+  malartic.vinlandic_dialect: "Haugurinn" #La Motte
+  wasakin.vinlandic_dialect: "Hraðdansari" #Rapide-Danseur
+  chicobi.vinlandic_dialect: "Trébýr" #Villebois
+  harricana.vinlandic_dialect: "Hliðendaveraldar" #Les Portes du Bout du Monde
+  obaska.vinlandic_dialect: "Sedrusflúðir" #Rapide des Cèdres
+  megiscane.vinlandic_dialect: "Hjartasvið" #Champcoeur
+  
+  ##Nottaway##
+  opawica.vinlandic_dialect: "Ópvík"
+  opemisca.vinlandic_dialect: "Ópemiskaland"
+  waswanipi.vinlandic_dialect: "Vasvanibý"
+  maicasagi.vinlandic_dialect: "Mækasagý"
+  soscumica.vinlandic_dialect: "Soskúmika"
+  nottaway.vinlandic_dialect: "Naðúvegur"
+  missicabi.vinlandic_dialect: "Missikabý"
+  
+  ##Waskaganish##
+  waskaganish.vinlandic_dialect: "Vaskaganisktvirki"
+  kaipeshimushich.vinlandic_dialect: "Kæpesimús"
+  nemasca.vinlandic_dialect: "Nemaskaá"
+  kapitukamach.vinlandic_dialect: "Kapitukamús"
+  kauakiekamatsh.vinlandic_dialect: "Kávakjekamað"
+  #natastan.vinlandic_dialect: ""
+  #nistam.vinlandic_dialect: ""
+  kamashikamach.vinlandic_dialect: "Kirkjahólmur" #Île Kirk
+  ouagama.vinlandic_dialect: "Vagum"
+  
+  ##Mistassini##
+  #mistissini.vinlandic_dialect: ""
+  cawachagamite.vinlandic_dialect: "Kávasagamið"
+  shipastouk.vinlandic_dialect: "Skipstúkk"
+  mistassiniish.vinlandic_dialect: "Mistassinýs"
+  chibougamau.vinlandic_dialect: "Sibúgamá"
+  temiscamie.vinlandic_dialect: "Temiskamý"
+  
+  ##Pitchibourenik##
+  pitchibourenik.vinlandic_dialect: "Pisjibúranik"
+  caisaboscai.vinlandic_dialect: "Kæsaboskær"
+  chistamikap.vinlandic_dialect: "Sistamikapið"
+  nasacauso.vinlandic_dialect: "Nasakás"
+  neoskweskau.vinlandic_dialect: "Njóskveská"
+  cauouatstacau.vinlandic_dialect: "Kávastaká"
+  
+  ##Chisasibi##
+  #mistimakan.vinlandic_dialect: ""
+  chisasibi.vinlandic_dialect: "Sisasibý"
+  maquatua.vinlandic_dialect: "Makvatún"
+  #atikuan.vinlandic_dialect: ""
+  
+  ##Otish##
+  nichicun.vinlandic_dialect: "Nisikún"
+  misask.vinlandic_dialect: "Misasktland"
+  wahemen.vinlandic_dialect: "Vaheman"
+  naococane.vinlandic_dialect: "Nákókan"
+  
+  ###########
+  ##Nunavik##
+  ###########
+  
+  ##Tursujuq##
+  kuujjuarapik.vinlandic_dialect: "Kúsvaravegur"
+  qingaaluk.vinlandic_dialect: "Kingaluk"
+  tupialuviniq.vinlandic_dialect: "Túpjaluviník"
+  wiyashakimi.vinlandic_dialect: "Vegaskimý"
+  nastapoka.vinlandic_dialect: "Nastapoka"
+  
+  ##Koksoak##
+  kuujjuaq.vinlandic_dialect: "Kúsvak"
+  kuuvik.vinlandic_dialect: "Kúvík"
+  natuak.vinlandic_dialect: "Natúak"
+  kasuswapaskau.vinlandic_dialect: "Kasúsvapaská"
+  koskoak.vinlandic_dialect: "Koskóakið"
+  sanikiluaq.vinlandic_dialect: "Saniklúak"
+  
+  ##Qikiqtaaluk##
+  pangnirtung.vinlandic_dialect: "Pangnirtyngar"
+  iglunga.vinlandic_dialect: "Églyngar"
+  iqaluit.vinlandic_dialect: "Ikalfið"
+  kimmirut.vinlandic_dialect: "Kimmirið"
+  amadjuak.vinlandic_dialect: "Amasúak"
+  kinngait.vinlandic_dialect: "Kingæið"
+  
+  ##Ungunniavik##
+  qikirtajuaq.vinlandic_dialect: "Hjikirkjakið"
+  kamusawawasich.vinlandic_dialect: "Kamúsavás"
+  kawawasukutisich.vinlandic_dialect: "Kavásúkútið"
+  kaypikupau.vinlandic_dialect: "Kæpikúpá"
+  mistinatwayasu.vinlandic_dialect: "Mistinavegur"
+  kamiskayachuuch.vinlandic_dialect: "Kamiskæjasjús"
+  qurlutuq.vinlandic_dialect: "Kurlútukk"
+  
+  ##Mushuau##
+  kangiqsualujjuaq.vinlandic_dialect: "Kængisvalúland"
+  imaapik.vinlandic_dialect: "Imapikk"
+  siimitalik.vinlandic_dialect: "Símitalikk"
+  uashekanau.vinlandic_dialect: "Vasekaná"
+  mistinatuakamau.vinlandic_dialect: "Mistinavakamá"
+  mushuau.vinlandic_dialect: "Músjivá"
+  kausseskait.vinlandic_dialect: "Kásseskaið"
+  tupirvialuit.vinlandic_dialect: "Túpirvjalúið"
+  koroc.vinlandic_dialect: "Korok"
