@@ -1,4 +1,6 @@
 ﻿l_english:
+ # regions
+ canada_region: "Greater Vinland"
  # areas
  quebec_area: "Vestrland"
  lower_canada_area: "Kronaland"
@@ -11,4 +13,8 @@
  gulf_of_saint_lawrence_area: "Gulf of Straumr"
  canadian_atlantic_coast_area: "Greater Vinland Coast"
  labrador_sea_area: "Markland Sea"
+ maine_area: "Abenland"
+ haudenosaunee_area: "Haudenland"
+ eastern_ontario_area: "Wendatland"
+ 
 

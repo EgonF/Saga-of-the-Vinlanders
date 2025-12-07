@@ -444,6 +444,24 @@
 					climate = continental
 				}
 			}
+			# beeswax
+			trigger_if = {
+				limit = {
+					scope:target_good = goods:beeswax
+				}
+				NOT = { raw_material ?= goods:beeswax }
+				OR = {
+					vegetation = farmland
+					vegetation = grasslands
+					vegetation = woods
+					vegetation = forest
+				}
+				OR = {
+					topography = flatland
+					topography = hills
+					topography = plateau
+				}
+			}
 		}
 	}
 

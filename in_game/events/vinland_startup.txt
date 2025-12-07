@@ -33,12 +33,18 @@ vinland_startup.1 = {
 		location:cape_race = {
 			change_raw_material = goods:wool
 		}
-		# pei changes
-		location:elsiktuk = {
-			change_raw_material = goods:clay
+		location:tignish = {
+			change_raw_material = goods:beeswax
 		}
+		# pei changes
 		location:malpeque = {
 			change_raw_material = goods:wheat
+		}
+		location:epwikek = {
+			change_raw_material = goods:beeswax
+		}
+		location:elsiktuk = {
+			change_raw_material = goods:wine
 		}
 		# nova scotia changes
 		location:qospemk = {
@@ -53,12 +59,21 @@ vinland_startup.1 = {
 		location:nictaux = {
 			change_raw_material = goods:clay 
 		}
+		location:cheticamp = {
+			change_raw_material = goods:alum
+		}
 		# new brunswick changes
 		location:oromocto = {
 			change_raw_material = goods:coal # minto coal deposits
 		}
 		location:pocologan = {
 			change_raw_material = goods:tin # mount pleasant tin deposits
+		}
+		location:nepisiguit = {
+			change_raw_material = goods:lead # caribou mine lead deposits, mainly for balance
+		}
+		location:petitcodiac = {
+			change_raw_material = goods:alum
 		}
 		#quebec changes
 		location:chicchoc = {
@@ -75,6 +90,12 @@ vinland_startup.1 = {
 		}
 		location:malartic = {
 			change_raw_material = goods:goods_gold # abitibi gold deposits
+		}
+		location:ahwendoe = {
+			change_raw_material = goods:maize
+		}
+		location:stadacona = {
+			change_raw_material = goods:wool
 		}
 		# labrador trough iron locations
 		location:kawachisakau = {
@@ -161,11 +182,6 @@ vinland_startup.1 = {
 			}
 		}
 
-		# climate changes (unlikely to be able to change ingame)
-		# cape_sprear artic -> continental
-		# bacalhieu artic -> continental
-		# placentia artic -> continental
-		# cape_race artic -> continental
 	}
 	
 	# option 1: stay the same size, no effect
