@@ -3,6 +3,7 @@
 
 	age = age_1_traditions
 	global_max_literacy = 5
+	global_monthly_literacy = 0.01
 	global_lumber_output_modifier = 0.10
 	
 	requires = feudalism_advance
@@ -125,5 +126,9 @@ TRY_REPLACE:nor_merchant_tradition = {
         }
 	}
 	merchant_maintenance_cost  = -0.1
+}
+TRY_INJECT:canoe_travels = {
+	land_cost_going_upstream = -15
+	land_cost_going_downstream	= -5
 }
 

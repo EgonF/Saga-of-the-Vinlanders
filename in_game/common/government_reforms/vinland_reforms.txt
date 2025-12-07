@@ -16,6 +16,7 @@
         monthly_towards_naval = societal_value_monthly_move
         exploration_maintenance_cost = -0.50
         exploration_mission_speed_modifier = 0.25
+        government_reform_slots = 1
     }
     years = 2
 }

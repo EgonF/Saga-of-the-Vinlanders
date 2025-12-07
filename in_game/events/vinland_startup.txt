@@ -1,0 +1,776 @@
+﻿namespace = vinland_startup
+vinland_startup.1 = {
+	type = country_event
+	title = vinland_startup.1.title
+	desc = vinland_startup.1.desc
+	trigger = {
+		tag = VNL
+	}
+
+	fire_only_once = yes
+
+	immediate = {
+		# trigger rgo changes
+		# newfoundland changes
+		location:eimastukwek = {
+			change_raw_material = goods:stone
+		}
+		location:wli_qospem = {
+			change_raw_material = goods:clay
+		}
+		location:cape_spear = {
+			change_raw_material = goods:iron # bell island iron deposits
+		}
+		location:bacalhieu = {
+			change_raw_material = goods:wool
+		}
+		location:placentia = {
+			change_raw_material = goods:wool
+		}
+		location:maqtewey = {
+			change_raw_material = goods:medicaments
+		}
+		location:cape_race = {
+			change_raw_material = goods:wool
+		}
+		# pei changes
+		location:elsiktuk = {
+			change_raw_material = goods:clay
+		}
+		location:malpeque = {
+			change_raw_material = goods:wheat
+		}
+		# nova scotia changes
+		location:qospemk = {
+			change_raw_material = goods:stone
+		}
+		location:sipuk = {
+			change_raw_material = goods:coal # sydney coal deposits
+		}
+		location:kluskapewiktuk = {
+			change_raw_material = goods:coal
+		}
+		location:nictaux = {
+			change_raw_material = goods:clay 
+		}
+		# new brunswick changes
+		location:oromocto = {
+			change_raw_material = goods:coal # minto coal deposits
+		}
+		location:pocologan = {
+			change_raw_material = goods:tin # mount pleasant tin deposits
+		}
+		#quebec changes
+		location:chicchoc = {
+			change_raw_material = goods:copper # gaspe copper deposits
+		}
+		location:sartigan = {
+			change_raw_material = goods:goods_gold # beauce gold deposits
+		}
+		location:wolinak = {
+			change_raw_material = goods:fiber_crops
+		}
+		location:wabanaki = {
+			change_raw_material = goods:stone
+		}
+		location:malartic = {
+			change_raw_material = goods:goods_gold # abitibi gold deposits
+		}
+		# labrador trough iron locations
+		location:kawachisakau = {
+			change_raw_material = goods:iron
+		}
+		location:ashuanipi = {
+			change_raw_material = goods:iron
+		}
+		location:petitsikapau = {
+			change_raw_material = goods:iron
+		}
+
+		# harbour changes
+		# aivitok 0.00 -> 0.40
+		location:aivitok = {
+			add_location_modifier = {
+				modifier = vinland_harbour_40
+				years = -1
+				mode = add
+			}
+		}
+		# eimastukwek 0.00 -> 0.40
+		location:eimastukwek = {
+			add_location_modifier = {
+				modifier = vinland_harbour_40
+				years = -1
+				mode = add
+			}
+		}
+		# cape_spear 0.00 -> 0.70
+		location:cape_spear = {
+			add_location_modifier = {
+				modifier = vinland_harbour_70
+				years = -1
+				mode = add
+			}
+		}
+		# elsiktuk 0.00 -> 0.80
+		location:elsiktuk = {
+			add_location_modifier = {
+				modifier = vinland_harbour_80
+				years = -1
+				mode = add
+			}
+		}
+		# sipuk 0.00 -> 0.50
+		location:sipuk = {
+			add_location_modifier = {
+				modifier = vinland_harbour_50
+				years = -1
+				mode = add
+			}
+		}
+		# gaspe 0.00 -> 0.40
+		location:gaspe = {
+			add_location_modifier = {
+				modifier = vinland_harbour_40
+				years = -1
+				mode = add
+			}
+		}
+		# rimouski 0.00 -> 0.40
+		location:rimouski = {
+			add_location_modifier = {
+				modifier = vinland_harbour_40
+				years = -1
+				mode = add
+			}
+		}
+		# stadacona 0.50 -> 0.70
+		location:stadacona = {
+			add_location_modifier = {
+				modifier = vinland_harbour_20
+				years = -1
+				mode = add
+			}
+		}
+		# menahkwesk 0.00 -> 0.40
+		location:menahkwesk = {
+			add_location_modifier = {
+				modifier = vinland_harbour_40
+				years = -1
+				mode = add
+			}
+		}
+
+		# climate changes (unlikely to be able to change ingame)
+		# cape_sprear artic -> continental
+		# bacalhieu artic -> continental
+		# placentia artic -> continental
+		# cape_race artic -> continental
+	}
+	
+	# option 1: stay the same size, no effect
+	option = {
+		name = vinland_startup.1.a
+		# no effect, keep vinland the size it is
+	}
+	# option 2: expand territory, give st. lawrence coast and town at quebec
+	option = {
+		name = vinland_startup.1.b
+		# trigger another event to give the territory
+		trigger_event_silently = { 
+				id = vinland_startup.2
+		}
+	}
+}
+
+vinland_startup.2 = {
+	type = country_event
+	title = vinland_startup.2.title
+	desc = vinland_startup.2.desc
+
+	immediate = {
+		province_definition:gaspe_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				# increase rgo level
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:rimouski_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:kikonteku_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:stadacona_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:saguenay_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:betsiamites_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:manicouagan_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:uashat_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:minganie_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:mecatina_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:labrador_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		province_definition:aivitok_province = {
+			every_location_in_province_definition = {
+				limit = {
+					is_coastal = yes
+					has_owner = no
+					is_ownable = yes
+				}
+				change_location_owner = root
+				add_core = root
+				change_integration_level = core
+
+				every_pop = {
+					add_pop_size = {
+						value = {
+							value = pop_size
+						}
+						multiply = 2
+						add = 0.5
+					}
+					split_pop = {
+						fraction = 0.75
+						religion = root.religion
+						culture = root.culture
+						type = pop_type:peasants
+					}
+				}
+				every_pop = {
+					limit = {
+						religion = root.religion
+					}
+					split_pop = {
+						fraction = 0.3
+						religion = religion:norse
+					}
+				}
+				change_max_raw_material_workers = 1
+			}
+		}
+		# upgrade quebec location to town
+		location:stadacona = {
+			change_location_rank = location_rank:town
+			# add some buildings
+			change_building_level_in_location = { building = building_type:brewery			value = 1 }
+			change_building_level_in_location = { building = building_type:temple			value = 1 }
+			change_building_level_in_location = { building = building_type:mason			value = 1 }
+			change_building_level_in_location = { building = building_type:tools_guild		value = 1 }
+			change_building_level_in_location = { building = building_type:weapon_guild		value = 1 }
+			change_building_level_in_location = { building = building_type:pottery_guild	value = 1 }
+			change_building_level_in_location = { building = building_type:marketplace		value = 1 }
+			change_building_level_in_location = { building = building_type:wharf			value = 1 }
+			# add urban pops
+			add_pop = {
+				culture = root.culture
+				religion = root.religion
+				type = pop_type:nobles
+				size = 0.05
+			}
+			add_pop = {
+				culture = root.culture
+				religion = root.religion
+				type = pop_type:clergy
+				size = 0.2
+			}
+			add_pop = {
+				culture = root.culture
+				religion = root.religion
+				type = pop_type:burghers
+				size = 1.4
+			}
+			add_pop = {
+				culture = root.culture
+				religion = root.religion
+				type = pop_type:laborers
+				size = 2.0
+			}
+	
+			# add a market to our capital
+			create_market = {
+				builder = root
+				location = location:stadacona
+				price = price:create_market
+				instant = yes
+				price_modifier = 0
+			}
+		}
+	}
+	# keep capital at thorvaldsnes
+	option = {
+		name = vinland_startup.2.a
+		# no effect, just acknowledging the event
+		trigger_event_silently = { 
+				id = vinland_startup.3
+		}
+
+	}
+	# move capital to quebec
+	option = {
+		name = vinland_startup.2.b
+		set_capital = location:stadacona
+		trigger_event_silently = { 
+				id = vinland_startup.3
+		}
+	}
+}
+vinland_startup.3 = {
+	type = country_event
+	title = vinland_startup.3.title
+	desc = vinland_startup.3.desc
+
+	# get our development up from 0 to 5
+	immediate = {
+		every_owned_location = {
+			limit = { development <= 5 }
+			change_development = development_ultimate_bonus
+		}
+	}
+
+	# 10% norse
+	option = {
+		name = vinland_startup.3.a
+		every_owned_location = {
+			every_pop = {
+				limit = {
+					culture = root.culture
+				}
+				split_pop = {
+					fraction = 0.1
+					religion = religion:norse
+				}
+			}
+		}
+	} 
+	# 30% norse
+	option = {
+		name = vinland_startup.3.b
+		every_owned_location = {
+			every_pop = {
+				limit = {
+					culture = root.culture
+				}
+				split_pop = {
+					fraction = 0.3
+					religion = religion:norse
+				}
+			}
+		}
+	}
+	# 60% norse
+	option = {
+		name = vinland_startup.3.c
+		change_religion = religion:norse
+		every_owned_location = {
+			every_pop = {
+				limit = {
+					culture = root.culture
+				}
+				split_pop = {
+					fraction = 0.6
+					religion = religion:norse
+				}
+			}
+		}
+	}
+}
+

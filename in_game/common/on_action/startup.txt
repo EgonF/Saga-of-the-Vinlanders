@@ -1,0 +1,13 @@
+﻿on_game_start = {
+    on_actions = {
+        vinland_on_game_start
+    }
+}
+
+vinland_on_game_start = {
+    effect = {
+        c:VNL = {
+            trigger_event_silently = vinland_startup.1
+        }
+    }
+}
