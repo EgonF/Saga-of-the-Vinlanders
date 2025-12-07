@@ -1,0 +1,11 @@
+﻿TRY_REPLACE:lack_of_rivals = {
+	scales_with = {
+		value = modifier:num_possible_rivals
+		subtract = num_rivals
+		min = 0
+	}
+
+	antagonism_received_modifier = 0.1
+	counter_espionage = -0.1
+	spy_network_construction = -0.1
+}

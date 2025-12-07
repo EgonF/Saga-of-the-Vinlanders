@@ -47,17 +47,17 @@
 
 # events
   vinland_startup.1.title: "The Expansion of Vinland"
-  vinland_startup.1.desc: "placeholder"
-  vinland_startup.1.a: "We should wait"
-  vinland_startup.1.b: "Settle the West"
+  vinland_startup.1.desc: "For centuries, Vinland has stood as a beacon of Norse ambition in the New World. The extent of our realm, however, has been shaped by the waves of settlers who braved the Atlantic to carve out a life in this untamed land. Some argue that Vinland should remain focused on the islands of the Gulf of Vinland, preserving its unique identity and manageable size. Others believe that the influx of settlers from Scandinavia, the British Isles, and northern Germany has created an opportunity to expand along the coast of the Great River, establishing new settlements such as the burgeoning town of Vesturhöfn. The choice we make now will define the future of Vinland."
+  vinland_startup.1.a: "Keep Vinland focused on the islands"
+  vinland_startup.1.b: "Expand along the coast and establish Vesturhöfn"
 
-  vinland_startup.2.title: "Vinland Expands Westward"
-  vinland_startup.2.desc: "placeholder"
+  vinland_startup.2.title: "The Capital of Vinland"
+  vinland_startup.2.desc: "The growth of Vesturhöfn has been remarkable. Situated at a strategic point along the Great River, it has become a hub for trade and diplomacy, drawing settlers, merchants, and even Skrælingjar leaders to its bustling markets. Some argue that the capital should remain at Þorvaldsnes, the historic heart of Vinland. Others believe that Vesturhöfn, with its growing importance in both trade and native politics, is the natural choice for the seat of power in this new era."
   vinland_startup.2.a: "Keep our capital at Þorvaldsnes"
   vinland_startup.2.b: "Move our capital to Vesturhöfn"
 
   vinland_startup.3.title: "Status of the Old Faith"
-  vinland_startup.3.desc: "placeholder"
+  vinland_startup.3.desc: "When the Norse first settled Vinland, they brought with them their gods and traditions. However, the tides of history have not been kind to the old ways. Iceland, the homeland of many of Vinland's settlers, embraced Christianity centuries ago, and the influence of the Catholic Church has only grown stronger. Yet, in this distant land, far from the reach of European kings and bishops, the old faith has endured to varying degrees. The question remains: how deeply do the roots of the old faith run in Vinland?"
   vinland_startup.3.a: "The old faith is marginal here"
   vinland_startup.3.b: "The old faith maintains a sizeable presence"
   vinland_startup.3.c: "The old faith is thriving in Vinland"
