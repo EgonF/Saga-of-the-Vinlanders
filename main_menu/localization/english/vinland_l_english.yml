@@ -68,3 +68,8 @@ vinland_harbour_40: "Better natural harbour: 40%"
 vinland_harbour_50: "Better natural harbour: 50%"
 vinland_harbour_70: "Better natural harbour: 70%"
 vinland_harbour_80: "Better natural harbour: 80%"
+
+#religions
+vinlandic_church: "Vinlandic Church"
+vinlandic_church_desc: "Placeholder"
+vinlandic_church_ADJ: "Vinlandism Placeholder"

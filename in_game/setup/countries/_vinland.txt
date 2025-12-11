@@ -1,6 +1,6 @@
 ﻿VNL = {
-	color = rgb { 133 4 4 }
+	color = rgb { 36 135 33 }
 
 	culture_definition = vinlandic
-	religion_definition = catholic
+	religion_definition = vinlandic_church
 }

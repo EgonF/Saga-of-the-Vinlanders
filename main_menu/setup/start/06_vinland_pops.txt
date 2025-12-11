@@ -3,141 +3,141 @@ locations={
 # small initial norse pagan minority in vinland area, due to incomplete christianization in iceland and greenland at the time of vinland settlement
 # initial northern newfoundland area (1050)
 belle_isle = {
-	define_pop = { type = peasants size = 1.374 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 1.374 culture = vinlandic religion = vinlandic_church }
 }
 wipetikil = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 naskwotchu = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 mekapisk = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 upsukdaskooch = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 baie_verte = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 walnaypek = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 mekwiskajk = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 mollyhuajeck = {
-	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.974 culture = vinlandic religion = vinlandic_church }
 }
 akilasiewakik = {
-	define_pop = { type = peasants size = 1.374 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 1.374 culture = vinlandic religion = vinlandic_church }
 }
 
 # avalon and south-eastern newfoundland, second phase (1100)
 cape_spear = {
-	define_pop = { type = peasants size = 5.374 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 5.374 culture = vinlandic religion = vinlandic_church }
 }
 bacalhieu = {
-	define_pop = { type = peasants size = 1.304 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 1.304 culture = vinlandic religion = vinlandic_church }
 }
 cape_race = {
-	define_pop = { type = peasants size = 1.364 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 1.364 culture = vinlandic religion = vinlandic_church }
 }
 placentia = {
-	define_pop = { type = peasants size = 1.304 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 1.304 culture = vinlandic religion = vinlandic_church }
 }
 maqtewey = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 nukamkiajijk = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 
 # south newfoundland, second phase
 eimastukwek = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 kutapuskuj = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 epwikek = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 gosaoie = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 nogamsig = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 meelpaeg = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 amasipukwek = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 sibook = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 miquelon = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 pgotapesg = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 wli_qospem = {
-	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.724 culture = vinlandic religion = vinlandic_church }
 }
 
 # pei and anticosti, third phase (1200)
 elsiktuk = {
-	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = vinlandic_church }
 }
 pukusamkek = {
-	define_pop = { type = peasants size = 0.608 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.608 culture = vinlandic religion = vinlandic_church }
 }
 tapu_tuitn = {
-	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = vinlandic_church }
 }
 malpeque = {
-	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = vinlandic_church }
 }
 tignish = {
-	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = vinlandic_church }
 }
 natigostec = {
-	define_pop = { type = peasants size = 0.514 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.514 culture = vinlandic religion = vinlandic_church }
 }
 anticosti = {
-	define_pop = { type = peasants size = 0.514 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.514 culture = vinlandic religion = vinlandic_church }
 }
 notiskuan = {
-	define_pop = { type = peasants size = 0.514 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.514 culture = vinlandic religion = vinlandic_church }
 }
 menageesenog = {
-	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.614 culture = vinlandic religion = vinlandic_church }
 }
 
 #cape breton, fourth phase
 sipuk = {
-	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = vinlandic_church }
 }
 askataliank = {
-	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = vinlandic_church }
 }
 apaqtukowatek = {
-	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = vinlandic_church }
 }
 qospemk = {
-	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = vinlandic_church }
 }
 kluskapewiktuk = {
-	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = vinlandic_church }
 }
 cheticamp = {
-	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = vinlandic_church }
 }
 ingonish = {
-	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.414 culture = vinlandic religion = vinlandic_church }
 }
 
 # larger greenland settlements due to increased trade and contact with vinland

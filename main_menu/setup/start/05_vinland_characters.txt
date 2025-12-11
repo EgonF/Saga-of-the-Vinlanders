@@ -2,7 +2,7 @@ character_db={
 	vnl_magnus = {
 		first_name = { name = name_magnus }
 		culture = vinlandic
-		religion = catholic
+		religion = vinlandic_church
 		adm = 67 dip = 74 mil = 31
 		birth_date = 1310.1.1
 		birth = cape_spear	

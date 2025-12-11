@@ -1,0 +1,31 @@
+vinlandic_church = { 
+	color = { 105 124 103 }
+	group = christian
+	
+	language = gaelic_language
+		
+	has_religious_influence = yes
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+	
+	definition_modifier = {	
+		global_clergy_estate_power = -0.5
+		global_burghers_estate_power = 0.25
+		global_max_literacy = 5
+		
+		can_have_monasteries = yes
+		gender_equality = yes
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		orthodox = positive
+		catholic = kindred
+		hussite = positive
+	}
+
+	tags = { protestant_gfx western_christian_gfx christian_gfx abrahamic_gfx }
+}

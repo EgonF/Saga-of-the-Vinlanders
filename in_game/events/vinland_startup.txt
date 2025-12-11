@@ -95,7 +95,17 @@ vinland_startup.1 = {
 			change_raw_material = goods:maize
 		}
 		location:stadacona = {
-			change_raw_material = goods:wool
+			change_raw_material = goods:wool 
+		}
+		#My Personal Additions to Remove before submission
+		location:ontaretse = {
+			change_raw_material = goods:iron 
+		}
+		location:andawaohie = {
+			change_raw_material = goods:millet
+		}
+		location:ekwentondie = {
+			change_raw_material = goods:millet
 		}
 		# labrador trough iron locations
 		location:kawachisakau = {
