@@ -70,6 +70,6 @@ vinland_harbour_70: "Better natural harbour: 70%"
 vinland_harbour_80: "Better natural harbour: 80%"
 
 #religions
-vinlandic_church: "Vinlandic Church"
-vinlandic_church_desc: "Placeholder"
-vinlandic_church_ADJ: "Vinlandism Placeholder"
+vinlandic_church: "Brendanicism"
+vinlandic_church_desc: "A breakaway sect of the $catholic_ADJ$ Church, $vinlandic_church_ADJ$ developed its distinct theology due to prolonged isolation from mainstream Christianity. It was founded by St. Brendan the Navigator in the 6th Century when he established a monastary during his travels. It focused heavily on monasticism, embraced native and norse syncretism, and retained many archaic practices of early Irish $christian$.
+vinlandic_church_ADJ: "Brendanic"

@@ -1,5 +1,5 @@
 vinlandic_church = { 
-	color = { 105 124 103 }
+	color = { 92 107 40 }
 	group = christian
 	
 	language = gaelic_language
