@@ -1,5 +1,5 @@
 vinlandic_church = { 
-	color = { 92 107 40 }
+	color = { 92 215 95 }
 	group = christian
 	
 	language = gaelic_language
@@ -15,7 +15,6 @@ vinlandic_church = {
 		global_max_literacy = 5
 		
 		can_have_monasteries = yes
-		gender_equality = yes
 		monthly_religious_influence = 0.1
 
 		maximum_religious_influence = 400
@@ -24,7 +23,15 @@ vinlandic_church = {
 	opinions = {
 		orthodox = positive
 		catholic = kindred
-		hussite = positive
+		hussite = kindred
+		waldensian = kindred
+		anglican = kindred
+		lutheran = kindred
+		calvinist = positive
+		lollardy = kindred
+		cathar = positive
+		iroquoian_totemism = positive
+		midewiwin_religion = positive
 	}
 
 	tags = { protestant_gfx western_christian_gfx christian_gfx abrahamic_gfx }

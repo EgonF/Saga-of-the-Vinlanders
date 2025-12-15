@@ -36,6 +36,7 @@ vinlandic_noble_navy = {
 		navy_light_ship_maintenance_cost_modifier = -0.1
 		navy_light_ship_power = 0.1
 		navy_light_ship_build_cost_modifier = -0.1
+		can_hire_privateers = yes
 	}
 }
 

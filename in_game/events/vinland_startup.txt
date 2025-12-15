@@ -97,26 +97,6 @@ vinland_startup.1 = {
 		location:stadacona = {
 			change_raw_material = goods:wool 
 		}
-		#My Personal Additions to Remove before submission
-		location:ontaretse = {
-			change_raw_material = goods:iron 
-		}
-		location:andawaohie = {
-			change_raw_material = goods:millet
-		}
-		location:ekwentondie = {
-			change_raw_material = goods:millet
-		}
-		# labrador trough iron locations
-		location:kawachisakau = {
-			change_raw_material = goods:iron
-		}
-		location:ashuanipi = {
-			change_raw_material = goods:iron
-		}
-		location:petitsikapau = {
-			change_raw_material = goods:iron
-		}
 
 		# harbour changes
 		# aivitok 0.00 -> 0.40

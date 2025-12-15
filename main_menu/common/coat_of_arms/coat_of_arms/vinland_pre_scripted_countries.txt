@@ -1,19 +1,86 @@
 VNL={
-	pattern="pattern_solid.dds"
-	color1="green"
-	color2="white"
-	color3="yellow"
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "white"
+	color3 = "yellow_dark"
+	color4 = "black"
+
 	colored_emblem = {
-		texture = "ce_cross_scandinavian_thin.dds"
+		texture = "ce_bear_rampant_holding_axe.dds"
+		color1 = color3
+		color2 = color2
+		color3 = color2
+		instance = { position = { 0.51 0.51 } scale = { -1.0 0.95 } }			
+	}	
+	colored_emblem = {
+		texture = "ce_border_thin.dds"
 		color1 = color2
 		color2 = color3
 	}
+}
+VNL_cross={
+	pattern="pattern_solid.dds"
+	color1="green"
+	color2="white"
+	color3="yellow_dark"
+	colored_emblem = {
+		texture = "ce_cross_scandinavian_fimbriated.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+VNL_cross_bear = { # Republic? Norway cross lion inspired
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "white"
+	color3 = "yellow_dark"
+
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.375 0.5 } scale = { 0.10 1.0 } }
+		instance = { position = { 0.5 0.5 } scale = { 1.0 0.15 } }
+	}
+	colored_emblem = {
+		texture = "ce_bear_rampant_holding_axe.dds"
+		color1 = color3
+		color2 = color2
+		color3 = color3
+		instance = { position = { 0.175 0.215 } scale = { -0.475 0.475 } }
+	}
+}
+VNL_pagan = { #Norseland
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	color2 = "yellow_dark"
+	color3 = "white"
+
+	colored_emblem = {
+		texture = "ce_norse_raven_flag.dds"
+		color1 = color3
+		color2 = color3
+		instance = { position = { 0.5 0.495 } scale = { 0.85 0.85 } }					
+	}
+	colored_emblem = {
+		texture = "ce_border_thin.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
+VNL_unused ={
+	pattern="pattern_solid.dds"
+	color1="red"
+	color2="white"
 	colored_emblem={
-		texture="ce_polar_bear_sejant.dds"
-		color1=color1
+		texture="ce_cross_scandinavian.dds"
+		color1=color2
 		color2=color2
-		color3=color3
+	}
+	colored_emblem={
+		texture="ce_tree_pine.dds"
+		color1=color1
+		color2=color1
 		instance={ position = { 0.375 0.5 } scale = { 0.375 0.375 }}
 	}
 }
-

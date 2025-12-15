@@ -1,0 +1,47 @@
+TRY_INJECT:prima_scriptura = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:asceticism = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:bread_and_wine = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:clerical_poverty = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:crown_as_head_of_faith = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:freedom_to_preach = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:individual_creeds = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:organized_through_bishops = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:parish_registers = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:participation_women = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:translated_bibles = {
+  religion = vinlandic_church
+}
+
+TRY_INJECT:war_sermons = {
+  religion = vinlandic_church
+}
