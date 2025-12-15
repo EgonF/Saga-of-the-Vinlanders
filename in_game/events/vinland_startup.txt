@@ -97,6 +97,16 @@ vinland_startup.1 = {
 		location:stadacona = {
 			change_raw_material = goods:wool 
 		}
+		# labrador trough iron locations
+		location:kawachisakau = {
+			change_raw_material = goods:iron
+		}
+		location:ashuanipi = {
+			change_raw_material = goods:iron
+		}
+		location:petitsikapau = {
+			change_raw_material = goods:iron
+		}
 
 		# harbour changes
 		# aivitok 0.00 -> 0.40
