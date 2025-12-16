@@ -35,5 +35,9 @@ building_manager = {
 
 	# kelwlenen buildings
 	monastery = {tag = KL1 level = 1 location = passagassawkeag}
+	scriptorium = {tag = KL1 level = 1 location = passagassawkeag}
+	dyes_guild = {tag = KL1 level = 1 location = passagassawkeag}
+	paper_guild = {tag = KL1 level = 1 location = passagassawkeag}
+	
 	
 }

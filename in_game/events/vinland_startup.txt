@@ -126,7 +126,7 @@ vinland_startup.1 = {
 			change_raw_material = goods:clay
 		}
 		location:messalonskee = {
-			change_raw_material = goods:maize
+			change_raw_material = goods:fiber_crops
 		}
 		location:katahdin = {
 			change_raw_material = goods:stone
