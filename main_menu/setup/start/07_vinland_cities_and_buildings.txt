@@ -3,6 +3,7 @@ locations = {
 	cape_spear = { rank = town 		town_setup = scandinavian_town }
 	# gardr should be larger in this world due to trade, as greenland is more connected to vinland
 	gardr = { rank = town 		town_setup = scandinavian_town }
+	passagassawkeag = { rank = town 		town_setup = scandinavian_town }
 	
 }
 
@@ -31,5 +32,8 @@ building_manager = {
 	settlement_building = { tag = VNL level = 1 location = cape_race }
 	settlement_building = { tag = VNL level = 1 location = bacalhieu }
 	settlement_building = { tag = VNL level = 1 location = placentia }
+
+	# kelwlenen buildings
+	monastery = {tag = KL1 level = 1 location = passagassawkeag}
 	
 }

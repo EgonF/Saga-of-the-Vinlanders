@@ -4,12 +4,15 @@
   VNL_ADJ: "Vinlandic"
   vinlandic: "Vinlandic"
   vinlandic_dialect: "Vinlandic"
+  KL1: "Kelawlenan"
+  KL1_ADJ: "Kelawlenan"
 
   # vinlandic government
   rank_commonwealth_vinland: "Commonwealth"
   # ruler title
   rank_commonwealth_vinland_ruler_male: "Prins"
   rank_commonwealth_vinland_ruler_female: "Prinsessa"
+  rank_theocracy_tirwlenan_ruler: "Kchi Patlihôz"
   # parliament name
   country_flavor_parliament_althing: "Alþingi"
 

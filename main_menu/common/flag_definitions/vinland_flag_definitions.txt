@@ -55,10 +55,12 @@
 VNL = { # Vinland
 	flag_definition = {
 		coa = VNL
+		subject_canton = VNL
 		priority = 1
 	}
 	flag_definition = {
 		coa = VNL_cross
+		subject_canton = VNL_cross
 		allow_overlord_canton = yes
 		priority = 110
 		trigger = {
@@ -74,4 +76,11 @@ VNL = { # Vinland
 			coa_def_norse_trigger = yes
 		}		
 	}	
+}
+
+KL1 = { #Kelwlenen
+	flag_definition = {
+		coa = KL1
+		priority = 1
+	}
 }

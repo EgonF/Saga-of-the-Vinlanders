@@ -97,6 +97,7 @@ vinland_startup.1 = {
 		location:stadacona = {
 			change_raw_material = goods:wool 
 		}
+
 		# labrador trough iron locations
 		location:kawachisakau = {
 			change_raw_material = goods:iron
@@ -107,7 +108,30 @@ vinland_startup.1 = {
 		location:petitsikapau = {
 			change_raw_material = goods:iron
 		}
-
+		
+		# kelwlenan
+		location:pemetic = {
+			change_raw_material = goods:wool 
+		}
+		location:majabigwaduce = {
+			change_raw_material = goods:beeswax
+		}
+		location:passagassawkeag = {
+			change_raw_material = goods:maize
+		}
+		location:penobscot = {
+			change_raw_material = goods:medicaments
+		}
+		location:kennebec = {
+			change_raw_material = goods:clay
+		}
+		location:messalonskee = {
+			change_raw_material = goods:maize
+		}
+		location:katahdin = {
+			change_raw_material = goods:stone
+			}
+		
 		# harbour changes
 		# aivitok 0.00 -> 0.40
 		location:aivitok = {

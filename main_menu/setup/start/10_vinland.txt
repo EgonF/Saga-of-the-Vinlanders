@@ -20,6 +20,7 @@ countries = {
 	
 		}
 		capital = cape_spear
+		liturgical_language = irish_dialect
 
 		country_rank = rank_county
 
@@ -55,6 +56,7 @@ countries = {
 			atlantic_irminger_area
 			#atlantic_north_atlantic_current_area
 		}
+	
 
 		government = {
 			
@@ -63,6 +65,7 @@ countries = {
 			ruler = vnl_magnus
 			heir_selection = vinlandic_elective_succession
 			ruler_term = { character = vnl_magnus start_date = 1319.9.7 regnal_number = 3	}
+			
 
 			reforms = {
 				family_sagas_reform
@@ -130,5 +133,113 @@ countries = {
 			}
 		}
 	}
+KL1 = {
+		own_control_core = {
+			majabigwaduce piscataquis passagassawkeag pemetic penobscot kennebec sagadahoc messalonskee millinocket katahdin
+	
+		}
+		capital = passagassawkeag
+		liturgical_language = irish_dialect
+		court_language = irish_dialect
+
+		currency_data = {
+			gold = 100
+			stability = 33
+		}
+
+		country_rank = rank_county
+
+		include = "expl_amerindian_east_coast"
+
+		tolerated_cultures = {
+			eastern_abenaki_culture
+		}
+
+		starting_technology_level = 3
+
+		discovered_areas = {
+			newfoundland_area
+			#labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+			lower_canada_area
+			maine_area
+			haudenosaunee_area
+			vermont_area
+			new_hampshire_area
+			massachusetts_area
+			southern_new_england_area
+			#eastern_ontario_area
+			#western_ontario_area
+
+			#great_lakes_sea_zones_area
+			east_coast_sea_zones_area
+			labrador_sea_area
+			canadian_atlantic_coast_area
+			#atlantic_irminger_area
+			#atlantic_north_atlantic_current_area
+		}
+
+		government = {
+			
+			type = theocracy
+
+			ruler = random
+			heir_selection = abbot_elective
+
+			reforms = {
+				abbey_reform
+			}
+
+			privilege = {
+				#nobles
+				nobles_land_rights
+				control_of_the_borderlands
+				appoint_ecclesiastical_offices
+
+				#clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+				clerical_advisory_council
+
+				#burghers
+				market_fairs
+				land_of_commerce
+				building_roads_rights
+
+				#commoners
+				peasants_free_peasantry
+				peasants_represented_in_parliament
+				peasants_allowed_weapons_privilege
+				allow_hunting
+				communal_lands
+
+				#tribes
+				tribes_allow_gatherings
+				tribes_land_rights
+			}
+		
+			laws = {
+				medieval_levy_law = peasant_levies
+				theocratic_leadership = monastic_order
+				holy_mission_law = balanced_mission_policy
+				divine_cause_law = pursuit_of_knowledge_policy
+				administrative_system = autonomous_councils
+				censorship = limited_censorship
+				education_masses_law = theocratic_education
+				cultural_traditions_law = civil_society
+				marriage_law = monogamous_marriage
+				heir_religion_law = heir_same_religion
+				legal_code_law = traditional_law_policy
+				maritime_law = protect_trade_routes
+				piracy_law = anti_piracy_policy
+				distribution_of_power_law = dop_traditional_distribution_of_power
+				immigration_law = open_borders_law
+				mining_law = nobles_mining_law
+			}
+		}
 	}
+}
 }

@@ -2,7 +2,7 @@ vinlandic_church = {
 	color = { 92 215 95 }
 	group = christian
 	
-	language = gaelic_language
+	language = irish_dialect
 		
 	has_religious_influence = yes
 	
@@ -32,6 +32,7 @@ vinlandic_church = {
 		cathar = positive
 		iroquoian_totemism = positive
 		midewiwin_religion = positive
+		norse = positive
 	}
 
 	tags = { protestant_gfx western_christian_gfx christian_gfx abrahamic_gfx }

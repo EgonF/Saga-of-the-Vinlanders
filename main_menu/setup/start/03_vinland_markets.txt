@@ -3,4 +3,5 @@ market_manager = {
 	add_market = cape_spear
 	#add_market = stadacona
 	#add_market = elsiktuk
+	add_market = passagassawkeag
 }

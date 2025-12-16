@@ -4,3 +4,10 @@
 	culture_definition = vinlandic
 	religion_definition = vinlandic_church
 }
+
+KL1 = {
+	color = { 358 70 35 }
+
+	culture_definition = penobscot_culture
+	religion_definition = vinlandic_church
+}

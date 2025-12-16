@@ -179,4 +179,27 @@ ketilsfjord = {
 siglufjord = {
 	define_pop = { type = peasants size = 0.260 culture = icelandic religion = catholic }
 }
+passagassawkeag = {
+	define_pop = { type = nobles size = 0.006 culture = penobscot_culture religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.012 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.374 culture = penobscot_culture religion = vinlandic_church }
+}
+penobscot = {
+	define_pop = { type = nobles size = 0.004 culture = penobscot_culture religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.012 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.374 culture = penobscot_culture religion = vinlandic_church }
+}
+pemetic = {
+	define_pop = { type = nobles size = 0.004 culture = penobscot_culture religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.015 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.274 culture = penobscot_culture religion = vinlandic_church }
+}
+majabigwaduce = {
+	define_pop = { type = nobles size = 0.001 culture = penobscot_culture religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.009 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = peasants size = 0.954 culture = penobscot_culture religion = vinlandic_church }
+}
+katahdin = {
+	define_pop = { type = peasants size = 0.954 culture = penobscot_culture religion = vinlandic_church }
+}
 }
