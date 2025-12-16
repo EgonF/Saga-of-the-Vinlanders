@@ -98,6 +98,7 @@ vinland_startup.1 = {
 			change_raw_material = goods:wool 
 		}
 
+
 		# labrador trough iron locations
 		location:kawachisakau = {
 			change_raw_material = goods:iron
@@ -131,6 +132,9 @@ vinland_startup.1 = {
 		location:katahdin = {
 			change_raw_material = goods:stone
 			}
+		location:sagadahoc = {
+			change_raw_material = goods:maize
+		}
 		
 		# harbour changes
 		# aivitok 0.00 -> 0.40

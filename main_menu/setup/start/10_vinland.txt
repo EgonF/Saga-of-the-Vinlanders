@@ -195,7 +195,6 @@ KL1 = {
 
 			privilege = {
 				#nobles
-				nobles_land_rights
 				control_of_the_borderlands
 				appoint_ecclesiastical_offices
 
@@ -203,6 +202,7 @@ KL1 = {
 				clergy_literacy_rights
 				clergy_powerful_dioceses
 				clerical_advisory_council
+				clergy_in_administration
 
 				#burghers
 				market_fairs
@@ -215,10 +215,14 @@ KL1 = {
 				peasants_allowed_weapons_privilege
 				allow_hunting
 				communal_lands
+				no_labor_sunday
 
 				#tribes
 				tribes_allow_gatherings
 				tribes_land_rights
+			}
+			parliament = {
+				parliament_type = estate_parliament
 			}
 		
 			laws = {
