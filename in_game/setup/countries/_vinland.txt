@@ -6,8 +6,22 @@
 }
 
 KL1 = {
-	color = { 358 70 35 }
+	color = { 78 127 122 }
 
-	culture_definition = penobscot_culture
+	culture_definition = wabanakiiak
+	religion_definition = vinlandic_church
+}
+
+KL2 = {
+	color = { 134 120 153 }
+
+	culture_definition = wabanakiiak
+	religion_definition = vinlandic_church
+}
+
+KL3 = {
+	color = { 122 78 127 }
+
+	culture_definition = wabanakiiak
 	religion_definition = vinlandic_church
 }

@@ -180,26 +180,58 @@ siglufjord = {
 	define_pop = { type = peasants size = 0.260 culture = icelandic religion = catholic }
 }
 passagassawkeag = {
-	define_pop = { type = nobles size = 0.006 culture = penobscot_culture religion = vinlandic_church}
-	define_pop = { type = clergy size = 0.012 culture = penobscot_culture religion = vinlandic_church }
-	define_pop = { type = peasants size = 1.374 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = nobles size = 0.006 culture = wabanakiiak religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.012 culture = wabanakiiak religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.374 culture = wabanakiiak religion = vinlandic_church }
 }
 penobscot = {
-	define_pop = { type = nobles size = 0.004 culture = penobscot_culture religion = vinlandic_church}
-	define_pop = { type = clergy size = 0.012 culture = penobscot_culture religion = vinlandic_church }
-	define_pop = { type = peasants size = 1.374 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = nobles size = 0.004 culture = wabanakiiak religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.012 culture = wabanakiiak religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.023 culture = wabanakiiak religion = vinlandic_church }
 }
 pemetic = {
-	define_pop = { type = nobles size = 0.004 culture = penobscot_culture religion = vinlandic_church}
-	define_pop = { type = clergy size = 0.015 culture = penobscot_culture religion = vinlandic_church }
-	define_pop = { type = peasants size = 1.274 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = nobles size = 0.004 culture = wabanakiiak religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.015 culture = wabanakiiak religion = vinlandic_church }
+	define_pop = { type = peasants size = 0.974 culture = wabanakiiak religion = vinlandic_church }
 }
 majabigwaduce = {
-	define_pop = { type = nobles size = 0.001 culture = penobscot_culture religion = vinlandic_church}
-	define_pop = { type = clergy size = 0.009 culture = penobscot_culture religion = vinlandic_church }
-	define_pop = { type = peasants size = 0.954 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = nobles size = 0.001 culture = wabanakiiak religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.009 culture = wabanakiiak religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.054 culture = wabanakiiak religion = vinlandic_church }
 }
 katahdin = {
-	define_pop = { type = peasants size = 0.954 culture = penobscot_culture religion = vinlandic_church }
+	define_pop = { type = peasants size = 0.854 culture = wabanakiiak religion = vinlandic_church }
+}
+piscataquis = {
+	define_pop = { type = nobles size = 0.006 culture = wabanakiiak religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.012 culture = wabanakiiak religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.374 culture = wabanakiiak religion = vinlandic_church }
+}
+millinocket = {
+	define_pop = { type = peasants size = 0.654 culture = wabanakiiak religion = vinlandic_church }
+}
+kennebec = {
+	define_pop = { type = nobles size = 0.002 culture = wabanakiiak religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.008 culture = wabanakiiak religion = vinlandic_church }
+	define_pop = { type = peasants size = 0.874 culture = wabanakiiak religion = vinlandic_church }
+}
+sagadahoc = {
+	define_pop = { type = peasants size = 0.654 culture = wabanakiiak religion = vinlandic_church }
+}
+messalonskee = {
+	define_pop = { type = peasants size = 0.554 culture = wabanakiiak religion = vinlandic_church }
+}
+norridgewock = {
+	define_pop = { type = peasants size = 0.200 culture = wabanakiiak religion = vinlandic_church }
+}
+passamaquoddy = {
+	define_pop = { type = nobles size = 0.002 culture = wabanakiiak religion = vinlandic_church}
+	define_pop = { type = clergy size = 0.006 culture = wabanakiiak religion = vinlandic_church }
+	define_pop = { type = peasants size = 0.574 culture = wabanakiiak religion = vinlandic_church }
+}
+machias = {
+	define_pop = { type = peasants size = 0.554 culture = wabanakiiak religion = vinlandic_church }
 }
 }
+
+

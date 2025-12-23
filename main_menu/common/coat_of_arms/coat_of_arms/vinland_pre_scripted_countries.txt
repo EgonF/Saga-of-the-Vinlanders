@@ -88,9 +88,9 @@ VNL_unused ={
 
 KL1 ={
 	pattern="pattern_solid.dds"
-	color1 = hsv360 	{	38		67		82		}
+	color1 = hsv360 	{	108 	45		35	}
 	color2 = "black_secondary"
-	color3 = hsv360 	{	358 	70		35	}
+	color3 = hsv360 	{	358		70		35	}
 	color4 = hsv360 	{	42		20		82	}
 	color5 = hsv360 	{	42		10		95	}
 	colored_emblem={
@@ -102,6 +102,54 @@ KL1 ={
 		texture="ce_lymphad.dds"
 		color1=color3
 		color2=color4
-		instance={ position = { 0.5 0.5 } scale = { 0.6 0.6 }}
+		color3=color5
+		instance={ position = { 0.5 0.5 } scale = { 1.0 0.8 }}
+	}
+}
+
+KL2 = {
+	pattern="pattern_solid.dds"
+	color1 = hsv360 	{	42		10		95	}
+	color2 = "black_secondary"
+	color3 = hsv360 	{	358		70		35	}
+	color4 = hsv360 	{	108 	45		35	}
+	color5 = hsv360 	{	42		20		82	}
+	colored_emblem={
+		texture="ce_native_american_stripe_alliance_pattern.dds"
+		color1=color2
+		color2=color4
+	}
+	colored_emblem={
+		texture="ce_cree_rosette.dds"
+		color1=color3
+		color2=color3
+		color3=color5
+		instance={ position = { 0.5 0.5 } scale = { 1.0 0.8 }}
+	}
+	colored_emblem={
+		texture="ce_border.dds"
+		color1=color5
+		color2=color5
+	}
+}
+
+KL3 ={
+	pattern="pattern_solid.dds"
+	color1 = hsv360 	{	42		20		82	}
+	color2 = "black_secondary"
+	color3 = hsv360 	{	108 	45		35	}
+	color4 = hsv360 	{	185		70		60	}
+	color5 = hsv360 	{	42		10		95	}
+	colored_emblem={
+		texture="ce_border.dds"
+		color1=color3
+		color2=color5
+	}
+	colored_emblem={
+		texture="ce_native_american_solar_cross.dds"
+		color1=color3
+		color2=color4
+		color3=color5
+		instance={ position = { 0.5 0.5 } scale = { 1.0 1.0 }}
 	}
 }

@@ -135,7 +135,7 @@ countries = {
 	}
 KL1 = {
 		own_control_core = {
-			majabigwaduce piscataquis passagassawkeag pemetic penobscot kennebec sagadahoc messalonskee millinocket katahdin
+			majabigwaduce passagassawkeag pemetic penobscot
 	
 		}
 		capital = passagassawkeag
@@ -222,7 +222,7 @@ KL1 = {
 				tribes_land_rights
 			}
 			parliament = {
-				parliament_type = estate_parliament
+				parliament_type = assembly
 			}
 		
 			laws = {
@@ -234,6 +234,222 @@ KL1 = {
 				censorship = limited_censorship
 				education_masses_law = theocratic_education
 				cultural_traditions_law = civil_society
+				marriage_law = monogamous_marriage
+				heir_religion_law = heir_same_religion
+				legal_code_law = traditional_law_policy
+				maritime_law = protect_trade_routes
+				piracy_law = anti_piracy_policy
+				distribution_of_power_law = dop_traditional_distribution_of_power
+				immigration_law = open_borders_law
+				mining_law = nobles_mining_law
+			}
+		}
+	}
+KL2 = {
+		own_control_core = {
+			piscataquis katahdin millinocket passamaquoddy machias nicatous maatawamkeag
+	
+		}
+		capital = piscataquis
+		liturgical_language = irish_dialect
+		court_language = abenakian_language
+
+		currency_data = {
+			gold = 100
+			stability = 50
+		}
+
+		country_rank = rank_county
+
+		include = "expl_amerindian_east_coast"
+
+		tolerated_cultures = {
+			passamaquoddy_culture
+		}
+
+		starting_technology_level = 3
+
+		discovered_areas = {
+			newfoundland_area
+			#labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+			lower_canada_area
+			maine_area
+			haudenosaunee_area
+			vermont_area
+			new_hampshire_area
+			massachusetts_area
+			southern_new_england_area
+			#eastern_ontario_area
+			#western_ontario_area
+
+			#great_lakes_sea_zones_area
+			east_coast_sea_zones_area
+			labrador_sea_area
+			canadian_atlantic_coast_area
+			#atlantic_irminger_area
+			#atlantic_north_atlantic_current_area
+		}
+
+		government = {
+			
+			type = monarchy
+
+			ruler = random
+			heir_selection = elective_succession
+
+			reforms = {
+				margraviate
+			}
+
+			privilege = {
+				#nobles
+				nobles_land_rights
+				noble_marriage_rights
+
+				#clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+
+				#burghers
+				market_fairs
+				land_of_commerce
+				building_roads_rights
+
+				#commoners
+				peasants_free_peasantry
+				peasants_represented_in_parliament
+				peasants_allowed_weapons_privilege
+				allow_hunting
+				communal_lands
+
+				#tribes
+				tribes_allow_gatherings
+				tribes_land_rights
+			}
+			parliament = {
+				parliament_type = assembly
+			}
+		
+			laws = {
+				medieval_levy_law = peasant_levies
+				royal_court_customs_law = balanced_court_policy
+				feudal_de_jure_law = by_tradition
+				administrative_system = autonomous_councils
+				censorship = no_censorship
+				education_masses_law = basic_religious_education
+				cultural_traditions_law = martial_society
+				marriage_law = monogamous_marriage
+				heir_religion_law = heir_same_religion
+				legal_code_law = traditional_law_policy
+				maritime_law = protect_trade_routes
+				piracy_law = anti_piracy_policy
+				distribution_of_power_law = dop_traditional_distribution_of_power
+				immigration_law = open_borders_law
+				mining_law = nobles_mining_law
+			}
+		}
+	}
+KL3 = {
+		own_control_core = {
+			kennebec sagadahoc messalonskee norridgewock
+	
+		}
+		capital = kennebec
+		liturgical_language = irish_dialect
+		court_language = abenakian_language
+
+		currency_data = {
+			gold = 100
+			stability = 33
+		}
+
+		country_rank = rank_county
+
+		include = "expl_amerindian_east_coast"
+
+		tolerated_cultures = {
+			passamaquoddy_culture
+		}
+
+		starting_technology_level = 3
+
+		discovered_areas = {
+			newfoundland_area
+			#labrador_area
+			quebec_area
+			new_brunswick_area
+			acadia_area
+			prince_edward_island_area
+			lower_canada_area
+			maine_area
+			haudenosaunee_area
+			vermont_area
+			new_hampshire_area
+			massachusetts_area
+			southern_new_england_area
+			#eastern_ontario_area
+			#western_ontario_area
+
+			#great_lakes_sea_zones_area
+			east_coast_sea_zones_area
+			labrador_sea_area
+			canadian_atlantic_coast_area
+			#atlantic_irminger_area
+			#atlantic_north_atlantic_current_area
+		}
+
+		government = {
+			
+			type = monarchy
+
+			ruler = random
+			heir_selection = elective_succession
+
+			reforms = {
+				margraviate
+			}
+
+			privilege = {
+				#nobles
+				nobles_land_rights
+				noble_marriage_rights
+
+				#clergy
+				clergy_literacy_rights
+				clergy_powerful_dioceses
+
+				#burghers
+				market_fairs
+				land_of_commerce
+				building_roads_rights
+
+				#commoners
+				peasants_free_peasantry
+				peasants_represented_in_parliament
+				peasants_allowed_weapons_privilege
+				allow_hunting
+				communal_lands
+
+				#tribes
+				tribes_allow_gatherings
+				tribes_land_rights
+			}
+			parliament = {
+				parliament_type = assembly
+			}
+		
+			laws = {
+				medieval_levy_law = peasant_levies
+				royal_court_customs_law = balanced_court_policy
+				feudal_de_jure_law = by_tradition
+				administrative_system = autonomous_councils
+				censorship = no_censorship
+				education_masses_law = basic_religious_education
+				cultural_traditions_law = martial_society
 				marriage_law = monogamous_marriage
 				heir_religion_law = heir_same_religion
 				legal_code_law = traditional_law_policy

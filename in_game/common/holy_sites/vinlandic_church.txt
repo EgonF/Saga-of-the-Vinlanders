@@ -1,0 +1,20 @@
+monastery_of_st_brendan = {
+    location = passagassawkeag
+    type = christian_holy_site
+    importance = 4
+	religions = { vinlandic_church }
+}
+
+city_of_gardr = {
+    location = gardr
+    type = christian_holy_site
+    importance = 1
+	religions = { vinlandic_church }
+}
+
+leifsbudir = {
+    location = akilasiewakik
+    type = christian_holy_site
+    importance = 2
+	religions = { vinlandic_church }
+}

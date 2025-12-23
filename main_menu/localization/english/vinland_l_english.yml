@@ -6,6 +6,12 @@
   vinlandic_dialect: "Vinlandic"
   KL1: "Kelawlenan"
   KL1_ADJ: "Kelawlenan"
+  wabanakiiak: "Wabanakiiak"
+  wabanakiiak_ADJ: "Wabanakiiak"
+  KL2: "Ketahdin"
+  KL2_ADJ: "Ketahdin"
+  KL3: "Kinebak"
+  KL3_ADJ: "Kinebak"
 
   # vinlandic government
   rank_commonwealth_vinland: "Commonwealth"
@@ -76,3 +82,10 @@ vinland_harbour_80: "Better natural harbour: 80%"
 vinlandic_church: "Brendanism"
 vinlandic_church_desc: "A breakaway sect of the $catholic_ADJ$ Church, $vinlandic_church$ developed its distinct theology due to prolonged isolation from mainstream Christianity. It was founded by St. Brendan the Navigator in the 6th Century when he established a monastary during his travels. It focused heavily on monasticism, embraced native and norse syncretism, and retained many archaic practices of early Irish $christian$.
 vinlandic_church_ADJ: "Brendanist"
+
+monastery_of_st_brendan: "The Monastery of St. Brendan"
+monastery_of_st_brendan_desc: "Founded by St. Brendan the Navigator himself in the 6th centurey, this monastery has become a spiritual beacon of Christianity in the New World, and a welcome site of pilgrimage of Vinlanders and Natives alike."
+city_of_gardr: "Cathedral of Saint Nicholas"
+city_of_gardr_desc: "The Cathedral of St. Nicholas was the first cathedral erected in the Americas, and is among the oldest surviving example of Christian architecture in the Americas, and is only predated by St. Brendan's Monastery in Kelawlenan"
+leifsbudir: "Leif's Landing"
+leifsbudir_desc: "The site where Leif Erikson first landed in Vinland, the shrine built upon this site is considered a sacred place for travelers and explorers, even the clergy of Kelawlenan have blessed the shrine here as a symbol of faith."

@@ -10,6 +10,7 @@
 		icelandic = kindred
 		norwegian = positive
 		norse_gael = positive
+		wabanakiiak = positive
 	}
 
 	culture_groups = {
@@ -17,5 +18,27 @@
 	}
 	
 	use_patronym = yes
+
+}
+
+wabanakiiak = {
+	language = abenakian_language
+	
+	color = {78 127 122}
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+	opinions = {
+		wolastoqiyik_culture = kindred
+		mikmaq_culture = kindred
+		western_abenaki_culture = kindred
+		passamaquoddy_culture = kindred
+		eastern_abenaki_culture = kindred
+		penobscot_culture = kindred
+		vinlandic = positive
+	}
+	culture_groups = {
+		abenakian_group
+	}
 
 }

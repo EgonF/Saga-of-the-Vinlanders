@@ -4,6 +4,8 @@ locations = {
 	# gardr should be larger in this world due to trade, as greenland is more connected to vinland
 	gardr = { rank = town 		town_setup = scandinavian_town }
 	passagassawkeag = { rank = town 		town_setup = scandinavian_town }
+	kennebec = { rank = town 		town_setup = scandinavian_town }
+	piscataquis = { rank = town 		town_setup = scandinavian_town }
 	
 }
 
@@ -36,9 +38,10 @@ building_manager = {
 	# kelwlenen buildings
 	monastery = {tag = KL1 level = 1 location = passagassawkeag}
 	scriptorium = {tag = KL1 level = 1 location = passagassawkeag}
-	dyes_guild = {tag = KL1 level = 1 location = passagassawkeag}
+	dyes_guild = {tag = KL1 level = 1 location = piscataquis}
 	paper_guild = {tag = KL1 level = 1 location = passagassawkeag}
 	cloth_guild = {tag = KL1 level = 1 location = passagassawkeag}
+	fine_cloth_guild = {tag = KL1 level = 1 location = piscataquis}
 	
 	
 }

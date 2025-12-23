@@ -1366,3 +1366,130 @@
   kausseskait.vinlandic_dialect: "Kásseskaið"
   tupirvialuit.vinlandic_dialect: "Túpirvjalúið"
   koroc.vinlandic_dialect: "Korok"
+
+  ##############
+  ##New Jersey##
+  ##############
+
+  ##Raritan##
+  #raritan.vinlandic_dialect: ""
+  hackensack.vinlandic_dialect: "Hákonsvík"
+  navisink.vinlandic_dialect: "Gömulbrú" #Old Bridge
+  piscopeek.vinlandic_dialect: "Keldadalur" #Kendall
+
+  ##Kechemeche##
+  tetamekanch.vinlandic_dialect: "Svenskaborg"
+  kechemeche.vinlandic_dialect: "Steinhöfn" #Stone Harbor
+  cohansey.vinlandic_dialect: "Kóhansýr"
+  amintonck.vinlandic_dialect: "Sumarnes" #Sommer Point
+
+  ##Assunpink##
+  assunpink.vinlandic_dialect: "Kirsuberjahæð" #Cherry Hill
+  muscotnetcong.vinlandic_dialect: "Trésmiðabýr" #Carpentersville
+  hopotcong.vinlandic_dialect: "Hópotkongur"
+
+  ################
+  ##Pennsylvania## 
+  ################
+
+  ##Shackamaxon##
+  shackamaxon.vinlandic_dialect: "Bróðurlegaborg" #Brotherly City, City of Brotherly Love
+  wawassan.vinlandic_dialect: "Kynbýr" #Kimberton
+  wyomissing.vinlandic_dialect: "Væjómisingur"
+
+  ##Paxtang##
+  paxtang.vinlandic_dialect: "Dalbúðir" #Valley Camp, Hershey, Hercé normandy, Daubeuf
+  connatachequa.vinlandic_dialect: "Krákavað" #Crow Ford
+  conewago.vinlandic_dialect: "Kónivágur"
+  
+  ##Lehigh##
+  lehigh.vinlandic_dialect: "Leskjávegur" #Lechauweki
+  paunacussing.vinlandic_dialect: "Pánakusingur"
+  tohickon.vinlandic_dialect: "Dvergmylla" #Dwarf Mill
+  schuykill.vinlandic_dialect: "Skýlabekkur" #Schuylkill, etymological calque hidden river.
+
+  ##Tesinigh##
+  tesinigh.vinlandic_dialect: "Hikkoríbýr" #Hickorytown, older name of Lancaster PA.
+  attaock.vinlandic_dialect: "Rauðaljónið" #Red Lion
+  cocalico.vinlandic_dialect: "Bjarnarbýr" #Beartown PA.
+
+  ##Shamokin##
+  shamokin.vinlandic_dialect: "Skjamókin"
+  mahoning.vinlandic_dialect: "Kolefnisdalur" #Carbon Valley, Carbon County
+  mattawana.vinlandic_dialect: "Vagnsborg" #Waynesburg
+  juniata.vinlandic_dialect: "Rúnsteinn" #Rune Stone, Native name means standing stone
+  onojutta.vinlandic_dialect: "Júttekaland"
+  tuckahoe.vinlandic_dialect: "Dyljabýr" #Dillsburg
+  wallenpauck.vinlandic_dialect: "Vallenpágur"
+  massawomeck.vinlandic_dialect: "Masavómekkar"
+  
+  ##Wyoming##
+  scahentowanen.vinlandic_dialect: "Skahentóvanen"
+  lackawanna.vinlandic_dialect: "Lakavanna"
+  atrakwaye.vinlandic_dialect: "Aþrakvegur"
+  wappasening.vinlandic_dialect: "Vapaseningur"
+  lackawaxen.vinlandic_dialect: "Lakavaxin"
+
+  ##Delaware##
+  minguannan.vinlandic_dialect: "Kristjanía" #Christiana
+  tappahanna.vinlandic_dialect: "Ágústínus" #Augustine
+  assawoman.vinlandic_dialect: "Selebýr" #Selbyville
+
+  ############
+  ##Maryland##
+  ############
+
+  ##Nanticoke##
+  wicomico.vinlandic_dialect: "Hvítarsléttur" #White Plains
+  chichamacomico.vinlandic_dialect: "Kristssteinn" #Christ Rock
+  matapeake.vinlandic_dialect: "Rögnvaldsbryggja" #Reybald Wharf, Crystal Beach
+
+  ##Patapsco##
+  patapsco.vinlandic_dialect: "Maríuhöfn" #Mary Harbor, Baltimore
+  wicontiss.vinlandic_dialect: "Náðarhöfn" #Havre de Grace
+  nentego.vinlandic_dialect: "Hélukranshöfn" #Annapolis, Anne Arundel, Horehound-valley, Horehound Harbor
+  patuxent.vinlandic_dialect: "Lutsbýr" #Lusby
+
+  ##Potomac##
+  anacostia.vinlandic_dialect: "Jörundsborg" #Georgetown, older settlement name near DC, Jørundur- Faroese for George
+  monocacy.vinlandic_dialect: "Geitahirðisborg" #Gaithersburg
+  potapoco.vinlandic_dialect: "Járnhliðir" #Ironsides
+  catoctin.vinlandic_dialect: "Friðriksbýr" #Frederick, MD
+
+  ##Wapocomo##
+  antietam.vinlandic_dialect: "Antíðheim"
+  cacapon.vinlandic_dialect: "Skógakirkja" #Chapel in the Woods
+  opequon.vinlandic_dialect: "Tómahaukskógur" #Tomahawk Woods
+  wapocomo.vinlandic_dialect: "Stríðsfjall" #Warrior Mountain
+
+  #################
+  ##West Virginia##
+  #################
+
+  ##Wappacoma##
+  wappacoma.vinlandic_dialect: "Stormfjall" #Mt. Storm
+  ashby.vinlandic_dialect: "Öskubýr" #Ashby
+  conococheague.vinlandic_dialect: "Keisari" #Keyser
+  patna_us.vinlandic_dialect: "Bjarnarsteinar" #Bear Rocks
+  calicuas.vinlandic_dialect: "Rauðalækur" #Red Creek
+
+  ##Kanawha##
+  kanawha.vinlandic_dialect: "Kanavá"
+  moneton.vinlandic_dialect: "Nýjaáin" #New River
+  moheton.vinlandic_dialect: "Skrælingmylla"  #Indian Mills
+  ouasioto.vinlandic_dialect: "Beykikvísl" #Beech Fork
+  pocatalico.vinlandic_dialect: "Frosinnbúðir" #Frozen Camp 
+  chinquetana.vinlandic_dialect: "Sumarbýr" #Summersville
+  weotowe.vinlandic_dialect: "Franskavað" #French Ford, Frankford
+  tsalagi.vinlandic_dialect: "Björnvinur" #Berwind
+  anigiduwagi.vinlandic_dialect: "Anigidúvegur"
+
+  ##Monongahela##
+  wihlink.vinlandic_dialect: "Hjóla" #Wheeling, literal translation because its funny
+  monongahela.vinlandic_dialect: "Meyjarbýr" #Maidsville
+  onimgohow.vinlandic_dialect: "Grænahæðin" #Green Hill
+  calicua.vinlandic_dialect: "Vesturbandalagið" #West Union
+
+
+  
+  
