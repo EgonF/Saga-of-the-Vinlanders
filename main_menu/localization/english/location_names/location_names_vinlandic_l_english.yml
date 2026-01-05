@@ -1705,7 +1705,7 @@
   kiawah.vinlandic_dialect: "Hafnareyja" #Harbor Island
   coosaw.vinlandic_dialect: "Kúsá"
   combahee.vinlandic_dialect: "Konunnareyja" #Lady's Island
-  wimbee.vinlandic_dialect: "vindmylluhöfn" #Windmill Island
+  wimbee.vinlandic_dialect: "Vindmylluhöfn" #Windmill Island
   santee.vinlandic_dialect: "Santi"
 
   ##Cofitachequi##
@@ -1786,7 +1786,7 @@
   icafui.vinlandic_dialect: "Fólksbýr" #Folkton
 
   ##Guale##
-  tybee.vinlandic_dialect: "Savanna"
+  tybee.vinlandic_dialect: "Teybýr"
   ossabaw.vinlandic_dialect: "Ossabá"
   sapelo.vinlandic_dialect: "Sapelósundið" #Sapelo Sound
   canoochee.vinlandic_dialect: "Kanússi"
@@ -2946,40 +2946,107 @@
   #tsekani.vinlandic_dialect: ""
 
   ##Dunnneza##
+  #williston.vinlandic_dialect: ""
+  #unjegah.vinlandic_dialect: ""
+  #tsa_tinne.vinlandic_dialect: ""
+  #chinchaga.vinlandic_dialect: ""
+  #beatton.vinlandic_dialect: ""
 
   ##Kaska##
+  #tyagacho.vinlandic_dialect: ""
+  #ozanna.vinlandic_dialect: ""
+  #tsay_iona.vinlandic_dialect: ""
+  #teslin_trail.vinlandic_dialect: ""
 
   ##Tsetsaut##
+  #k_alii_xkalaan.vinlandic_dialect: ""
+  #chiyone.vinlandic_dialect: ""
 
   ##Dehcho##
+  #ford_liard.vinlandic_dialect: ""
+  #nahanni.vinlandic_dialect: ""
+  #fort_simpson.vinlandic_dialect: ""
+  #jean_marie_river.vinlandic_dialect: ""
+  #rigley.vinlandic_dialect: ""
 
   #############
   ##Athabasca##
   #############
 
   ##Sakwatamau##
+  #sakwatamau.vinlandic_dialect: ""
+  #tawatinaw.vinlandic_dialect: ""
+  #ayahciyiniw_sakahikan.vinlandic_dialect: ""
+  #kamspikihteek.vinlandic_dialect: ""
+  #asiniwaciy.vinlandic_dialect: ""
 
   ##Thilanehotine##
+  #thilane_hot_ine.vinlandic_dialect: ""
+  #sakawyiniw.vinlandic_dialect: ""
+  #ot_esh_otchore.vinlandic_dialect: ""
 
   ##Athabasca##
+  #athabasca.vinlandic_dialect: ""
+  #kai_theli_ke_hot_inne.vinlandic_dialect: ""
+  #tethul.vinlandic_dialect: ""
 
   ##Mikkwa##
+  #mikkwa.vinlandic_dialect: ""
+  #wabasca.vinlandic_dialect: ""
+  #mushikitee.vinlandic_dialect: ""
+  #ksituan.vinlandic_dialect: ""
 
   ##Amisk Sipi##
+  #amisk_sipi.vinlandic_dialect: ""
+  #amisk_sakahikan.vinlandic_dialect: ""
+  #wawaskesiwisakahikan.vinlandic_dialect: ""
 
   ##Namew##
+  #namew.vinlandic_dialect: ""
+  #kipahigan.vinlandic_dialect: ""
+  #mistahi_sakahikan.vinlandic_dialect: ""
+  #wapiskau_sk.vinlandic_dialect: ""
+  #kiheewapiw.vinlandic_dialect: ""
 
   ##Sakitawahk##
+  #sakitawahk.vinlandic_dialect: ""
+  #methye.vinlandic_dialect: ""
+  #missinipi.vinlandic_dialect: ""
+  #kawatinook.vinlandic_dialect: ""
 
   ##Gani Koe##
+  #gani_koe.vinlandic_dialect: ""
+  #tazin.vinlandic_dialect: ""
+  #tipinuwak.vinlandic_dialect: ""
+  #misekumaw.vinlandic_dialect: ""
 
   ##Tu Nedhe##
+  #klewi.vinlandic_dialect: ""
+  #tu_nedhe.vinlandic_dialect: ""
+  #tucho.vinlandic_dialect: ""
+  #tidee.vinlandic_dialect: ""
+  #kakisa.vinlandic_dialect: ""
 
   ##Wecho##
+  #wecho.vinlandic_dialect: ""
+  #soombak_e.vinlandic_dialect: ""
+  #utsingi.vinlandic_dialect: ""
+  #kahochella.vinlandic_dialect: ""
 
   ##Thubun##
+  #thubun.vinlandic_dialect: ""
+  #tronka_chua.vinlandic_dialect: ""
+  #tatsan.vinlandic_dialect: ""
+  #nonacho.vinlandic_dialect: ""
+  #lutselk_e.vinlandic_dialect: ""
+  #deskenetlata.vinlandic_dialect: ""
+  #natalkai.vinlandic_dialect: ""
 
   ##Dubawnt##
+  #thoa.vinlandic_dialect: ""
+  #dubawnt.vinlandic_dialect: ""
+  #abitau.vinlandic_dialect: ""
+  #kasba.vinlandic_dialect: ""
 
   ####################
   #### WEST COAST ####
@@ -2990,144 +3057,501 @@
   ####################
 
   ##Chumash##
+  #payomkawichum.vinlandic_dialect: ""
+  #kukamonga.vinlandic_dialect: ""
+  #yaanga.vinlandic_dialect: ""
+  #ventureno.vinlandic_dialect: ""
+  #ineseno.vinlandic_dialect: ""
+  #pimuu_nga.vinlandic_dialect: ""
 
   ##Aacistak##
+  #tepotahal.vinlandic_dialect: ""
+  #mutsun.vinlandic_dialect: ""
+  awaswas.vinlandic_dialect: "Vesturgarður"  
+  chochenyo.vinlandic_dialect: "Ávaxtadalur" #Fruitvale
 
   ##Northern Velley Yokuts##
+  #tawalimni.vinlandic_dialect: ""
+  #chawchila.vinlandic_dialect: ""
+  #yashikumne.vinlandic_dialect: ""
+  #noptinte.vinlandic_dialect: ""
+  #gashowu.vinlandic_dialect: ""
 
   ##Southern Valley Yokuts##
+  #tachi.vinlandic_dialect: ""
+  #pitkachi.vinlandic_dialect: ""
+  #koyeti.vinlandic_dialect: ""
+  #yawdanshi.vinlandic_dialect: ""
+  #tulumni.vinlandic_dialect: ""
+  #hometwoli.vinlandic_dialect: ""
 
   ##Pomo##
+  #mewuk.vinlandic_dialect: ""
+  #onasatis.vinlandic_dialect: ""
+  #kashaya.vinlandic_dialect: ""
+  #kulanapan.vinlandic_dialect: ""
+  #ukomno_om.vinlandic_dialect: ""
+  #tlokyhan.vinlandic_dialect: ""
 
   ##Miwok##
+  #koloma.vinlandic_dialect: ""
+  #nochu_ci.vinlandic_dialect: ""
+  #tuolomne.vinlandic_dialect: ""
+  #mokelumne.vinlandic_dialect: ""
+  #kasumne.vinlandic_dialect: ""
 
   ##Nomlaki##
+  #suisin.vinlandic_dialect: ""
+  #korusi.vinlandic_dialect: ""
+  #yo_loy.vinlandic_dialect: ""
+  #hill_nomlaki.vinlandic_dialect: ""
+  #river_nomlaki.vinlandic_dialect: ""
 
   ##Sacramento##
+  #koyoongkawi.vinlandic_dialect: ""
+  #mechoopda.vinlandic_dialect: ""
+  #maidu.vinlandic_dialect: ""
+  #yupu.vinlandic_dialect: ""
+  #nisenan.vinlandic_dialect: ""
 
   ##Maidu##
+  #konkow.vinlandic_dialect: ""
+  #yahi.vinlandic_dialect: ""
+  #mountain_maidu.vinlandic_dialect: ""
+  #atsugewi.vinlandic_dialect: ""
+  #yana.vinlandic_dialect: ""
 
   ##Sequoyah##
+  #sinkyone.vinlandic_dialect: ""
+  #mattole.vinlandic_dialect: ""
+  #nongatl.vinlandic_dialect: ""
+  #jaroujiji.vinlandic_dialect: ""
+  #wailaki.vinlandic_dialect: ""
 
   ##Yuru Kyara##
+  #hoilkut.vinlandic_dialect: ""
+  #oohl.vinlandic_dialect: ""
+  #chidkhu.vinlandic_dialect: ""
+  #tututni.vinlandic_dialect: ""
+  #ko_kwel.vinlandic_dialect: ""
 
   ##Shasta##
+  #natinixwe.vinlandic_dialect: ""
+  #amblu_kai.vinlandic_dialect: ""
+  #tsnungwe.vinlandic_dialect: ""
+  #wintu.vinlandic_dialect: ""
+  #okwanuchu.vinlandic_dialect: ""
 
   ##Takelma##
+  #waika.vinlandic_dialect: ""
+  #siskiyou.vinlandic_dialect: ""
+  #karuk.vinlandic_dialect: ""
+  #yulalona.vinlandic_dialect: ""
+  #tak_elam.vinlandic_dialect: ""
+  #etnemitane.vinlandic_dialect: ""
 
   ##Klamath##
+  #achomawi.vinlandic_dialect: ""
+  #tollin.vinlandic_dialect: ""
+  #mbosaksawaas.vinlandic_dialect: ""
+  #ewksikni.vinlandic_dialect: ""
+  #modokni.vinlandic_dialect: ""
 
   ##Mojave##
+  #iviatim.vinlandic_dialect: ""
+  #kitanemuk.vinlandic_dialect: ""
+  #taaqtam.vinlandic_dialect: ""
+  #vanyume.vinlandic_dialect: ""
+  #kawaiisu.vinlandic_dialect: ""
 
   ###############
   ##Great Basin##
   ###############
 
   ##Tumpisa##
+  #tubatulabam.vinlandic_dialect: ""
+  #timbisha.vinlandic_dialect: ""
+  #kuzedika.vinlandic_dialect: ""
+  #fish_lake.vinlandic_dialect: ""
+  #tumpisa.vinlandic_dialect: ""
 
   ##Chemewevi##
+  #havasu.vinlandic_dialect: ""
+  #ivanpah.vinlandic_dialect: ""
+  #pah_rimpi.vinlandic_dialect: ""
+  #moapa.vinlandic_dialect: ""
+  #sebit.vinlandic_dialect: ""
+  #amargosa.vinlandic_dialect: ""
 
   ##East Nuwuvi##
+  #parrusit.vinlandic_dialect: ""
+  #uinkaret.vinlandic_dialect: ""
+  #kaibab.vinlandic_dialect: ""
+  #quitchupah.vinlandic_dialect: ""
+  #kaiparowit.vinlandic_dialect: ""
 
   ##Kusiutta##
+  #koosharem.vinlandic_dialect: ""
+  #pierruiat.vinlandic_dialect: ""
+  #tooele.vinlandic_dialect: ""
+  #unkagarit.vinlandic_dialect: ""
+  #pio_gwut.vinlandic_dialect: ""
+  #seuhubeogoi.vinlandic_dialect: ""
 
   ##Nye##
+  #kawich.vinlandic_dialect: ""
+  #akamba.vinlandic_dialect: ""
+  #tsaiduka.vinlandic_dialect: ""
+  #kutsipiuti.vinlandic_dialect: ""
 
   ##Humboldt##
+  #makuhadokado.vinlandic_dialect: ""
+  #sawawaktodo.vinlandic_dialect: ""
+  #kupadokado.vinlandic_dialect: ""
+  #winnemucca.vinlandic_dialect: ""
+  #humbokado.vinlandic_dialect: ""
 
   ##West Shoshone##
+  #tipatikka.vinlandic_dialect: ""
+  #tsogwiyuyugi.vinlandic_dialect: ""
+  #kuyatikka.vinlandic_dialect: ""
+  #mahaguatikka.vinlandic_dialect: ""
+  #watatikka.vinlandic_dialect: ""
 
   ##Waashiw##
+  #tanalelti.vinlandic_dialect: ""
+  #powalu.vinlandic_dialect: ""
+  #toedokado.vinlandic_dialect: ""
+  #tovusidokado.vinlandic_dialect: ""
+  #waitikka.vinlandic_dialect: ""
 
   ##Ticutta##
+  #agai_ticutta.vinlandic_dialect: ""
+  #koop_ticutta.vinlandic_dialect: ""
+  #cui_yui_ticutta.vinlandic_dialect: ""
+  #kamu_ticutta.vinlandic_dialect: ""
+  #panina_ticutta.vinlandic_dialect: ""
 
   ##Malheur##
+  tsitsiadi.vinlandic_dialect: "Vagnhjól"
+  #gidi_tika.vinlandic_dialect: ""
+  #malheur.vinlandic_dialect: ""
+  #wadadokado.vinlandic_dialect: ""
+  #tagotoka.vinlandic_dialect: ""
+  #moadokado.vinlandic_dialect: ""
 
   ##Idaho##
+  #yakwahnim_paa.vinlandic_dialect: ""
+  #panati.vinlandic_dialect: ""
+  #tipanuk.vinlandic_dialect: ""
+  #king_hill.vinlandic_dialect: ""
+  #yahandeka.vinlandic_dialect: ""
+  #toponisw.vinlandic_dialect: ""
 
   ##Northeast Numu##
+  #seneca.vinlandic_dialect: ""
+  #arock.vinlandic_dialect: ""
+  #juntura.vinlandic_dialect: ""
+  #nyssa.vinlandic_dialect: ""
+  #payette.vinlandic_dialect: ""
+  #yam_pah_pa.vinlandic_dialect: ""
 
   ##Bear River##
+  #buenaventura.vinlandic_dialect: ""
+  #morgan.vinlandic_dialect: ""
+  #yoov_we_teuh.vinlandic_dialect: ""
+  #so_so_goiw.vinlandic_dialect: ""
+  #randolph.vinlandic_dialect: ""
+  #boa_ogoi.vinlandic_dialect: ""
 
   ##Snake River##
+  #hazelton.vinlandic_dialect: ""
+  #richfield.vinlandic_dialect: ""
+  #pohoko_ikkatee.vinlandic_dialect: ""
+  #wapi.vinlandic_dialect: ""
+  #dembimbosaage.vinlandic_dialect: ""
+  #jefferson.vinlandic_dialect: ""
 
   ##Bannock##
+  #lemhi.vinlandic_dialect: ""
+  #pohogwe.vinlandic_dialect: ""
+  #koa_aga_itoka.vinlandic_dialect: ""
+  #shohopanaiti.vinlandic_dialect: ""
+  #yambadika.vinlandic_dialect: ""
+  #waradika.vinlandic_dialect: ""
 
   ##West Nuchiu##
+  #sahpeech.vinlandic_dialect: ""
+  #yoowetum.vinlandic_dialect: ""
+  #pahva_nits.vinlandic_dialect: ""
+  #cumumba.vinlandic_dialect: ""
+  #toompahnahwach.vinlandic_dialect: ""
 
   ###########
   ##Rockies##
   ###########
 
   ##Grand Teton##
+  #sweetwater.vinlandic_dialect: ""
+  #guchuntikka.vinlandic_dialect: ""
+  #tondzaosha.vinlandic_dialect: ""
+  #kuccuntikka.vinlandic_dialect: ""
+  #teewinot.vinlandic_dialect: ""
 
   ##Agaidika##
+  #leadore.vinlandic_dialect: ""
+  #kamodika.vinlandic_dialect: ""
+  #doyahinee.vinlandic_dialect: ""
+  #red_rock.vinlandic_dialect: ""
+  #agaidika.vinlandic_dialect: ""
+  #elkhorn.vinlandic_dialect: ""
+  #penointikara.vinlandic_dialect: ""
+  #ruby_valley.vinlandic_dialect: ""
+  #beaverhead.vinlandic_dialect: ""
 
   ##Dukundeka##
+  #tukudika.vinlandic_dialect: ""
+  #mitse_adazi.vinlandic_dialect: ""
+  #fremont.vinlandic_dialect: ""
+  #gazzllatin.vinlandic_dialect: ""
+  #ashalaho.vinlandic_dialect: ""
 
   ##Alamosa##
+  #kahpota.vinlandic_dialect: ""
+  #moghwachi.vinlandic_dialect: ""
+  #taviwac.vinlandic_dialect: ""
+  #na_isha.vinlandic_dialect: ""
 
   ##Weeminuche##
+  #moanunts.vinlandic_dialect: ""
+  #winimuc.vinlandic_dialect: ""
+  #to_aheedliinii.vinlandic_dialect: ""
+  #wasatch.vinlandic_dialect: ""
+  #uncompaghre.vinlandic_dialect: ""
 
   ##Central Nuchiu##
+  #nuchiu.vinlandic_dialect: ""
+  #tavaputs.vinlandic_dialect: ""
+  #uintah.vinlandic_dialect: ""
+  #taveewach.vinlandic_dialect: ""
+  #pahdteeahnooch.vinlandic_dialect: ""
+  #yapudttka.vinlandic_dialect: ""
 
   ##Northern Nuchiu##
+  #ouray.vinlandic_dialect: ""
+  #moffat.vinlandic_dialect: ""
+  #routt.vinlandic_dialect: ""
+  #dagett.vinlandic_dialect: ""
+  #savery.vinlandic_dialect: ""
+  #basawunena.vinlandic_dialect: ""
 
   ##Sweetwater##
+  #bridger.vinlandic_dialect: ""
+  #rock_springs.vinlandic_dialect: ""
+  #flaming_gorge.vinlandic_dialect: ""
+  #sinclair.vinlandic_dialect: ""
+  #point_of_rocks.vinlandic_dialect: ""
+  #wamsutter.vinlandic_dialect: ""
+  #milk_creek.vinlandic_dialect: ""
 
   ##Western Crow##
+  #pushroot.vinlandic_dialect: ""
+  #split_rock.vinlandic_dialect: ""
+  #washakie.vinlandic_dialect: ""
+  #hinono_ei.vinlandic_dialect: ""
+  #moneta.vinlandic_dialect: ""
+  #grass_creek.vinlandic_dialect: ""
+  #hot_springs.vinlandic_dialect: ""
 
   ############
   ##Cascadia##
   ############
 
   ##Oregon##
+  quuiich.vinlandic_dialect: "Norðurbeygja" #North Bend
+  yaquina.vinlandic_dialect: "Ostruhöfn" #Oyster Port
+  umpqua.vinlandic_dialect: "Samveldisskarð" #Union Gap
+  kalapuya.vinlandic_dialect: "Evgeníusarstaður" #Eugene
+  south_molala.vinlandic_dialect: "Múlalarland"
 
   ##Molalla##
+  giiwas.vinlandic_dialect: "Djúptvatn" #Crater Lake
+  meli_lema.vinlandic_dialect: "Melílema"
+  tukspush.vinlandic_dialect: "Tuxpús"
 
   ##Chinook##
+  tillamook.vinlandic_dialect: "Þrírbogar" #Three Arch rocks
+  atfalati.vinlandic_dialect: "Atfjallið"
+  chinook.vinlandic_dialect: "Sólseturshöfn" #Sunset Harbor
+  multnomah.vinlandic_dialect: "Hafnarland" #Portland
+  watlala.vinlandic_dialect: "Vahlaraáin"
 
   ##Olympic##
+  stlpulmsh.vinlandic_dialect: "Vígvöllur" #Battlefield
+  chehalis.vinlandic_dialect: "Bakarivík" #Baker Bay
+  chala_at.vinlandic_dialect: "Kvínajhlar" #Quinault Tribe
+  sklallam.vinlandic_dialect: "Elhvá" #Elwha
+  twana.vinlandic_dialect: "Niðafjöll" #Olympia
+  makah.vinlandic_dialect: "Vesturnes"
 
   ##Sahaptin##
+  tayxlama.vinlandic_dialect: "systurnar" #Sisters
+  takspaslama.vinlandic_dialect: "Einiberjagljúfur" #Juniper Canyon
+  waluulapam.vinlandic_dialect: "Skáldahorn" #Humorist
+  umatilla.vinlandic_dialect: "Morgundalur" #Morgan
+  liksiyu.vinlandic_dialect: "Lixyjuskógur"
 
   ##Yakama##
+  wishram.vinlandic_dialect: "Dalirnir" #The Dalles
+  #klikitat.vinlandic_dialect: ""
+  mamachatpam.vinlandic_dialect: "Hestaríki" #Horse Heaven
+  pa_kiut_lema.vinlandic_dialect: "Hlíðarkletti" #Hillside Siding
+  wanapum.vinlandic_dialect: "Eyðimerkurloft" #Desert Aire
 
   ##Northwest Numu##
+  silver_lake.vinlandic_dialect: "Silfurvatn"
+  chewaucan.vinlandic_dialect: "Sjevaukin"
+  kidutokado.vinlandic_dialect: "Hálfmáni" #Crescent
+  tinainu.vinlandic_dialect: "Tunáin"
+  crook.vinlandic_dialect: "Hróbjartsstaður" #Roberts
+  grant.vinlandic_dialect: "Austurstyrkur"
+  towarnehiooks.vinlandic_dialect: "Demantfjall" #Diamond Peak
 
   ##Nimiipuu##
+  wallowa.vinlandic_dialect: "Slæmtlækningafjall" #Bad Medicine Mountain
+  alpowna.vinlandic_dialect: "Bleikahúsið" #Pink House
+  hinsepu.vinlandic_dialect: "Brýnsteinsstaður" #Whetstone
+  kamiahpu.vinlandic_dialect: "Rjúpa" #Grouse
+  asahkaiowaipu.vinlandic_dialect: "Leiðbeinandi" #Mentor
+  lamatama.vinlandic_dialect: "Hróðgeirsborg" #Rogersburg
+  iyeesnime.vinlandic_dialect: "Yjísnimir"
 
   ##Southern Selish##
+  bitterroot.vinlandic_dialect: "Biturrót"
+  deer_lodge.vinlandic_dialect: "Dádýraskáli"
+  granite.vinlandic_dialect: "Súrtsteinn"
+  missoula.vinlandic_dialect: "Misúla"
+  turah.vinlandic_dialect: "Týrsá"
 
   ##Northern Selish##
+  saleesh.vinlandic_dialect: "Salisarland"
+  niarada.vinlandic_dialect: "Njaraða"
+  bad_rock.vinlandic_dialect: "Slæmursteinn"
+  epixyu.vinlandic_dialect: "Flatthöfuð" #Flathead
+  hungry_horse.vinlandic_dialect: "Svangurhestur"
 
   ##Kalispel##
+  kaniksu.vinlandic_dialect: "Sýlshjarta" #Coeur d'Alene
+  skitswish.vinlandic_dialect: "Árdalur" #Riverdale
+  benewah.vinlandic_dialect: "Sýlshjartavatn"
+  kalispel.vinlandic_dialect: "Skinnhöfn" #Fur Port
+  qlispe.vinlandic_dialect: "Þama" #Thama
+  sletewsi.vinlandic_dialect: "Rúbínsteinn" #Ruby
 
   ##Southern Ktunaxa##
+  aqanqmi.vinlandic_dialect: "Flatthöfuðá" #Flathead river
+  yaqan_nukiy.vinlandic_dialect: "Talkúm" #Talc
+  akinkumasnuqit.vinlandic_dialect: "Villihestavatn" #Wildhorse Island + Flathead Lake
+  aq_am.vinlandic_dialect: "Hvítfiskdalur" #Whitefish
+  akisq_nuk.vinlandic_dialect: "Hjuriskein" #Eureka
+  kananmituk.vinlandic_dialect: "Jökulland" #Glacier national park
 
   ##Northern Ktunaxa##
+  #akinka_nup.vinlandic_dialect: ""
+  #aqyam_nup.vinlandic_dialect: ""
+  #ainu_nik.vinlandic_dialect: ""
+  #ktunwakanmituk.vinlandic_dialect: ""
+  #aknuq_uk.vinlandic_dialect: ""
+  #yakyu_ki.vinlandic_dialect: ""
 
   ##Cascadia##
+  puyallup.vinlandic_dialect: "Hliðarhöfn"
+  kittikas.vinlandic_dialect: "Troðningurskarð" #Stampede Pass
+  duwamish.vinlandic_dialect: "Biturtvatn" #Bitter Lake
+  snohomish.vinlandic_dialect: "Góðvinur" #Goodwin
+  skagit.vinlandic_dialect: "Birkivík" #Birch Bay
+  nisqually.vinlandic_dialect: "Snjófjall" #Tacoma calque
 
   ##Halkomelem##
+  #nooksack.vinlandic_dialect: ""
+  #lhaq_temish.vinlandic_dialect: ""
+  #sto_lo.vinlandic_dialect: ""
+  #sts_ailes.vinlandic_dialect: ""
+  #whonnock.vinlandic_dialect: ""
+  #katzie.vinlandic_dialect: ""
 
   ##Strathcona##
+  #squamish.vinlandic_dialect: ""
+  #sechelt.vinlandic_dialect: ""
+  #sliammon.vinlandic_dialect: ""
+  #klahoose.vinlandic_dialect: ""
+  #homalco.vinlandic_dialect: ""
 
   ##Columbia Plateau##
+  #alpo_wa.vinlandic_dialect: ""
+  #pa_lus_sa.vinlandic_dialect: ""
+  #nkee_us.vinlandic_dialect: ""
+  #stata_ketux.vinlandic_dialect: ""
+  #scqescilni.vinlandic_dialect: ""
+  #snt_t_ulix.vinlandic_dialect: ""
 
   ##Okanagan##
+  #wenatchi.vinlandic_dialect: ""
+  #chelan.vinlandic_dialect: ""
+  #osoyoos.vinlandic_dialect: ""
+  #similkameen.vinlandic_dialect: ""
+  #okanagan.vinlandic_dialect: ""
+  #spaxomin.vinlandic_dialect: ""
 
   ##Arrow Lakes##
+  #n_pooh_le.vinlandic_dialect: ""
+  #enselxcin.vinlandic_dialect: ""
+  #swarakxen.vinlandic_dialect: ""
+  #ntiltxitk.vinlandic_dialect: ""
+  #stxtilusten.vinlandic_dialect: ""
+  #snk_mip.vinlandic_dialect: ""
+  #q_espiea.vinlandic_dialect: ""
+  #illecillewaet.vinlandic_dialect: ""
 
   ##Columbia Basin##
+  #skuppah.vinlandic_dialect: ""
+  #nlaka_pamux.vinlandic_dialect: ""
+  #scw_exmx.vinlandic_dialect: ""
+  #st_at_imcets.vinlandic_dialect: ""
+  #tsala_ihmec.vinlandic_dialect: ""
+  #leel_watr_ool.vinlandic_dialect: ""
 
   ##Chilcotin##
+  #tsi_del_del.vinlandic_dialect: ""
+  #tl_etinqox_t_in.vinlandic_dialect: ""
+  #tl_esqox.vinlandic_dialect: ""
+  #yunesit_in.vinlandic_dialect: ""
+  #elhdaqox_t_in.vinlandic_dialect: ""
 
   ##South Shuswap##
+  #sk_atsin.vinlandic_dialect: ""
+  #skitsetsen.vinlandic_dialect: ""
+  #st_uxwtews.vinlandic_dialect: ""
+  #splatsin.vinlandic_dialect: ""
+  #tk_emlups.vinlandic_dialect: ""
+  #qw_ewt.vinlandic_dialect: ""
+  #stil_qw.vinlandic_dialect: ""
 
   ##North Shuswap##
+  #esk_el.vinlandic_dialect: ""
+  #stswecen_c.vinlandic_dialect: ""
+  #llenllenet_ten.vinlandic_dialect: ""
+  #sexqeltqin.vinlandic_dialect: ""
+  #simpcw.vinlandic_dialect: ""
+  #xat_sull.vinlandic_dialect: ""
 
   ##East Shuswap##
+  #mica_creek.vinlandic_dialect: ""
+  #kinbasket.vinlandic_dialect: ""
+  #karluk_peak.vinlandic_dialect: ""
+  #moose_river.vinlandic_dialect: ""
+  #monashee.vinlandic_dialect: ""
+  #cariboo.vinlandic_dialect: ""
 
   ###################
   #### CARIBBEAN ####
@@ -3138,42 +3562,153 @@
   ########
 
   ##Baracoa##
+  yateras.vinlandic_dialect: "Jatærar"
+  bayaquitiri.vinlandic_dialect: "Miklisteinninn" #Gran Piedra
+  mayari.vinlandic_dialect: "Majari"
+  guantanamo.vinlandic_dialect: "Vindmylluströnd" #Windmill Beach
+  baracoa.vinlandic_dialect: "Hunangsvík" #Bahía de Miel
+  sagua.vinlandic_dialect: "Feitnes" #Punta Gorda
+  barajagua.vinlandic_dialect: "Bahregur"
 
   ##Bayamo##
+  bayamo.vinlandic_dialect: "Bajamur"
+  macaca.vinlandic_dialect: "Jarlsnes"
+  jiguani.vinlandic_dialect: "Hvani"
+  cueiba.vinlandic_dialect: "Kveiba"
+  maguanes.vinlandic_dialect: "Mavani"
+  bani_cuba.vinlandic_dialect: "Banir"
+  #lora.vinlandic_dialect: ""
+  cayaguayo.vinlandic_dialect: "Kæjavegur"
 
   ##Camaguey##
+  south_camaguey.vinlandic_dialect: "Kennarafjöll" #Sierra Maestra
+  camaguey.vinlandic_dialect: "Kamavæþorp"
+  mabuya.vinlandic_dialect: "Glænýbyggð" #Nuevitas
+  guaimaro.vinlandic_dialect: "Væmar"
 
   ##Moron##
+  cubanacan.vinlandic_dialect: "Kúbanakan"
+  east_cubanacan.vinlandic_dialect: "Austbýr"
+  magon.vinlandic_dialect: "Nautið" #El Toro
+  ornofay.vinlandic_dialect: "Blindamannsstaður" #Ciego De Avila
+  guamuhaya.vinlandic_dialect: "Vamúhega"
+  east_sabaneque.vinlandic_dialect: "Austur Sabaníkæjarströnd"
+  central_sabaneque.vinlandic_dialect: "Miðsabaníkæjarströnd"
+  sabana.vinlandic_dialect: "Savanna"
 
   ##Havana##
+  habana.vinlandic_dialect: "Nýhöfn"
+  batanabo.vinlandic_dialect: "Skjaldbökuspor"
+  guanimar.vinlandic_dialect: "Vanimar"
+  marien_cuba.vinlandic_dialect: "Virkihöfnin"
+  siguanea.vinlandic_dialect: "Æskueyjan" #Isla de la Juventud
+  guaniguanico.vinlandic_dialect: "Vanivanikkur"
+  guanamacabibes.vinlandic_dialect: "Hróaldsnes"
+  macoriges.vinlandic_dialect: "Bjarnharðsbýr"
+  west_sabaneneque.vinlandic_dialect: "Vestur Sabaníkæjarströnd"
+  hanabana.vinlandic_dialect: "Hanabanáin"
+  jagua.vinlandic_dialect: "Hundraðeldvík"
 
   ##Xaymaca##
+  maynoa.vinlandic_dialect: "Álfahæð" #Fairie Hill
+  yaguabo.vinlandic_dialect: "Prinshöfn" #Kingston
+  aguacadiba.vinlandic_dialect: "Kryddhæð" #Spicy Hill
+  guaygata.vinlandic_dialect: "Vatnsdalur" #Water Valley
+  anaya.vinlandic_dialect: "Anaja"
+  oristan.vinlandic_dialect: "Smjörvík" #Montego Bay, from Manteca, lard
 
   ##Lucayas##
+  abacoa.vinlandic_dialect: "Andraeyja" #Andros
+  exuma.vinlandic_dialect: "Kyraðeyjar" #Curateo
+  guanima.vinlandic_dialect: "Kattaeyja" #Cat Island
+  eleuthera.vinlandic_dialect: "Höfneyja" #Harbour Island
+  guanahani.vinlandic_dialect: "Vanahaneyja"
+  inagua.vinlandic_dialect: "Ferskvatnseyja" #Heneagua 'Water is to be found here'
+  jumento.vinlandic_dialect: "Byggðavíkeyja" #Settlement Cove
+  caycos.vinlandic_dialect: "Kajkueyjar"
+  lucayoneque.vinlandic_dialect: "Lúkeyjar"
+  bahama.vinlandic_dialect: "Sjóræningjaeyja" #Pirate Island
 
   ##############
   ##Hispaniola##
   ##############
 
   ##Higuey##
+  #bavaro.vinlandic_dialect: ""
+  #yuma.vinlandic_dialect: ""
+  #hicayagua.vinlandic_dialect: ""
+  #cayacoa.vinlandic_dialect: ""
+  #yamasa.vinlandic_dialect: ""
+  #boya.vinlandic_dialect: ""
 
   ##Maguana##
+  #maguana.vinlandic_dialect: ""
+  #jarabacoa.vinlandic_dialect: ""
+  #cibao.vinlandic_dialect: ""
+  #azua.vinlandic_dialect: ""
+  #bani.vinlandic_dialect: ""
+  #banique.vinlandic_dialect: ""
 
   ##Magua##
+  #yaqui.vinlandic_dialect: ""
+  #magorix.vinlandic_dialect: ""
+  #bohio.vinlandic_dialect: ""
+  #moca.vinlandic_dialect: ""
+  #samana.vinlandic_dialect: ""
+  #cubao.vinlandic_dialect: ""
+  #ciguayo.vinlandic_dialect: ""
+  #cotui.vinlandic_dialect: ""
 
   ##Marien##
+  #marien.vinlandic_dialect: ""
+  #iguamuco.vinlandic_dialect: ""
+  #guahaba.vinlandic_dialect: ""
+  #tortuga.vinlandic_dialect: ""
+  #baynoa.vinlandic_dialect: ""
 
   ##Jaragua##
+  #jaragua.vinlandic_dialect: ""
+  #cayguani.vinlandic_dialect: ""
+  #baoruco.vinlandic_dialect: ""
+  #guanabo.vinlandic_dialect: ""
+  #cahay.vinlandic_dialect: ""
+  #guacayakima.vinlandic_dialect: ""
+  #haniguayagua.vinlandic_dialect: ""
+  #yaquimo.vinlandic_dialect: ""
+  #yaguana.vinlandic_dialect: ""
 
   ##Boriken##
+  #guaynabo.vinlandic_dialect: ""
+  #guaraca.vinlandic_dialect: ""
+  #guaynia.vinlandic_dialect: ""
+  #guama.vinlandic_dialect: ""
+  #arasibo.vinlandic_dialect: ""
+  #ayamaco.vinlandic_dialect: ""
 
   ###################
   ##Lesser Antilles##
   ###################
 
   ##Leeward Islands##
+  #wadadli.vinlandic_dialect: ""
+  #liamuiga.vinlandic_dialect: ""
+  #walichi.vinlandic_dialect: ""
+  #anegada.vinlandic_dialect: ""
+  #ayay.vinlandic_dialect: ""
 
   ##Windward Islands##
+  #carucairi.vinlandic_dialect: ""
+  #waitu_kubuli.vinlandic_dialect: ""
+  #iguanacaera.vinlandic_dialect: ""
+  #hewanorra.vinlandic_dialect: ""
+  #cairiani.vinlandic_dialect: ""
+  #ichirouganaim.vinlandic_dialect: ""
+  #alubera.vinlandic_dialect: ""
+  #kamahuya.vinlandic_dialect: ""
+  #youloumain.vinlandic_dialect: ""
+  #buriari.vinlandic_dialect: ""
+  #curacaute.vinlandic_dialect: ""
+  #arubeira.vinlandic_dialect: ""
 
   ######################
   #### ARIDOAMERICA ####
@@ -3184,68 +3719,220 @@
   #########
 
   ##Cacaxtles##
+  #tugumlepen.vinlandic_dialect: ""
+  #estok_gna.vinlandic_dialect: ""
+  #cachopostales.vinlandic_dialect: ""
+  #cacaxtles.vinlandic_dialect: ""
+  #koke_metchesko_laha.vinlandic_dialect: ""
+  #cabias.vinlandic_dialect: ""
+  #tsel_tatli_dsha.vinlandic_dialect: ""
+  #tinapihuaya.vinlandic_dialect: ""
 
   ##Karankawa##
+  #piguique.vinlandic_dialect: ""
+  #capoque.vinlandic_dialect: ""
+  #karankawa.vinlandic_dialect: ""
+  #copane.vinlandic_dialect: ""
+  #mariame.vinlandic_dialect: ""
 
   ##Tonkawa##
+  #tu_sis_nde.vinlandic_dialect: ""
+  #bobole.vinlandic_dialect: ""
+  #ndawe_qoha.vinlandic_dialect: ""
+  #tonkawa.vinlandic_dialect: ""
+  #kanahatino.vinlandic_dialect: ""
+  #sha_ia_nde.vinlandic_dialect: ""
+  #kol_kuka.vinlandic_dialect: ""
+  #teyas.vinlandic_dialect: ""
+  #mashgalende.vinlandic_dialect: ""
 
   ##Waco##
+  #melenudo.vinlandic_dialect: ""
+  #waco.vinlandic_dialect: ""
+  #nokoni.vinlandic_dialect: ""
 
   ##Kitaish##
+  tanimuu.vinlandic_dialect: "Þrenningá" #Trinity River
+  kitsai.vinlandic_dialect: "Urðvírki" #Vínviður, Grapevine - Urðvírki, Fort Worth
+  taovaya.vinlandic_dialect: "Vissitaufossar" #Witchita Falls
+  tawakoni.vinlandic_dialect: "Dalahús" #Dallas
+  aays.vinlandic_dialect: "Æjislendi"
+  yscani.vinlandic_dialect: "Yskanimark"
 
   ##Tchokana##
+  #tses_tsembai.vinlandic_dialect: ""
+  #tenawa.vinlandic_dialect: ""
+  #tchokana.vinlandic_dialect: ""
+  #penatuka.vinlandic_dialect: ""
+  #kwaaru.vinlandic_dialect: ""
+  #paruhuya.vinlandic_dialect: ""
 
   ##Payeye##
+  #atajal.vinlandic_dialect: ""
+  #tchesha.vinlandic_dialect: ""
+  #aranama.vinlandic_dialect: ""
+  #saxop_wan_pupako.vinlandic_dialect: ""
+  #chayopin.vinlandic_dialect: ""
+  #yanaguana.vinlandic_dialect: ""
 
   ##Tsoto##
+  #nasoni.vinlandic_dialect: ""
+  #lacane.vinlandic_dialect: ""
+  #nisohone.vinlandic_dialect: ""
+  #nadakuh.vinlandic_dialect: ""
+  #nabiti.vinlandic_dialect: ""
 
   ##Nacogdotches##
+  #nacao.vinlandic_dialect: ""
+  #nacogdoches.vinlandic_dialect: ""
+  #naconiche.vinlandic_dialect: ""
+  #ayish.vinlandic_dialect: ""
 
   ##Nachawi##
+  #haynay.vinlandic_dialect: ""
+  #nacachau.vinlandic_dialect: ""
+  #nabaydacu.vinlandic_dialect: ""
+  #nakono.vinlandic_dialect: ""
 
   ##Bidai##
+  #deadose.vinlandic_dialect: ""
+  #bidai.vinlandic_dialect: ""
+  #patiri.vinlandic_dialect: ""
+  #ishak.vinlandic_dialect: ""
 
   ##Akokisa##
+  #han.vinlandic_dialect: ""
+  #orcoquisac.vinlandic_dialect: ""
+  #caux.vinlandic_dialect: ""
+  #toyal.vinlandic_dialect: ""
+  #pachina.vinlandic_dialect: ""
 
   ##Tokonohono##
+  #palaquechare.vinlandic_dialect: ""
+  #mayeye.vinlandic_dialect: ""
+  #yojuane.vinlandic_dialect: ""
+  #cantona.vinlandic_dialect: ""
+  #toho.vinlandic_dialect: ""
 
   ##Tickanwatic##
+  #ajehuac_yana.vinlandic_dialect: ""
+  #sana_tx.vinlandic_dialect: ""
+  #tza_wan_pupako.vinlandic_dialect: ""
+  #tickanwatic.vinlandic_dialect: ""
 
   #############
   ##Natahende##
   #############
 
   ##Mahhom##
+  #hupenuu.vinlandic_dialect: ""
+  #mah_hom.vinlandic_dialect: ""
+  #oohkoi_yohe.vinlandic_dialect: ""
+  #kuhtsutuuka.vinlandic_dialect: ""
 
   ##Hoyuoaohe##
+  #hoyu_ao_he.vinlandic_dialect: ""
+  #atarque.vinlandic_dialect: ""
+  #tinde.vinlandic_dialect: ""
 
   ##Hotoanaohe##
+  #kiowa.vinlandic_dialect: ""
+  #hotoanaohe.vinlandic_dialect: ""
+  #wahin_wakpa.vinlandic_dialect: ""
+  #apispaha.vinlandic_dialect: ""
 
   ##Chinali##
+  #chinali.vinlandic_dialect: ""
+  #honih_hiyo_he.vinlandic_dialect: ""
+  #iriirakiicuhat.vinlandic_dialect: ""
 
   ##Natahende##
+  #tsesh_ke_shende.vinlandic_dialect: ""
+  #tcha_shka_ozhaye.vinlandic_dialect: ""
+  #kwahada.vinlandic_dialect: ""
+  #tucumcari.vinlandic_dialect: ""
+  #natahende.vinlandic_dialect: ""
+  #guhlkahende.vinlandic_dialect: ""
+  #chlaande.vinlandic_dialect: ""
+  #nitahende.vinlandic_dialect: ""
+  #natages.vinlandic_dialect: ""
 
   ############
   ##Ali Shon##
   ############
 
   ##Shiewhibak##
+  #tih_go_tel.vinlandic_dialect: ""
+  #teypana.vinlandic_dialect: ""
+  #shiewhibak.vinlandic_dialect: ""
+  #aaku.vinlandic_dialect: ""
+  #halona_idiwana.vinlandic_dialect: ""
+  #tsiya.vinlandic_dialect: ""
+  #tuf_shur_tia.vinlandic_dialect: ""
+  #than_u_ge.vinlandic_dialect: ""
+  #ohkweeo_owingeh.vinlandic_dialect: ""
+  #ialophaybo.vinlandic_dialect: ""
+  #dinetah.vinlandic_dialect: ""
+  #nde_nda_i.vinlandic_dialect: ""
 
   ##Orayvi##
+  #tsezhin_deezahi.vinlandic_dialect: ""
+  #kin_ligaai.vinlandic_dialect: ""
+  #ni_alniigi.vinlandic_dialect: ""
+  #tselgaii.vinlandic_dialect: ""
+  #tse_bitai.vinlandic_dialect: ""
+  #chinili.vinlandic_dialect: ""
+  #orayvi.vinlandic_dialect: ""
+  #walpi.vinlandic_dialect: ""
+  #shungopavi.vinlandic_dialect: ""
 
   ##Hwalbay##
+  #kwatsaan.vinlandic_dialect: ""
+  #halchidoma.vinlandic_dialect: ""
+  #aha_macav.vinlandic_dialect: ""
+  #hwalbay.vinlandic_dialect: ""
+  #havasubaaja.vinlandic_dialect: ""
+  #tu_dotlizh_ndee.vinlandic_dialect: ""
 
   ##Akimel O'odham##
+  #piipaash.vinlandic_dialect: ""
+  #akimel_oodham.vinlandic_dialect: ""
+  #sobaipuri.vinlandic_dialect: ""
+  #jocome.vinlandic_dialect: ""
+  #tsoka_ne_nde.vinlandic_dialect: ""
+  #bidanku.vinlandic_dialect: ""
+  #dzil_nchaa_sian.vinlandic_dialect: ""
+  #tse_binestie.vinlandic_dialect: ""
+  #totokwan.vinlandic_dialect: ""
+  #kohatk.vinlandic_dialect: ""
 
   ##Guwevkabaya##
+  #guwevkabaya.vinlandic_dialect: ""
+  #dolkabaya.vinlandic_dialect: ""
+  #liinabaha.vinlandic_dialect: ""
+  #nadah_dogalnine.vinlandic_dialect: ""
+  #yavpe.vinlandic_dialect: ""
+  #wipukba.vinlandic_dialect: ""
+  #dzil_taadn.vinlandic_dialect: ""
+  #dilzhee.vinlandic_dialect: ""
 
   ####################
   ##Lower California##
   ####################
 
   ##Cadegomo##
+  #yenecamu.vinlandic_dialect: ""
+  #guaycura.vinlandic_dialect: ""
+  #monqui.vinlandic_dialect: ""
+  #cadegomo.vinlandic_dialect: ""
+  #mti_pa.vinlandic_dialect: ""
 
   ##Cochimi##
+  #cochimi.vinlandic_dialect: ""
+  #nakipa.vinlandic_dialect: ""
+  #koleeu.vinlandic_dialect: ""
+  #akwaala.vinlandic_dialect: ""
+  #kumeyaay.vinlandic_dialect: ""
 
   ####################
   ##Ge Kaachk Baasho##
