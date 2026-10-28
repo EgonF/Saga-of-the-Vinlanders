@@ -14,7 +14,8 @@ vinland_land_of_opportunity = {
 
 	age = age_1_traditions
 	global_population_growth = 0.001
-	
+	trade_range = 500
+
 	requires = birch_bark_runes
 }
 
@@ -24,7 +25,7 @@ vinland_fur_trade = {
 
 	age = age_3_discovery
 	global_fur_output_modifier = 0.15
-	trade_efficiency = medium_trade_efficiency_bonus
+	export_efficiency = medium_trade_efficiency_bonus
 	requires = rgo_logistics_discovery
 }
 
@@ -125,10 +126,10 @@ TRY_REPLACE:nor_merchant_tradition = {
 			has_or_had_tag = NOR
         }
 	}
-	merchant_maintenance_cost  = -0.1
+	merchant_maintenance_efficiency = 0.1
 }
 TRY_INJECT:canoe_travels = {
-	land_cost_going_upstream = -15
+	land_cost_going_upstream = -5
 	land_cost_going_downstream	= -5
 }
 

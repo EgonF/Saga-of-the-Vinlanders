@@ -3,6 +3,7 @@ vinland_startup.1 = {
 	type = country_event
 	title = vinland_startup.1.title
 	desc = vinland_startup.1.desc
+	outcome = neutral
 	trigger = {
 		tag = VNL
 	}
@@ -33,18 +34,24 @@ vinland_startup.1 = {
 		location:cape_race = {
 			change_raw_material = goods:wool
 		}
-		location:tignish = {
+		location:epwikek = {
 			change_raw_material = goods:beeswax
 		}
 		# pei changes
 		location:malpeque = {
 			change_raw_material = goods:wheat
 		}
-		location:epwikek = {
-			change_raw_material = goods:beeswax
-		}
 		location:elsiktuk = {
 			change_raw_material = goods:wine
+		}
+		location:tignish = {
+			change_raw_material = goods:beeswax
+		}
+		location:tapu_tuitn = {
+			change_raw_material = goods:livestock
+		}
+		location:pukusamkek = {
+			change_raw_material = goods:fiber_crops
 		}
 		# nova scotia changes
 		location:qospemk = {
@@ -92,10 +99,19 @@ vinland_startup.1 = {
 			change_raw_material = goods:goods_gold # abitibi gold deposits
 		}
 		location:ahwendoe = {
-			change_raw_material = goods:maize
+			change_raw_material = goods:wheat
 		}
 		location:stadacona = {
 			change_raw_material = goods:wool
+		}
+		location:etchemin = {
+			change_raw_material = goods:horses
+		}
+		location:wachilmezi = {
+			change_raw_material = goods:livestock
+		}
+		location:andawaohie = {
+			change_raw_material = goods:maize
 		}
 		# labrador trough iron locations
 		location:kawachisakau = {
@@ -203,6 +219,7 @@ vinland_startup.2 = {
 	type = country_event
 	title = vinland_startup.2.title
 	desc = vinland_startup.2.desc
+	outcome = neutral
 
 	immediate = {
 		province_definition:gaspe_province = {
@@ -675,6 +692,7 @@ vinland_startup.2 = {
 			change_building_level_in_location = { building = building_type:pottery_guild	value = 1 }
 			change_building_level_in_location = { building = building_type:marketplace		value = 1 }
 			change_building_level_in_location = { building = building_type:wharf			value = 1 }
+			change_building_level_in_location = { building = building_type:vinland_outpost	value = 1 }
 			# add urban pops
 			add_pop = {
 				culture = root.culture
@@ -733,6 +751,7 @@ vinland_startup.3 = {
 	type = country_event
 	title = vinland_startup.3.title
 	desc = vinland_startup.3.desc
+	outcome = neutral
 
 	# get our development up from 0 to 5
 	immediate = {

@@ -45,6 +45,25 @@
   vinland_land_of_opportunity: "Land of Opportunity"
   vinland_land_of_opportunity_desc: "Vinland offers vast, untamed lands where settlers can carve out a new life. Free from the rigid hierarchies of the Old World, families and individuals alike are drawn to the promise of fertile soil, abundant resources, and the chance to build their own future. This spirit of opportunity fosters rapid population growth as immigrants and locals alike seize the chance to thrive in this new frontier."
 
+# buildings
+  vinland_outpost: "Vinlandic Outpost"
+  vinland_outpost_desc: "These first settlements are small, fortified outposts that serve as the initial foothold of Norse civilization in Vinland. They provide basic shelter and defense against the elements and potential threats, while also acting as centers for trade and interaction with the indigenous peoples. As the population grew, these outposts expanded into larger towns and cities, becoming hubs of commerce and early state control in the new world."
+  vinland_outpost_maintenance: "Outpost Maintenance"
+  vinland_portage: "Great Portage"
+  vinland_portage_desc: "The Great Portages are critical for Vinland's expansion and trade. Situated at strategic points along the Great River and the Great Lakes, they serve as key transit routes for goods and settlers moving between the interior and the coast. The portages allow for the efficient movement of resources, facilitating trade with both indigenous groups and European markets."
+  vinland_portage_maintenance: "Portage Maintenance"
+
+# cabinet action
+  vinland_new_farms: "New Farms in Vinland"
+  vinland_new_farms_desc: "We are supporting settlers to colonize and populate new lands in Vinland."
+  vinland_new_farms_action: "Support New Farms in [SCOPE.sProvince('target').GetNameWithNoTooltip]"
+  vinland_new_farms_active: "Supporting New Farms in [SCOPE.sProvince('target').GetNameWithHighlightOnly]"
+  vinland_new_farms_action_progress: "[SCOPE.sProvince('target').GetTotalPopulation]@population!"
+  vinland_new_farms_action_progress_wordier: "$vinland_new_farms_action_progress$"
+  vinland_new_farms_action_progress_tooltip: "Total [population|e] in [SCOPE.sProvince('target').GetName]\n[SCOPE.sProvince('target').GetTotalPopulation]@population!"
+  vinland_new_farms_select_province: "Select Province to Support"
+  vinland_new_farms_no_provinces: "@trigger_no! No suitable [provinces|e] found. A target province must:\nBe in the Canada or East Coast region;\nHave a [population|e] below 15,000;\nHave a development below 20;\nNot already be supported by this action or Expel People."
+
 # events
   vinland_startup.1.title: "The Expansion of Vinland"
   vinland_startup.1.desc: "For centuries, Vinland has stood as a beacon of Norse ambition in the New World. The extent of our realm, however, has been shaped by the waves of settlers who braved the Atlantic to carve out a life in this untamed land. Some argue that Vinland should remain focused on the islands of the Gulf of Vinland, preserving its unique identity and manageable size. Others believe that the influx of settlers from Scandinavia, the British Isles, and northern Germany has created an opportunity to expand along the coast of the Great River, establishing new settlements such as the burgeoning town of Vesturhöfn. The choice we make now will define the future of Vinland."
@@ -63,8 +82,13 @@
   vinland_startup.3.c: "The old faith is thriving in Vinland"
 
 # modifiers
-vinland_harbour_20: "Better natural harbour: 20%"
-vinland_harbour_40: "Better natural harbour: 40%"
-vinland_harbour_50: "Better natural harbour: 50%"
-vinland_harbour_70: "Better natural harbour: 70%"
-vinland_harbour_80: "Better natural harbour: 80%"
+  STATIC_MODIFIER_NAME_vinland_harbour_20: "Natural harbour: 20%"
+  STATIC_MODIFIER_DESC_vinland_harbour_20: "Harbour suitability raised by 20% in a non-destructive way, by Saga of the Vinlanders"
+  STATIC_MODIFIER_NAME_vinland_harbour_40: "Natural harbour: 40%"
+  STATIC_MODIFIER_DESC_vinland_harbour_40: "Harbour suitability raised by 40% in a non-destructive way, by Saga of the Vinlanders"
+  STATIC_MODIFIER_NAME_vinland_harbour_50: "Natural harbour: 50%"
+  STATIC_MODIFIER_DESC_vinland_harbour_50: "Harbour suitability raised by 50% in a non-destructive way, by Saga of the Vinlanders"
+  STATIC_MODIFIER_NAME_vinland_harbour_70: "Natural harbour: 70%"
+  STATIC_MODIFIER_DESC_vinland_harbour_70: "Harbour suitability raised by 70% in a non-destructive way, by Saga of the Vinlanders"
+  STATIC_MODIFIER_NAME_vinland_harbour_80: "Natural harbour: 80%"
+  STATIC_MODIFIER_DESC_vinland_harbour_80: "Harbour suitability raised by 80% in a non-destructive way, by Saga of the Vinlanders"
