@@ -102,7 +102,7 @@ vinland_startup.1 = {
 			change_raw_material = goods:wheat
 		}
 		location:stadacona = {
-			change_raw_material = goods:wool
+			change_raw_material = goods:wool 
 		}
 		location:etchemin = {
 			change_raw_material = goods:horses
@@ -123,7 +123,33 @@ vinland_startup.1 = {
 		location:petitsikapau = {
 			change_raw_material = goods:iron
 		}
-
+		
+		# kelwlenan
+		location:pemetic = {
+			change_raw_material = goods:wool 
+		}
+		location:majabigwaduce = {
+			change_raw_material = goods:beeswax
+		}
+		location:passagassawkeag = {
+			change_raw_material = goods:maize
+		}
+		location:penobscot = {
+			change_raw_material = goods:medicaments
+		}
+		location:kennebec = {
+			change_raw_material = goods:clay
+		}
+		location:messalonskee = {
+			change_raw_material = goods:fiber_crops
+		}
+		location:katahdin = {
+			change_raw_material = goods:stone
+			}
+		location:piscataquis = {
+			change_raw_material = goods:maize
+		}
+		
 		# harbour changes
 		# aivitok 0.00 -> 0.40
 		location:aivitok = {
@@ -204,10 +230,16 @@ vinland_startup.1 = {
 	option = {
 		name = vinland_startup.1.a
 		# no effect, keep vinland the size it is
+		ai_chance = {
+			base = 95
+		}
 	}
 	# option 2: expand territory, give st. lawrence coast and town at quebec
 	option = {
 		name = vinland_startup.1.b
+		ai_chance = {
+			base = 5
+		}
 		# trigger another event to give the territory
 		trigger_event_silently = { 
 				id = vinland_startup.2
@@ -733,6 +765,9 @@ vinland_startup.2 = {
 	option = {
 		name = vinland_startup.2.a
 		# no effect, just acknowledging the event
+		ai_chance = {
+			base = 70
+		}
 		trigger_event_silently = { 
 				id = vinland_startup.3
 		}
@@ -741,6 +776,9 @@ vinland_startup.2 = {
 	# move capital to quebec
 	option = {
 		name = vinland_startup.2.b
+		ai_chance = {
+			base = 30
+		}
 		set_capital = location:stadacona
 		trigger_event_silently = { 
 				id = vinland_startup.3
@@ -764,6 +802,9 @@ vinland_startup.3 = {
 	# 10% norse
 	option = {
 		name = vinland_startup.3.a
+		ai_chance = {
+			base = 70
+		}
 		every_owned_location = {
 			every_pop = {
 				limit = {
@@ -779,6 +820,9 @@ vinland_startup.3 = {
 	# 30% norse
 	option = {
 		name = vinland_startup.3.b
+		ai_chance = {
+			base = 20
+		}
 		every_owned_location = {
 			every_pop = {
 				limit = {
@@ -794,6 +838,9 @@ vinland_startup.3 = {
 	# 60% norse
 	option = {
 		name = vinland_startup.3.c
+		ai_chance = {
+			base = 10
+		}
 		change_religion = religion:norse
 		every_owned_location = {
 			every_pop = {

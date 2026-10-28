@@ -1,0 +1,40 @@
+﻿vinlandic_church = { 
+	color = { 92 215 95 }
+	group = christian
+	
+	#language = irish_dialect
+		
+	has_religious_influence = yes
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+	
+	definition_modifier = {	
+		global_clergy_estate_power = -0.5
+		global_burghers_estate_power = 0.25
+		global_max_literacy = 5
+		
+		can_have_monasteries = yes
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		orthodox = positive
+		catholic = kindred
+		hussite = kindred
+		waldensian = kindred
+		anglican = kindred
+		lutheran = kindred
+		calvinist = positive
+		lollardy = kindred
+		cathar = positive
+		#iroquoian_totemism = positive
+		#midewiwin_religion = positive
+		#norse = positive
+	}
+
+	tags = { catholic_gfx western_christian_gfx christian_gfx abrahamic_gfx }
+	custom_tags = { church_aspects }
+}
