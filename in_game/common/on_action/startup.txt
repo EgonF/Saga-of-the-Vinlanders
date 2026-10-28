@@ -9,5 +9,17 @@ vinland_on_game_start = {
         c:VNL = {
             trigger_event_silently = vinland_startup.1
         }
+        if = {
+            limit = {
+                NOT = { situation:columbian_exchange = { situation_is_active = yes } }
+                continent:america = {
+                    any_location_in_continent = {
+                        population > 0
+                        owner_from_old_world = yes
+                    }
+                }
+            }
+            activate_situation = situation:columbian_exchange
+        }
     }
 }

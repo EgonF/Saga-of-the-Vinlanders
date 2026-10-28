@@ -5,7 +5,7 @@
 			patronym_suffix_daughter = "patronym_suffix_icelandic_daughter"
 
 			
-			fallback = norwegian_dialect
+			fallback = icelandic_dialect
 
 			male_names = {
 				name_andrew

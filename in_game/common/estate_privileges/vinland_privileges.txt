@@ -36,6 +36,8 @@ vinlandic_noble_navy = {
 		navy_light_ship_maintenance_cost_modifier = -0.1
 		navy_light_ship_power = 0.1
 		navy_light_ship_build_cost_modifier = -0.1
+		trade_range_modifier = 0.25
+		can_hire_privateers = yes
 	}
 }
 
@@ -45,14 +47,18 @@ vinlandic_tribal_peace = {
 	potential = { 
 		tag = VNL
 	}
+
+	can_revoke = {
+		"estate_power(estate_type:crown_estate)" > 0.66
+	}
 	
 	country_modifier = {
 		tribes_estate_target_satisfaction = large_privilege_target_satisfaction
-		global_tribesmen_assimilation_blocked = yes
+		#global_tribesmen_assimilation_blocked = yes
 		global_tribes_estate_power = 1.00
 		global_merchant_capacity_modifier = 0.1
 		tolerance_heathen = 2
-		cultures_capacity = 2
-		global_pop_assimilation_speed_modifier = -0.50
+		cultures_capacity = 3
+		#global_pop_assimilation_speed_modifier = -0.10
 	}
 }

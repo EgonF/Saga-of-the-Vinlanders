@@ -2,6 +2,13 @@
 	type = country
 
 	text = {
+		localization_key = crown_estate_holy_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	text = {
 		localization_key = crown_estate_brethren
 		trigger = {
 			has_reform = government_reform:pirate_brethren_reform
@@ -39,16 +46,37 @@
 	}
 	
 	text = {
+		localization_key = crown_estate_vinland
+		trigger = {
+			culture = culture:vinlandic
+		}
+	}
+
+	text = {
 		localization_key = crown_estate_kronan
 		trigger = {
 			culture = culture:swedish
 		}
 	}
-
+	
 	text = {
-		localization_key = crown_estate_vinland
+		localization_key = crown_estate_kruna	
 		trigger = {
-			culture = culture:vinlandic
+			court_language = language:serbo_croatian_language
+		}
+	}
+	
+	text = {
+		localization_key = crown_estate_korona
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+	
+	text = {
+		localization_key = crown_estate_krona
+		trigger = {
+			court_language = culture:slovene.language
 		}
 	}
 
@@ -62,6 +90,12 @@
 nobles_estate = {
 	type = country
 
+	text = {
+		localization_key = nobles_estate_holy_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+		}
+	}
 
 	text = {
 		localization_key = nobles_estate_greek
@@ -117,6 +151,8 @@ nobles_estate = {
 		}
 	}
 
+
+
 	text = {
 		localization_key = nobles_estate_vinland
 		trigger = {
@@ -149,6 +185,13 @@ nobles_estate = {
 					}
 				}
 			}
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_almohads
+		trigger = {
+			is_hafsid_governor_trigger = yes
 		}
 	}
 
@@ -327,6 +370,20 @@ nobles_estate = {
 			court_language = language:serbo_croatian_language
 		}
 	}
+
+	text = {
+		localization_key = nobles_estate_bolyari
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+
+	text = {
+		localization_key = nobles_estate_plemstvo
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
 	
 	text = {
 		localization_key = nobles_estate_yangban
@@ -492,6 +549,19 @@ burghers_estate = {
 	}
 
 	text = {
+		localization_key = burghers_estate_grazhdani
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+	
+	text = {
+		localization_key = burghers_estate_mescanstvo
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
+	text = {
 		localization_key = burghers_estate_jungin
 		trigger = {
 			court_language = language:korean_language
@@ -617,6 +687,13 @@ clergy_estate = {
 	}
 
 	text = {
+		localization_key = clergy_estate_holy_order
+		trigger = {
+			has_reform = government_reform:military_order_reform
+		}
+	}
+
+	text = {
 		localization_key = clergy_estate_klir
 		trigger = {
 			religion = religion:orthodox
@@ -624,7 +701,6 @@ clergy_estate = {
 				culture.language = language:ruthenian_language
 				culture = { has_culture_group = culture_group:slavic_group }
 			}
-			NOT = { court_language = language:serbo_croatian_language }
 		}
 	}
 
@@ -701,10 +777,21 @@ clergy_estate = {
 	text = {
 		localization_key = clergy_estate_kler
 		trigger = {
-			court_language = language:serbo_croatian_language
+			religion = religion:catholic
+			OR = {
+				culture.language = language:ruthenian_language
+				culture = { has_culture_group = culture_group:slavic_group }
+			}
 		}
 	}
 	
+	text = {
+		localization_key = clergy_estate_kleriki
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
+
 	text = {
 		localization_key = clergy_estate_prest
 		trigger = {
@@ -859,6 +946,20 @@ peasants_estate = {
 			court_language = language:serbo_croatian_language
 		}
 	}
+
+	text = {
+		localization_key = peasants_estate_selyani
+		trigger = {
+			court_language = language:bulgarian_language
+		}
+	}
+
+	text = {
+		localization_key = peasants_estate_sleherniki
+		trigger = {
+			court_language = culture:slovene.language
+		}
+	}
 	
 	text = {
 		localization_key = peasants_estate_sangmin
@@ -952,14 +1053,14 @@ peasants_estate = {
 			culture.dialect = dialect:dutch_dialect
 		}
 	}
-
-		text = {
+	
+	text = {
 		localization_key = peasants_estate_vinland
 		trigger = {
 			culture = culture:vinlandic
 		}
 	}
-	
+
 	text = {
 		localization_key = peasants_estate
 		fallback = yes

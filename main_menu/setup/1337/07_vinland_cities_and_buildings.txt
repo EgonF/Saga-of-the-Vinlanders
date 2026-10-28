@@ -1,0 +1,54 @@
+locations = {
+	# thorvaldsnes should be a small town to represent some urbanization/merchants in the colony
+	cape_spear = { rank = town 		town_setup = scandinavian_town }
+	# engjarstrond should be a small town to represent some urbanization/merchants in the colony
+	elsiktuk = { rank = town 		town_setup = scandinavian_town }
+	# kolstadr should be a small town to represent some urbanization/merchants in the colony
+	sipuk = { rank = town 		town_setup = scandinavian_town }
+	# gardr should be larger in this world due to trade, as greenland is more connected to vinland
+	gardr = { rank = town 		town_setup = scandinavian_town }
+	passagassawkeag = { rank = town 		town_setup = scandinavian_town }
+	kennebec = { rank = town 		town_setup = scandinavian_town }
+	piscataquis = { rank = town 		town_setup = scandinavian_town }
+}
+
+building_manager = {
+	# additional town buildings at thorvaldsnes
+	#parish_church = { tag = VNL level = 1 location = cape_spear }
+	wharf = { tag = VNL level = 1 location = cape_spear }
+	vinland_outpost = { tag = VNL level = 1 location = cape_spear }
+	# adding a small village and church at the initial landing site of anse aux meadows
+	parish_church = { tag = VNL level = 1 location = belle_isle }
+	market_village = { tag = VNL level = 1 location = belle_isle }
+	# and a market and church at leifsbudir
+	parish_church = { tag = VNL level = 1 location = akilasiewakik }
+	market_village = { tag = VNL level = 1 location = akilasiewakik }
+	# church and market at corner brook
+	parish_church = { tag = VNL level = 1 location = eimastukwek }
+	market_village = { tag = VNL level = 1 location = eimastukwek }
+
+	# additional town buildings at engjarstrond
+	#parish_church = { tag = VNL level = 1 location = elsiktuk }
+	wharf = { tag = VNL level = 1 location = elsiktuk }
+	vinland_outpost = { tag = VNL level = 1 location = elsiktuk }
+	paper_guild = { tag = VNL level = 1 location = elsiktuk }
+	# additional town buildings at kolstadr
+	#parish_church = { tag = VNL level = 1 location = sipuk }
+	wharf = { tag = VNL level = 1 location = sipuk }
+	vinland_outpost = { tag = VNL level = 1 location = sipuk }
+
+	# settlements in eastern vinland
+	settlement_building = { tag = VNL level = 1 location = cape_race }
+	settlement_building = { tag = VNL level = 1 location = bacalhieu }
+	settlement_building = { tag = VNL level = 1 location = placentia }
+
+	# kelwlenen buildings
+	monastery = {tag = KL1 level = 1 location = passagassawkeag}
+	scriptorium = {tag = KL1 level = 1 location = passagassawkeag}
+	dyes_guild = {tag = KL1 level = 1 location = piscataquis}
+	paper_guild = {tag = KL1 level = 1 location = passagassawkeag}
+	cloth_guild = {tag = KL1 level = 1 location = passagassawkeag}
+	fine_cloth_guild = {tag = KL1 level = 1 location = piscataquis}
+	
+	
+}
