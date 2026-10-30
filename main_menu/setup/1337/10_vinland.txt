@@ -43,17 +43,21 @@ countries = {
 			lower_canada_area
 			maine_area
 			haudenosaunee_area
-			#vermont_area
-			#new_hampshire_area
-			#eastern_ontario_area
-			#western_ontario_area
+			vermont_area
+			new_hampshire_area
+			eastern_ontario_area
+			western_ontario_area
+			massachusetts_area
+			southern_new_england_area
+			hudson_area
+			nunavik_area
 
-			#great_lakes_sea_zones_area
+			great_lakes_sea_zones_area
 			east_coast_sea_zones_area
 			labrador_sea_area
 			canadian_atlantic_coast_area
 			atlantic_irminger_area
-			#atlantic_north_atlantic_current_area
+			atlantic_north_atlantic_current_area
 		}
 	
 
@@ -247,6 +251,8 @@ KL1 = {
 KL2 = {
 		own_control_core = {
 			piscataquis katahdin millinocket passamaquoddy machias nicatous maatawamkeag
+			# the Passamaquoddy Fundy coast
+			chamcook grand_manan magaguadavic pocologan
 	
 		}
 		capital = piscataquis

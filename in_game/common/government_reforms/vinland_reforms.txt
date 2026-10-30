@@ -17,6 +17,8 @@
         exploration_maintenance_efficiency = 0.50
         exploration_mission_speed_modifier = 0.25
         government_reform_slots = 1
+
+        trade_range = 300
     }
     years = 2
 }
