@@ -6,6 +6,28 @@
 
 vinland_on_game_start = {
     effect = {
+        # pops belong to a country separately from the land, hand every pop in our countries locations to the locations owner
+        every_country = {
+            limit = {
+                OR = {
+                    tag = VNL tag = KL1 tag = KL2 tag = KL3
+                    tag = MIK tag = MLS tag = STD tag = OSG tag = AGJ
+                    tag = ONG tag = ADR tag = WRO
+                    tag = AGW tag = ATG tag = ARN tag = TRT tag = TIO
+                    tag = KSP tag = WSK tag = ERI
+                    tag = OJI tag = ODW tag = BDK
+                }
+            }
+            save_temporary_scope_as = vinland_land_owner
+            every_owned_location = {
+                every_pop = {
+                    limit = {
+                        NOT = { owner ?= scope:vinland_land_owner }
+                    }
+                    change_pop_owner = scope:vinland_land_owner
+                }
+            }
+        }
         c:VNL = {
             trigger_event_silently = vinland_startup.1
         }

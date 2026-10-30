@@ -1,0 +1,191 @@
+# vanilla pop based countries turned into location based countries
+
+countries = {
+	countries = {
+		# Mi'kma'ki: vanilla MIK minus the 13 Hop locations, plus asoqasqoq from MLS
+		MIK = {
+			type = location
+			own_control_core = {
+				amqui anagance antigonish aspotogan canso caraquet cascapedia causapscal chebogue chicchoc chignecto
+				chipoudy cobequid esekatik gaspe jijkwtuk kekwapskuk kennetook kjipuktuk kouchibouguac maccan
+				maleagit marsoui matane matapedia memramcook miramichi mitis muinawamek musquedoboit neguac
+				nepisiguit nictaux nisiamk nmejuaqnek oqumkikiak paspebiac petitcodiac pewjeg pictou pogomeg
+				restigouche richibucto seeboosis shubenacadie tatamagouche tracadie wekwayik weljuik wetewatoqsik
+				wikipoq asoqasqoq
+			}
+			capital = chignecto
+			starting_technology_level = 2
+		}
+
+		# Wolastokuk: vanilla MLS minus maatawamkeag and asoqasqoq
+		MLS = {
+			type = location
+			own_control_core = {
+				rimouski kakouna molsemtekw temiscouata kamouraska kennebecasis mispec menahkwesk washademoak
+				otnabog oromocto nashwaak meductic becaguimec negoot madawaska welamooktook siegas kcheeminpink
+				pokiok aroostook meduxnekeag allagash wolastoq mittaywanquam
+			}
+			capital = meductic
+			starting_technology_level = 2
+		}
+
+		# Vesturhofn (Stadacona): vanilla STD plus ahwendoe, and andawaohie and wachilmezi from MAS.
+		STD = {
+			type = location
+			own_control_core = {
+				kamitsisit etchemin kikonteku ontaretse stadacona ondaonnentakwi aunona taoondewake kouate ahwendoe
+				andawaohie wachilmezi
+			}
+			capital = stadacona
+			starting_technology_level = 3
+		}
+
+		# Hochelaga: vanilla OSG plus the rest of MAS
+		OSG = {
+			type = location
+			own_control_core = {
+				kemoimenahan ahkwesasne otennienontant hochelaga makigotekw kahwenoke wolinak nebesek masolian
+				loigan_sibo yamachiche ekwentondie
+			}
+			capital = hochelaga
+			starting_technology_level = 2
+		}
+
+		# Agojuda: vanilla locations
+		AGJ = {
+			type = location
+			own_control_core = {
+				toniato gananoque cataraqui opinicon napanee kaniatarahontsi ahkwesasne_ny
+			}
+			capital = gananoque
+		}
+
+		# Onguiaahra: vanilla locations
+		ONG = {
+			type = location
+			own_control_core = {
+				niagara kenhionatatie macassa thahnawate ahouenro
+			}
+			capital = niagara
+		}
+
+		# Aondironon: vanilla locations
+		ADR = {
+			type = location
+			own_control_core = {
+				nissouri kandoucho kanagio tekahionhake bkwejanong ganatchio
+			}
+			capital = kandoucho
+		}
+
+		# Wenrohronon: vanilla locations
+		WRO = {
+			type = location
+			own_control_core = {
+				tiotoren cattaraugus kanentaweron
+			}
+			capital = tiotoren
+		}
+
+		# Attignawantan: vanilla AGW plus ATC 
+		AGW = {
+			type = location
+			own_control_core = {
+				garafraxa ossossane kaotia kahshe cognashene
+			}
+			capital = ossossane
+		}
+
+		# Attigneenongnahac: vanilla locations
+		ATG = {
+			type = location
+			own_control_core = {
+				otonabee quinte ganneious ganaraska oshawa scugog haskaont ouentarionk
+			}
+			capital = ouentarionk
+		}
+
+		# Arendarhonon: vanilla locations
+		ARN = {
+			type = location
+			own_control_core = {
+				mazinaw skootamatta kamaniskeg kashagawigamog catchacoma kawartha cahiague
+			}
+			capital = cahiague
+		}
+
+		# Tahontaenrat: vanilla locations
+		TRT = {
+			type = location
+			own_control_core = {
+				missinihe tkaronto tetioneshohon scanonaenrat
+			}
+			capital = scanonaenrat
+		}
+
+		# Tionontati: vanilla locations
+		TIO = {
+			type = location
+			own_control_core = {
+				etharita ehwae eramosa
+			}
+			capital = etharita
+		}
+
+		# Kichesipirini: vanilla locations
+		KSP = {
+			type = location
+			own_control_core = {
+				kinozhesipi maizinaazibi maganasipi mattawa matoueska nichabau petawawa pikwakanagan quyon
+			}
+			capital = petawawa
+		}
+
+		# Weskarini: vanilla locations
+		WSK = {
+			type = location
+			own_control_core = {
+				weskarini baskatong capimitchigama kanegaok kiamika kitigan_zibi kitchissippi kiwetin_sipi mikiwam
+				nagatinong okaisipi onontchataronon outaragasipi pasapkedjinawong picanoc poigan tapani
+			}
+			capital = weskarini
+		}
+
+		# Erie: vanilla locations
+		ERI = {
+			type = location
+			own_control_core = {
+				erie shenango kittaning tionesta
+			}
+			capital = erie
+		}
+
+		# Ojibwe: vanilla locations
+		OJI = {
+			type = location
+			own_control_core = {
+				pogamasing eskimanetigon mississagi baawitigong batchawana agawa_superior mackinac tahquamenon
+				manistique ishpeming keweenaw ontonagon gaamiskwaabikaang chequamegon
+			}
+			capital = baawitigong
+		}
+
+		# Odawa: vanilla locations
+		ODW = {
+			type = location
+			own_control_core = {
+				dehskan_ziibi menesetung saugeen nochemoweniing manitoulin cheboygan asiniike saganing
+			}
+			capital = nochemoweniing
+		}
+
+		# Potawatomi: vanilla locations
+		BDK = {
+			type = location
+			own_control_core = {
+				wequetong manistee mastigon onekama tittabawassee muskegon
+			}
+			capital = wequetong
+		}
+	}
+}
