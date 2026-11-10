@@ -29,16 +29,6 @@ countries = {
 			starting_technology_level = 2
 		}
 
-		# Vesturhofn (Stadacona): vanilla STD plus ahwendoe, and andawaohie and wachilmezi from MAS.
-		STD = {
-			type = location
-			own_control_core = {
-				kamitsisit etchemin kikonteku ontaretse stadacona ondaonnentakwi aunona taoondewake kouate ahwendoe
-				andawaohie wachilmezi
-			}
-			capital = stadacona
-			starting_technology_level = 3
-		}
 
 		# Hochelaga: vanilla OSG plus the rest of MAS
 		OSG = {

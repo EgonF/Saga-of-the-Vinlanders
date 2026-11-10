@@ -19,6 +19,8 @@
         government_reform_slots = 1
 
         trade_range = 300
+        # the althing takes tribute from Hop
+        allow_tributary_subject = yes
     }
     years = 2
 }

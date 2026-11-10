@@ -24,6 +24,13 @@
 				name_torvid
 			}
 		}
+		# Kaupmál, the norse based trade pidgin of the river
+		kaupmal_dialect = {
+			location_prefix = "location_prefix_danish"
+			patronym_suffix_daughter = "patronym_suffix_icelandic_daughter"
+
+			fallback = vinlandic_dialect
+		}
 	}
 }
 

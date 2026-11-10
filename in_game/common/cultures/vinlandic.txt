@@ -11,6 +11,7 @@
 		norwegian = positive
 		norse_gael = positive
 		wabanakiiak = positive
+		kanatingar = kindred
 	}
 
 	culture_groups = {
@@ -21,6 +22,7 @@
 
 }
 
+# the creole abanaki and monastic irish culture of the brendanist states
 wabanakiiak = {
 	language = abenakian_language
 	
@@ -36,9 +38,33 @@ wabanakiiak = {
 		eastern_abenaki_culture = kindred
 		penobscot_culture = kindred
 		vinlandic = positive
+		irish = positive
 	}
 	culture_groups = {
 		abenakian_group
 	}
+
+}
+
+# the creole townsfolk of Vesturhöfn
+kanatingar = {
+	language = kaupmal_dialect
+
+	color = rgb { 46 110 120 }
+
+	tags = { north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+	opinions = {
+		vinlandic = kindred
+		stadaconan_culture = kindred
+		wabanakiiak = positive
+		osheaga_culture = negative
+	}
+
+	culture_groups = {
+		iroquoian_group
+	}
+
+	use_patronym = yes
 
 }

@@ -12,6 +12,24 @@
   KL2_ADJ: "Agawinno"
   KL3: "Kinebak"
   KL3_ADJ: "Kinebak"
+  HPV: "Hóp"
+  HPV_ADJ: "Hóp"
+  MKV: "Markland"
+  MKV_ADJ: "Marklandic"
+  NSV: "Norðrströnd"
+  NSV_ADJ: "Norðrströnd"
+  SGY: "Saguenay"
+  SGY_ADJ: "Saguenay"
+  # STD's name while it is Vesturhöfn
+  STD_vesturhofn: "Vesturhöfn"
+  STD_vesturhofn_ADJ: "Vesturhöfn"
+  kanatingar: "Kanatingar"
+  kanatingar_ADJ: "Kanatingar"
+  kaupmal_dialect: "Kaupmál"
+  asbirningar_dynasty: "Ásbirningar"
+  thorhallingar_dynasty: "Þórhallingar"
+  name_kolbeinn: "Kolbeinn"
+  name_ketill: "Ketill"
 
   # vinlandic government
   rank_commonwealth_vinland: "Commonwealth"
@@ -74,9 +92,9 @@
   vinland_new_farms_no_provinces: "@trigger_no! No suitable [provinces|e] found. A target province must:\nBe in the Canada or East Coast region;\nHave a [population|e] below 15,000;\nHave a development below 20;\nNot already be supported by this action or Expel People."
 
 # events
-  vinland_startup.1.title: "The Expansion of Vinland"
-  vinland_startup.1.desc: "For centuries, Vinland has stood as a beacon of Norse ambition in the New World. The extent of our realm, however, has been shaped by the waves of settlers who braved the Atlantic to carve out a life in this untamed land. Some argue that Vinland should remain focused on the islands of the Gulf of Vinland, preserving its unique identity and manageable size. Others believe that the influx of settlers from Scandinavia, the British Isles, and northern Germany has created an opportunity to expand along the coast of the Great River, establishing new settlements such as the burgeoning town of Vesturhöfn. The choice we make now will define the future of Vinland."
-  vinland_startup.1.a: "Keep Vinland focused on the islands"
+  vinland_startup.1.title: "The Saga of the Vinlanders"
+  vinland_startup.1.desc: "Three hundred years after Leifr Eiríksson first wintered at Leifsbúðir, the Norse of Vinland are still here. The Althing meets at Þorvaldsnes, Hóp pays its tribute, the heathen jarls of Markland keep the old gods on the Labrador shore, and at Vesturhöfn on the Great River the Kanatingar trade with every nation of the interior. The Skrælingjar are neighbours, partners and rivals, and Europe is a long voyage away. What comes next is ours to write."
+  vinland_startup.1.a: "Let the saga begin"
   vinland_startup.1.b: "Expand along the coast and establish Vesturhöfn"
 
   vinland_startup.2.title: "The Capital of Vinland"

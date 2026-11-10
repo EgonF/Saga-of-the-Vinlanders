@@ -10,9 +10,15 @@ locations = {
 	passagassawkeag = { rank = town 		town_setup = scandinavian_town }
 	kennebec = { rank = town 		town_setup = scandinavian_town }
 	piscataquis = { rank = town 		town_setup = scandinavian_town }
+	# vesturhofn, the creole merchant town at quebec
+	stadacona = { rank = town 		town_setup = scandinavian_town }
 }
 
 building_manager = {
+	# vesturhofn
+	wharf = { tag = STD level = 1 location = stadacona }
+	marketplace = { tag = STD level = 1 location = stadacona }
+
 	# additional town buildings at thorvaldsnes
 	#parish_church = { tag = VNL level = 1 location = cape_spear }
 	wharf = { tag = VNL level = 1 location = cape_spear }
@@ -28,14 +34,14 @@ building_manager = {
 	market_village = { tag = VNL level = 1 location = eimastukwek }
 
 	# additional town buildings at engjarstrond
-	#parish_church = { tag = VNL level = 1 location = elsiktuk }
-	wharf = { tag = VNL level = 1 location = elsiktuk }
-	vinland_outpost = { tag = VNL level = 1 location = elsiktuk }
-	paper_guild = { tag = VNL level = 1 location = elsiktuk }
+	#parish_church = { tag = HPV level = 1 location = elsiktuk }
+	wharf = { tag = HPV level = 1 location = elsiktuk }
+	vinland_outpost = { tag = HPV level = 1 location = elsiktuk }
+	paper_guild = { tag = HPV level = 1 location = elsiktuk }
 	# additional town buildings at kolstadr
-	#parish_church = { tag = VNL level = 1 location = sipuk }
-	wharf = { tag = VNL level = 1 location = sipuk }
-	vinland_outpost = { tag = VNL level = 1 location = sipuk }
+	#parish_church = { tag = HPV level = 1 location = sipuk }
+	wharf = { tag = HPV level = 1 location = sipuk }
+	vinland_outpost = { tag = HPV level = 1 location = sipuk }
 
 	# settlements in eastern vinland
 	settlement_building = { tag = VNL level = 1 location = cape_race }

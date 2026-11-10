@@ -1,7 +1,11 @@
 market_manager = {
-	# new markets in vinland
+	# thorvaldsnes market
 	add_market = cape_spear
-	#add_market = stadacona
-	#add_market = elsiktuk
+	# vesturhofn market
+	add_market = stadacona
+	# engyarstrod market
+	add_market = elsiktuk
 	add_market = passagassawkeag
+	# sjoeyjar market
+	add_market = uashat
 }

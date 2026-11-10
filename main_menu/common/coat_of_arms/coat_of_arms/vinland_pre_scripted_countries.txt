@@ -153,3 +153,95 @@ KL3 ={
 		instance={ position = { 0.5 0.5 } scale = { 1.0 1.0 }}
 	}
 }
+
+# placeholder flags for the new tags, to replace
+
+HPV = { # Hop: a gold-edged white cross on red
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+	color3 = "yellow_dark"
+
+	colored_emblem = {
+		texture = "ce_cross_scandinavian_fimbriated.dds"
+		color1 = color2
+		color2 = color3
+	}
+}
+
+MKV = { # Markland: a white pine on dark green
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 { 115 45 30 }
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_tree_pine.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thin.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
+
+NSV = { # Nordrstrond: a white raven on sea blue
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 { 208 60 50 }
+	color2 = "white"
+	color3 = "yellow_dark"
+
+	colored_emblem = {
+		texture = "ce_norse_raven_flag.dds"
+		color1 = color2
+		color2 = color2
+		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thin.dds"
+		color1 = color3
+		color2 = color3
+	}
+}
+
+SGY = { # Saguenay: a rosette on ochre with a black border
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 { 38 60 65 }
+	color2 = "black_secondary"
+	color3 = "white"
+
+	colored_emblem = {
+		texture = "ce_cree_rosette.dds"
+		color1 = color2
+		color2 = color2
+		color3 = color3
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thin.dds"
+		color1 = color2
+		color2 = color2
+	}
+}
+
+STD_vesturhofn = { # Vesturhofn: a gold ship on teal
+	pattern = "pattern_solid.dds"
+	color1 = hsv360 { 186 60 45 }
+	color2 = "yellow_dark"
+	color3 = "white"
+
+	colored_emblem = {
+		texture = "ce_lymphad.dds"
+		color1 = color2
+		color2 = color3
+		color3 = color3
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+	colored_emblem = {
+		texture = "ce_border_thin.dds"
+		color1 = color2
+		color2 = color2
+	}
+}

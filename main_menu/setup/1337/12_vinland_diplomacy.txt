@@ -1,0 +1,4 @@
+diplomacy_manager = {
+	# hop pays tribute to vinland since it left the althing
+	dependency = { first = VNL second = HPV subject_type = tributary }
+}

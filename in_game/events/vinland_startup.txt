@@ -10,240 +10,11 @@ vinland_startup.1 = {
 
 	fire_only_once = yes
 
-	immediate = {
-		# trigger rgo changes
-		# newfoundland changes
-		location:eimastukwek = {
-			change_raw_material = goods:stone
-		}
-		location:wli_qospem = {
-			change_raw_material = goods:clay
-		}
-		location:cape_spear = {
-			change_raw_material = goods:iron # bell island iron deposits
-		}
-		location:bacalhieu = {
-			change_raw_material = goods:wool
-		}
-		location:placentia = {
-			change_raw_material = goods:wool
-		}
-		location:maqtewey = {
-			change_raw_material = goods:medicaments
-		}
-		location:cape_race = {
-			change_raw_material = goods:wool
-		}
-		location:epwikek = {
-			change_raw_material = goods:beeswax
-		}
-		# pei changes
-		location:malpeque = {
-			change_raw_material = goods:wheat
-		}
-		location:elsiktuk = {
-			change_raw_material = goods:wine
-		}
-		location:tignish = {
-			change_raw_material = goods:beeswax
-		}
-		location:tapu_tuitn = {
-			change_raw_material = goods:livestock
-		}
-		location:pukusamkek = {
-			change_raw_material = goods:fiber_crops
-		}
-		# nova scotia changes
-		location:qospemk = {
-			change_raw_material = goods:stone
-		}
-		location:sipuk = {
-			change_raw_material = goods:coal # sydney coal deposits
-		}
-		location:kluskapewiktuk = {
-			change_raw_material = goods:coal
-		}
-		location:nictaux = {
-			change_raw_material = goods:clay 
-		}
-		location:cheticamp = {
-			change_raw_material = goods:alum
-		}
-		# new brunswick changes
-		location:oromocto = {
-			change_raw_material = goods:coal # minto coal deposits
-		}
-		location:pocologan = {
-			change_raw_material = goods:tin # mount pleasant tin deposits
-		}
-		location:nepisiguit = {
-			change_raw_material = goods:lead # caribou mine lead deposits, mainly for balance
-		}
-		location:petitcodiac = {
-			change_raw_material = goods:alum
-		}
-		#quebec changes
-		location:chicchoc = {
-			change_raw_material = goods:copper # gaspe copper deposits
-		}
-		location:sartigan = {
-			change_raw_material = goods:goods_gold # beauce gold deposits
-		}
-		location:wolinak = {
-			change_raw_material = goods:fiber_crops
-		}
-		location:wabanaki = {
-			change_raw_material = goods:stone
-		}
-		location:malartic = {
-			change_raw_material = goods:goods_gold # abitibi gold deposits
-		}
-		location:ahwendoe = {
-			change_raw_material = goods:wheat
-		}
-		location:stadacona = {
-			change_raw_material = goods:wool 
-		}
-		location:etchemin = {
-			change_raw_material = goods:horses
-		}
-		location:wachilmezi = {
-			change_raw_material = goods:livestock
-		}
-		location:andawaohie = {
-			change_raw_material = goods:maize
-		}
-		# labrador trough iron locations
-		location:kawachisakau = {
-			change_raw_material = goods:iron
-		}
-		location:ashuanipi = {
-			change_raw_material = goods:iron
-		}
-		location:petitsikapau = {
-			change_raw_material = goods:iron
-		}
-		
-		# kelwlenan
-		location:pemetic = {
-			change_raw_material = goods:wool 
-		}
-		location:majabigwaduce = {
-			change_raw_material = goods:beeswax
-		}
-		location:passagassawkeag = {
-			change_raw_material = goods:maize
-		}
-		location:penobscot = {
-			change_raw_material = goods:medicaments
-		}
-		location:kennebec = {
-			change_raw_material = goods:clay
-		}
-		location:messalonskee = {
-			change_raw_material = goods:fiber_crops
-		}
-		location:katahdin = {
-			change_raw_material = goods:stone
-			}
-		location:piscataquis = {
-			change_raw_material = goods:maize
-		}
-		
-		# harbour changes
-		# aivitok 0.00 -> 0.40
-		location:aivitok = {
-			add_location_modifier = {
-				modifier = vinland_harbour_40
-				years = -1
-				mode = add
-			}
-		}
-		# eimastukwek 0.00 -> 0.40
-		location:eimastukwek = {
-			add_location_modifier = {
-				modifier = vinland_harbour_40
-				years = -1
-				mode = add
-			}
-		}
-		# cape_spear 0.00 -> 0.70
-		location:cape_spear = {
-			add_location_modifier = {
-				modifier = vinland_harbour_70
-				years = -1
-				mode = add
-			}
-		}
-		# elsiktuk 0.00 -> 0.80
-		location:elsiktuk = {
-			add_location_modifier = {
-				modifier = vinland_harbour_80
-				years = -1
-				mode = add
-			}
-		}
-		# sipuk 0.00 -> 0.50
-		location:sipuk = {
-			add_location_modifier = {
-				modifier = vinland_harbour_50
-				years = -1
-				mode = add
-			}
-		}
-		# gaspe 0.00 -> 0.40
-		location:gaspe = {
-			add_location_modifier = {
-				modifier = vinland_harbour_40
-				years = -1
-				mode = add
-			}
-		}
-		# rimouski 0.00 -> 0.40
-		location:rimouski = {
-			add_location_modifier = {
-				modifier = vinland_harbour_40
-				years = -1
-				mode = add
-			}
-		}
-		# stadacona 0.50 -> 0.70
-		location:stadacona = {
-			add_location_modifier = {
-				modifier = vinland_harbour_20
-				years = -1
-				mode = add
-			}
-		}
-		# menahkwesk 0.00 -> 0.40
-		location:menahkwesk = {
-			add_location_modifier = {
-				modifier = vinland_harbour_40
-				years = -1
-				mode = add
-			}
-		}
+	# the raw material and harbour changes are in main_menu/setup/1337/21_vinland_locations.txt
+	# vinland_startup.2 and .3 are no longer part of the start
 
-	}
-	
-	# option 1: stay the same size, no effect
 	option = {
 		name = vinland_startup.1.a
-		# no effect, keep vinland the size it is
-		ai_chance = {
-			base = 95
-		}
-	}
-	# option 2: expand territory, give st. lawrence coast and town at quebec
-	option = {
-		name = vinland_startup.1.b
-		ai_chance = {
-			base = 5
-		}
-		# trigger another event to give the territory
-		trigger_event_silently = { 
-				id = vinland_startup.2
-		}
 	}
 }
 
@@ -713,6 +484,9 @@ vinland_startup.2 = {
 			}
 		}
 		# upgrade quebec location to town
+		# only runs if vinland owns it now, normally inaccessible
+		if = {
+			limit = { location:stadacona = { owner ?= root } }
 		location:stadacona = {
 			change_location_rank = location_rank:town
 			# add some buildings
@@ -760,6 +534,7 @@ vinland_startup.2 = {
 				price_modifier = 0
 			}
 		}
+		}
 	}
 	# keep capital at thorvaldsnes
 	option = {
@@ -776,6 +551,9 @@ vinland_startup.2 = {
 	# move capital to quebec
 	option = {
 		name = vinland_startup.2.b
+		trigger = {
+			location:stadacona = { owner ?= root }
+		}
 		ai_chance = {
 			base = 30
 		}

@@ -1,0 +1,848 @@
+# vinland, the kelwlenen abbeys, and the new norse and creole states around them
+
+countries = {
+	countries = {
+		# Vinland: the althing of the family sagas
+		VNL = {
+			own_control_core = {
+				# initial northern newfoundland area (1050)
+				akilasiewakik belle_isle wipetikil naskwotchu mekapisk upsukdaskooch baie_verte 
+				walnaypek mekwiskajk mollyhuajeck
+				# avalon and south-eastern newfoundland, second phase (1100)
+				cape_spear bacalhieu cape_race placentia maqtewey nukamkiajijk
+				# south newfoundland, second phase
+				eimastukwek kutapuskuj epwikek
+				gosaoie nogamsig meelpaeg amasipukwek sibook miquelon pgotapesg wli_qospem
+
+			}
+			capital = cape_spear
+
+			country_rank = rank_county
+
+			include = "expl_scandinavia"
+
+			tolerated_cultures = {
+				beothuk_culture
+				mikmaq_culture
+				innu_culture
+			}
+
+			starting_technology_level = 3
+
+			discovered_areas = {
+				newfoundland_area
+				labrador_area
+				quebec_area
+				new_brunswick_area
+				acadia_area
+				prince_edward_island_area
+				lower_canada_area
+				maine_area
+				haudenosaunee_area
+				vermont_area
+				new_hampshire_area
+				eastern_ontario_area
+				western_ontario_area
+				massachusetts_area
+				southern_new_england_area
+				hudson_area
+				nunavik_area
+
+				great_lakes_sea_zones_area
+				east_coast_sea_zones_area
+				labrador_sea_area
+				canadian_atlantic_coast_area
+				atlantic_irminger_area
+				atlantic_north_atlantic_current_area
+			}
+	
+
+			government = {
+			
+				type = monarchy
+
+				ruler = vnl_magnus
+				heir_selection = vinlandic_elective_succession
+				ruler_term = { character = vnl_magnus start_date = 1319.9.7 regnal_number = 3	}
+			
+
+				reforms = {
+					family_sagas_reform
+				}
+
+				centralization_vs_decentralization = 80
+				traditionalist_vs_innovative = -15
+				spiritualist_vs_humanist = 5
+				aristocracy_vs_plutocracy = 5
+				serfdom_vs_free_subjects = 90
+				mercantilism_vs_free_trade = 25
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -20
+				land_vs_naval = 75
+				capital_economy_vs_traditional_economy = 80
+				individualism_vs_communalism = 15
+				outward_vs_inward = -10
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#nobles
+					nobles_land_rights
+					noble_marriage_rights
+					vinlandic_noble_navy
+
+					#clergy
+					clergy_literacy_rights
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#commoners
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					peasants_allowed_weapons_privilege
+					land_owning_farmers
+
+					#tribes
+					vinlandic_tribal_peace
+					tribes_allow_gatherings
+					tribes_land_rights
+				}
+
+				laws = {
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = balanced_court_policy
+					feudal_de_jure_law = by_tradition
+					administrative_system = autonomous_councils
+					censorship = no_censorship
+					education_masses_law = basic_religious_education
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = civil_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+				}
+			}
+		}
+
+		# Kelwlenen: the brendanist abbey at passagassawkeag
+		KL1 = {
+			own_control_core = {
+				majabigwaduce passagassawkeag pemetic penobscot
+	
+			}
+			capital = passagassawkeag
+			liturgical_language = irish_dialect
+			court_language = irish_dialect
+
+			currency_data = {
+				gold = 100
+				stability = 33
+			}
+
+			country_rank = rank_county
+
+			include = "expl_amerindian_east_coast"
+
+			tolerated_cultures = {
+				eastern_abenaki_culture
+			}
+
+			starting_technology_level = 3
+
+			discovered_areas = {
+				newfoundland_area
+				#labrador_area
+				quebec_area
+				new_brunswick_area
+				acadia_area
+				prince_edward_island_area
+				lower_canada_area
+				maine_area
+				haudenosaunee_area
+				vermont_area
+				new_hampshire_area
+				massachusetts_area
+				southern_new_england_area
+				#eastern_ontario_area
+				#western_ontario_area
+
+				#great_lakes_sea_zones_area
+				east_coast_sea_zones_area
+				labrador_sea_area
+				canadian_atlantic_coast_area
+				#atlantic_irminger_area
+				#atlantic_north_atlantic_current_area
+			}
+
+			government = {
+			
+				type = theocracy
+
+				ruler = random
+				heir_selection = abbot_elective
+
+				reforms = {
+					abbey_reform
+				}
+
+				privilege = {
+					#nobles
+					control_of_the_borderlands
+					appoint_ecclesiastical_offices
+
+					#clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+					clerical_advisory_council
+					clergy_in_administration
+
+					#burghers
+					market_fairs
+					land_of_commerce
+					building_roads_rights
+
+					#commoners
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					peasants_allowed_weapons_privilege
+					allow_hunting
+					communal_lands
+					no_labor_sunday
+
+					#tribes
+					tribes_allow_gatherings
+					tribes_land_rights
+				}
+				parliament = {
+					parliament_type = assembly
+				}
+		
+				laws = {
+					medieval_levy_law = peasant_levies
+					theocratic_leadership = monastic_order
+					holy_mission_law = balanced_mission_policy
+					divine_cause_law = pursuit_of_knowledge_policy
+					administrative_system = autonomous_councils
+					censorship = limited_censorship
+					education_masses_law = theocratic_education
+					cultural_traditions_law = civil_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = traditional_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+				}
+			}
+		}
+
+		# Kelwlenen margraviate on the piscataquis
+		KL2 = {
+			own_control_core = {
+				piscataquis katahdin millinocket passamaquoddy machias nicatous maatawamkeag
+				# the Passamaquoddy Fundy coast
+				chamcook grand_manan magaguadavic pocologan
+	
+			}
+			capital = piscataquis
+			liturgical_language = irish_dialect
+			court_language = abenakian_language
+
+			currency_data = {
+				gold = 100
+				stability = 50
+			}
+
+			country_rank = rank_county
+
+			include = "expl_amerindian_east_coast"
+
+			tolerated_cultures = {
+				passamaquoddy_culture
+			}
+
+			starting_technology_level = 3
+
+			discovered_areas = {
+				newfoundland_area
+				#labrador_area
+				quebec_area
+				new_brunswick_area
+				acadia_area
+				prince_edward_island_area
+				lower_canada_area
+				maine_area
+				haudenosaunee_area
+				vermont_area
+				new_hampshire_area
+				massachusetts_area
+				southern_new_england_area
+				#eastern_ontario_area
+				#western_ontario_area
+
+				#great_lakes_sea_zones_area
+				east_coast_sea_zones_area
+				labrador_sea_area
+				canadian_atlantic_coast_area
+				#atlantic_irminger_area
+				#atlantic_north_atlantic_current_area
+			}
+
+			government = {
+			
+				type = monarchy
+
+				ruler = random
+				heir_selection = elective_succession
+
+				reforms = {
+					margraviate
+				}
+
+				privilege = {
+					#nobles
+					nobles_land_rights
+					noble_marriage_rights
+
+					#clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+
+					#burghers
+					market_fairs
+					land_of_commerce
+					building_roads_rights
+
+					#commoners
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					peasants_allowed_weapons_privilege
+					allow_hunting
+					communal_lands
+
+					#tribes
+					tribes_allow_gatherings
+					tribes_land_rights
+				}
+				parliament = {
+					parliament_type = assembly
+				}
+		
+				laws = {
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = balanced_court_policy
+					feudal_de_jure_law = by_tradition
+					administrative_system = autonomous_councils
+					censorship = no_censorship
+					education_masses_law = basic_religious_education
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = traditional_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+				}
+			}
+		}
+
+		# Kelwlenen margraviate on the kennebec
+		KL3 = {
+			own_control_core = {
+				kennebec sagadahoc messalonskee norridgewock
+	
+			}
+			capital = kennebec
+			liturgical_language = irish_dialect
+			court_language = abenakian_language
+
+			currency_data = {
+				gold = 100
+				stability = 33
+			}
+
+			country_rank = rank_county
+
+			include = "expl_amerindian_east_coast"
+
+			tolerated_cultures = {
+				passamaquoddy_culture
+			}
+
+			starting_technology_level = 3
+
+			discovered_areas = {
+				newfoundland_area
+				#labrador_area
+				quebec_area
+				new_brunswick_area
+				acadia_area
+				prince_edward_island_area
+				lower_canada_area
+				maine_area
+				haudenosaunee_area
+				vermont_area
+				new_hampshire_area
+				massachusetts_area
+				southern_new_england_area
+				#eastern_ontario_area
+				#western_ontario_area
+
+				#great_lakes_sea_zones_area
+				east_coast_sea_zones_area
+				labrador_sea_area
+				canadian_atlantic_coast_area
+				#atlantic_irminger_area
+				#atlantic_north_atlantic_current_area
+			}
+
+			government = {
+			
+				type = monarchy
+
+				ruler = random
+				heir_selection = elective_succession
+
+				reforms = {
+					margraviate
+				}
+
+				privilege = {
+					#nobles
+					nobles_land_rights
+					noble_marriage_rights
+
+					#clergy
+					clergy_literacy_rights
+					clergy_powerful_dioceses
+
+					#burghers
+					market_fairs
+					land_of_commerce
+					building_roads_rights
+
+					#commoners
+					peasants_free_peasantry
+					peasants_represented_in_parliament
+					peasants_allowed_weapons_privilege
+					allow_hunting
+					communal_lands
+
+					#tribes
+					tribes_allow_gatherings
+					tribes_land_rights
+				}
+				parliament = {
+					parliament_type = assembly
+				}
+		
+				laws = {
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = balanced_court_policy
+					feudal_de_jure_law = by_tradition
+					administrative_system = autonomous_councils
+					censorship = no_censorship
+					education_masses_law = basic_religious_education
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = traditional_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+				}
+			}
+		}
+
+		# Hóp: gulf vinlandic statelet, the Ásbirningar jarldom and vinlands tributary
+		HPV = {
+			own_control_core = {
+				# pei
+				elsiktuk pukusamkek tapu_tuitn malpeque tignish
+				# magdalen island
+				menageesenog
+				# cape breton
+				sipuk askataliank apaqtukowatek qospemk kluskapewiktuk cheticamp ingonish
+			}
+			capital = elsiktuk
+
+			country_rank = rank_county
+
+			include = "expl_scandinavia"
+
+			# the Mi'kmaq are not tolerated in Hóp at start
+			tolerated_cultures = {
+				beothuk_culture
+			}
+
+			starting_technology_level = 3
+
+			discovered_areas = {
+				newfoundland_area
+				labrador_area
+				quebec_area
+				new_brunswick_area
+				acadia_area
+				prince_edward_island_area
+				lower_canada_area
+				maine_area
+
+				east_coast_sea_zones_area
+				labrador_sea_area
+				canadian_atlantic_coast_area
+				atlantic_north_atlantic_current_area
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				ruler = hpv_kolbeinn
+				ruler_term = { character = hpv_kolbeinn start_date = 1329.5.1 }
+
+				centralization_vs_decentralization = 40
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -40
+				aristocracy_vs_plutocracy = -30
+				serfdom_vs_free_subjects = 60
+				mercantilism_vs_free_trade = 10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -20
+				land_vs_naval = 60
+				capital_economy_vs_traditional_economy = 70
+				individualism_vs_communalism = 20
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = estate_parliament
+				}
+
+				privilege = {
+					#nobles
+					nobles_land_rights
+					noble_marriage_rights
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#commoners
+					allow_hunting
+					communal_lands
+				}
+
+				laws = {
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = balanced_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = traditional_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+				}
+			}
+		}
+
+		# Markland: labrador coast heathen vinlandic statelet
+		MKV = {
+			own_control_core = {
+				# core: Kríabót
+				aivitok kenamu sheshatshiu misha_shipu tikigaksuagusik kauipushkakamat kamassekutinat
+				# Helluland stations, the Nunatsiavut coast
+				nunainguk navchak kingmirtok napaktok okak aulatsivik ukasikalik agvituk kaipokok aillik tessuialluk
+			}
+			capital = aivitok
+
+			country_rank = rank_county
+
+			include = "expl_scandinavia"
+
+			tolerated_cultures = {
+				icelandic
+				innu_culture
+				naskapi_culture
+			}
+
+			starting_technology_level = 3
+
+			discovered_areas = {
+				newfoundland_area
+				labrador_area
+				quebec_area
+				nunavik_area
+
+				labrador_sea_area
+				canadian_atlantic_coast_area
+				atlantic_irminger_area
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = elective_succession
+				ruler = mkv_ketill
+				ruler_term = { character = mkv_ketill start_date = 1331.8.1 }
+
+				centralization_vs_decentralization = 70
+				traditionalist_vs_innovative = -40
+				spiritualist_vs_humanist = -30
+				aristocracy_vs_plutocracy = -20
+				serfdom_vs_free_subjects = 80
+				mercantilism_vs_free_trade = 30
+				belligerent_vs_conciliatory = -20
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -30
+				land_vs_naval = 60
+				capital_economy_vs_traditional_economy = 90
+				individualism_vs_communalism = 30
+				outward_vs_inward = 30
+				parliament = {
+					parliament_type = assembly
+				}
+
+				privilege = {
+					nobles_land_rights
+					peasants_free_peasantry
+					peasants_allowed_weapons_privilege
+					allow_hunting
+					communal_lands
+					tribes_allow_gatherings
+					tribes_land_rights
+				}
+
+				laws = {
+					medieval_levy_law = peasant_levies
+					administrative_system = autonomous_councils
+					censorship = no_censorship
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = traditional_law_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+		}
+
+		# Norðrströnd: cote-nord vinlandic statelet
+		NSV = {
+			own_control_core = {
+				# Sjöeyjar, Hvítasunnuá
+				uashat mistecapiu
+				# Mingan, Skjór, Lítiðskjól, Steinarnir
+				mingan pigou aguanish natashquan
+				# Anticosti: Bjarney, Heiðines, Vestaranes
+				anticosti natigostec notiskuan
+			}
+			capital = uashat
+
+			country_rank = rank_county
+
+			include = "expl_scandinavia"
+
+			tolerated_cultures = {
+				innu_culture
+			}
+
+			starting_technology_level = 3
+
+			discovered_areas = {
+				newfoundland_area
+				labrador_area
+				quebec_area
+				new_brunswick_area
+				acadia_area
+				prince_edward_island_area
+				lower_canada_area
+
+				labrador_sea_area
+				canadian_atlantic_coast_area
+			}
+
+			government = {
+				type = monarchy
+				heir_selection = elective_succession
+				ruler = random
+
+				centralization_vs_decentralization = 60
+				traditionalist_vs_innovative = -30
+				spiritualist_vs_humanist = -40
+				aristocracy_vs_plutocracy = -10
+				serfdom_vs_free_subjects = 60
+				mercantilism_vs_free_trade = 10
+				belligerent_vs_conciliatory = 10
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -20
+				land_vs_naval = 60
+				capital_economy_vs_traditional_economy = 70
+				individualism_vs_communalism = 20
+				outward_vs_inward = -20
+				parliament = {
+					parliament_type = assembly
+				}
+
+				privilege = {
+					#nobles
+					nobles_land_rights
+					noble_marriage_rights
+
+					#clergy
+					clergy_literacy_rights
+					clergy_enforced_unity
+
+					#burghers
+					market_fairs
+					formal_guilds
+					building_roads_rights
+
+					#commoners
+					allow_hunting
+					communal_lands
+				}
+
+				laws = {
+					medieval_levy_law = peasant_levies
+					royal_court_customs_law = balanced_court_policy
+					censorship = limited_censorship
+					education_masses_law = basic_religious_education
+					administrative_system = autonomous_councils
+					cultural_traditions_law = martial_society
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = traditional_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+					mining_law = nobles_mining_law
+				}
+			}
+		}
+
+		# Saguenay: ilnu trading nation at tadoussac, "kingdom of saguenay"
+		SGY = {
+			own_control_core = {
+				# the Saguenay: Kúluhöfði, Hafsgryfjan, Fjórtánekrurnar
+				tadoussac chicoutimi shipshaw metabetchouane
+				# the coast east to the Manicouagan: Langaströnd, Álavík
+				essipit pessamit betsiamites piletisipuk ouiauirabugu
+				# Lac Saint-Jean and the head of the route north
+				ouiatchouaniche chigoubiche nicabau
+			}
+			capital = tadoussac
+
+			include = "american_east_coast_tribe"
+
+			tolerated_cultures = {
+				innu_culture
+				atikamekw_culture
+			}
+
+			starting_technology_level = 2
+
+			government = {
+				type = tribe
+				heir_selection = tribal_oldest_male
+				ruler = random
+			}
+		}
+
+		# Vesturhöfn (Stadacona): vanilla STD plus ahwendoe, and andawaohie and wachilmezi from MAS.
+		# A creole merchant republic, kanatingar culture and brendanist faith
+		STD = {
+			type = location
+			own_control_core = {
+				kamitsisit etchemin kikonteku ontaretse stadacona ondaonnentakwi aunona taoondewake kouate ahwendoe
+				andawaohie wachilmezi
+			}
+			capital = stadacona
+			culture = kanatingar
+			country_name = "STD_vesturhofn"
+
+			country_rank = rank_county
+
+			accepted_cultures = {
+				stadaconan_culture
+			}
+			tolerated_cultures = {
+				vinlandic
+			}
+
+			starting_technology_level = 3
+
+			government = {
+				type = republic
+				heir_selection = oligarchic_elective
+				ruler = random
+				reforms = {
+					merchant_republic
+				}
+
+				centralization_vs_decentralization = 50
+				traditionalist_vs_innovative = 10
+				spiritualist_vs_humanist = -20
+				aristocracy_vs_plutocracy = 60
+				serfdom_vs_free_subjects = 40
+				mercantilism_vs_free_trade = 40
+				belligerent_vs_conciliatory = 30
+				quality_vs_quantity = 0
+				offensive_vs_defensive = -20
+				land_vs_naval = 40
+				capital_economy_vs_traditional_economy = 30
+				individualism_vs_communalism = 10
+				outward_vs_inward = -30
+				parliament = {
+					parliament_type = assembly
+				}
+
+				privilege = {
+					market_fairs
+					land_of_commerce
+					building_roads_rights
+					clergy_literacy_rights
+					peasants_free_peasantry
+					communal_lands
+					tribes_allow_gatherings
+				}
+
+				laws = {
+					republican_foundation_law = republicanism_policy
+					administrative_system = autonomous_councils
+					censorship = no_censorship
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+					legal_code_law = traditional_law_policy
+					maritime_law = protect_trade_routes
+					piracy_law = anti_piracy_policy
+					distribution_of_power_law = dop_traditional_distribution_of_power
+					immigration_law = open_borders_law
+				}
+			}
+		}
+	}
+}

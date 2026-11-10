@@ -3,4 +3,14 @@ dynasty_manager = {
         name = { name = thorfinnsson_dynasty }
         home = belle_isle
     }
+    # jarls of hop
+    asbirningar_dynasty = {
+        name = { name = asbirningar_dynasty }
+        home = elsiktuk
+    }
+    # hofgodar of markland
+    thorhallingar_dynasty = {
+        name = { name = thorhallingar_dynasty }
+        home = aivitok
+    }
 }

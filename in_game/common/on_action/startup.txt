@@ -11,6 +11,7 @@ vinland_on_game_start = {
             limit = {
                 OR = {
                     tag = VNL tag = KL1 tag = KL2 tag = KL3
+                    tag = HPV tag = MKV tag = NSV tag = SGY
                     tag = MIK tag = MLS tag = STD tag = OSG tag = AGJ
                     tag = ONG tag = ADR tag = WRO
                     tag = AGW tag = ATG tag = ARN tag = TRT tag = TIO

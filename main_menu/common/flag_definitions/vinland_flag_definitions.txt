@@ -84,3 +84,13 @@ KL1 = { #Kelwlenen
 		priority = 1
 	}
 }
+
+STD = { 
+	flag_definition = {
+		coa = STD_vesturhofn
+		priority = 10
+		trigger = {
+			scope:actor ?= { culture = culture:kanatingar }
+		}
+	}
+}

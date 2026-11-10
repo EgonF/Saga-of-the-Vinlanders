@@ -1,0 +1,178 @@
+# vinland start: raw materials and harbours, set in setup so they show before country selection
+# location_templates.txt can only be overridden as a whole file, so per location changes go here
+locations = {
+	# newfoundland changes
+	# eimastukwek: stone, see harbour changes below
+	wli_qospem = { raw_material = clay }
+	# cape_spear: iron, see harbour changes below. bell island iron deposits
+	bacalhieu = { raw_material = wool }
+	placentia = { raw_material = wool }
+	maqtewey = { raw_material = medicaments }
+	cape_race = { raw_material = wool }
+	epwikek = { raw_material = beeswax }
+	# pei changes
+	malpeque = { raw_material = wheat }
+	# elsiktuk: wine, see harbour changes below
+	tignish = { raw_material = beeswax }
+	tapu_tuitn = { raw_material = livestock }
+	pukusamkek = { raw_material = fiber_crops }
+	# nova scotia changes
+	qospemk = { raw_material = stone }
+	# sipuk: coal, see harbour changes below. sydney coal deposits
+	kluskapewiktuk = { raw_material = coal }
+	nictaux = { raw_material = clay }
+	cheticamp = { raw_material = alum }
+	# new brunswick changes
+	oromocto = { raw_material = coal } # minto coal deposits
+	pocologan = { raw_material = tin } # mount pleasant tin deposits
+	nepisiguit = { raw_material = lead } # caribou mine lead deposits, mainly for balance
+	petitcodiac = { raw_material = alum }
+	#quebec changes
+	chicchoc = { raw_material = copper } # gaspe copper deposits
+	sartigan = { raw_material = goods_gold } # beauce gold deposits
+	wolinak = { raw_material = fiber_crops }
+	wabanaki = { raw_material = stone }
+	malartic = { raw_material = goods_gold } # abitibi gold deposits
+	ahwendoe = { raw_material = wheat }
+	# stadacona: wool, see harbour changes below
+	etchemin = { raw_material = horses }
+	wachilmezi = { raw_material = livestock }
+	andawaohie = { raw_material = maize }
+	# labrador trough iron locations
+	kawachisakau = { raw_material = iron }
+	ashuanipi = { raw_material = iron }
+	petitsikapau = { raw_material = iron }
+	# kelwlenan
+	pemetic = { raw_material = wool }
+	majabigwaduce = { raw_material = beeswax }
+	passagassawkeag = { raw_material = maize }
+	penobscot = { raw_material = medicaments }
+	kennebec = { raw_material = clay }
+	messalonskee = { raw_material = fiber_crops }
+	katahdin = { raw_material = stone }
+	piscataquis = { raw_material = maize }
+
+	# harbour changes
+	# aivitok 0.00 -> 0.40
+	aivitok = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_40"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# eimastukwek 0.00 -> 0.40
+	eimastukwek = {
+		raw_material = stone
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_40"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# cape_spear 0.00 -> 0.70
+	cape_spear = {
+		raw_material = iron
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_70"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# elsiktuk 0.00 -> 0.80
+	elsiktuk = {
+		raw_material = wine
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_80"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# sipuk 0.00 -> 0.50
+	sipuk = {
+		raw_material = coal
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_50"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# gaspe 0.00 -> 0.40
+	gaspe = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_40"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# rimouski 0.00 -> 0.40
+	rimouski = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_40"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# stadacona 0.50 -> 0.70
+	stadacona = {
+		raw_material = wool
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_20"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+	# menahkwesk 0.00 -> 0.40
+	menahkwesk = {
+		timed_modifiers = {
+			timed_modifiers = {
+				{
+					modifier = "vinland_harbour_40"
+					start_date = 1111.1.1
+					date = 9999.1.1
+					size = 1
+				}
+			}
+		}
+	}
+}

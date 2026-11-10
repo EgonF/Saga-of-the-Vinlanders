@@ -232,6 +232,52 @@ passamaquoddy = {
 machias = {
 	define_pop = { type = peasants size = 0.554 culture = wabanakiiak religion = vinlandic_church }
 }
+
+# first pop pass for the new tags
+
+# markland: about 2k marklanders (old faith) and about 1k greenlandic refugees
+aivitok = {
+	define_pop = { type = nobles size = 0.010 culture = vinlandic religion = norse }
+	define_pop = { type = peasants size = 1.000 culture = vinlandic religion = norse }
+	define_pop = { type = peasants size = 0.500 culture = icelandic religion = catholic }
+}
+kenamu = {
+	define_pop = { type = peasants size = 0.400 culture = vinlandic religion = norse }
+	define_pop = { type = peasants size = 0.200 culture = icelandic religion = catholic }
+}
+sheshatshiu = {
+	define_pop = { type = peasants size = 0.250 culture = vinlandic religion = norse }
+	define_pop = { type = peasants size = 0.100 culture = icelandic religion = catholic }
+}
+misha_shipu = {
+	define_pop = { type = peasants size = 0.100 culture = vinlandic religion = norse }
+}
+tikigaksuagusik = {
+	define_pop = { type = peasants size = 0.100 culture = vinlandic religion = norse }
+}
+kauipushkakamat = {
+	define_pop = { type = peasants size = 0.100 culture = vinlandic religion = norse }
+}
+kamassekutinat = {
+	define_pop = { type = peasants size = 0.100 culture = vinlandic religion = norse }
+}
+
+# nordrstrond: about 0.5k vinlanders at sjoeyjar, a third of them old faith
+uashat = {
+	define_pop = { type = burghers size = 0.050 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.300 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.150 culture = vinlandic religion = norse }
+}
+
+# vesturhofn: about 2k kanatingar and 0.5k vinlandic merchants in the town
+stadacona = {
+	define_pop = { type = nobles size = 0.020 culture = kanatingar religion = vinlandic_church }
+	define_pop = { type = clergy size = 0.050 culture = kanatingar religion = vinlandic_church }
+	define_pop = { type = burghers size = 0.600 culture = kanatingar religion = vinlandic_church }
+	define_pop = { type = peasants size = 1.330 culture = kanatingar religion = vinlandic_church }
+	define_pop = { type = burghers size = 0.300 culture = vinlandic religion = catholic }
+	define_pop = { type = peasants size = 0.200 culture = vinlandic religion = catholic }
+}
 }
 
 

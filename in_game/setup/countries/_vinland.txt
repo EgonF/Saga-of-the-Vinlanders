@@ -25,3 +25,45 @@ KL3 = {
 	culture_definition = wabanakiiak
 	religion_definition = vinlandic_church
 }
+
+# Hóp
+HPV = {
+	color = rgb { 176 72 40 }
+
+	culture_definition = vinlandic
+	religion_definition = catholic
+}
+
+# Markland
+MKV = {
+	color = rgb { 62 96 58 }
+
+	culture_definition = vinlandic
+	religion_definition = norse
+}
+
+# Norðrströnd
+NSV = {
+	color = rgb { 58 104 148 }
+
+	culture_definition = vinlandic
+	religion_definition = catholic
+}
+
+# Saguenay
+SGY = {
+	color = rgb { 168 132 64 }
+
+	culture_definition = ilnu_culture
+	religion_definition = midewiwin_religion
+}
+
+# Stadacona, a released or rebelling STD keeps their culture and faith
+# Kanatingar culture set by startup to STD to make it Vesturhöfn
+TRY_REPLACE:STD = {
+	color = map_stadacona
+	color2 = rgb { 91 121 31 }
+
+	culture_definition = stadaconan_culture
+	religion_definition = vinlandic_church
+}
